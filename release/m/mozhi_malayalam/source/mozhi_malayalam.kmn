@@ -1,349 +1,548 @@
-﻿c Malayalam Keyman Keyboard for Mozhi Keyboard Layout
-c Original work done by Raj Nair, but the source is not available
-c This keyboard was created by Junaid P. V.
-c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
-store(&VERSION) '9.0'
-store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.0.1'
+
+store(&VERSION) "9.0"
+store(&NAME) "Mozhi Malayalam"
+store(&VISUALKEYBOARD) 'mozhi_malayalam.kvks'
+store(&COPYRIGHT) '2006-2018 � Raj Nair'
+store(&MESSAGE) 'Mozhi Keymap is a varamozhi based keyboard.'
 store(&BITMAP) 'mozhi_malayalam.ico'
-store(&COPYRIGHT) '© Junaid P. V.'
+store(&CAPSALWAYSOFF) "1"
+c store(&20) "8.0.355.0"
 store(&TARGETS) 'windows macosx linux web'
+
+store(store7) "????????????????????????????????????"
+store(store8) "?"
+store(store9) "??????"
+store(store10) "?"
+store(store11) "?"
+store(store12) "????????????"
+store(store13) "?????????????"
+store(store14) "?????????????"
+store(store15) "?????????????"
+store(store16) "??????"
+store(store17) "??????????0123456789"
+store(store18) [SHIFT K_A] x10 [K_O] x10 [SHIFT K_O] x10 [K_E] x10 [SHIFT K_E] x10 [K_U] x10 [SHIFT K_U] x10 [K_I] x10 [SHIFT K_I] x10
+store(store19) "?????????"
+store(store20) [K_Y] x10 [K_V] x10 [K_W] x10 [K_R] x10 [SHIFT K_R] x10
+store(store21) "?????"
+store(&KEYBOARDVERSION) '1.2'
 store(&ETHNOLOGUECODE) 'mal'
-store(&WINDOWSLANGUAGES) 'x044C'
-store(&LANGUAGE) 'x044C'
-begin Unicode > use(main)
 
+begin Unicode > use(group1)
 
-group(main) using keys
+group(group1) using keys
+  any(store7) any(store8) any(store7)  + [K_BKSP] > context "?"  c line(0)
+  any(store7) any(store8)  + [K_BKSP] > nul  c line(0)
+  any(store7)  + [K_BKSP] > context "?"  c line(0)
+  any(store14)  + [K_BKSP] > "?"  c line(0)
+  "??"  + [K_SPACE] > "? "  c line(0)
+  "/"  + "/" > "?"  c line(0)
+   + "/" > "/"  c line(0)
+  "\"  + [K_0] > "?"  c line(0)
+   + [SHIFT K_0] > ")"  c line(0)
+  "\"  + [K_1] > "?"  c line(0)
+   + [SHIFT K_1] > "!"  c line(0)
+  "\"  + [K_2] > "?"  c line(0)
+   + [SHIFT K_2] > "@"  c line(0)
+  "\"  + [K_3] > "?"  c line(0)
+   + [SHIFT K_3] > "#"  c line(0)
+  "\"  + [K_4] > "?"  c line(0)
+   + [SHIFT K_4] > "$"  c line(0)
+  "\"  + [K_5] > "?"  c line(0)
+   + [SHIFT K_5] > "%"  c line(0)
+  "???" deadkey(3)  + [SHIFT K_6] > "?"  c line(0)
+  "???"  + [SHIFT K_6] > "?"  c line(0)
+  "???"  + [SHIFT K_6] > "?"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_6] > "?"  c line(0)
+  "\"  + [K_6] > "?"  c line(0)
+  "\"  + [K_7] > "?"  c line(0)
+   + [SHIFT K_7] > "&"  c line(0)
+  "\"  + [K_8] > "?"  c line(0)
+   + [SHIFT K_8] > "*"  c line(0)
+  "\"  + [K_9] > "?"  c line(0)
+   + [SHIFT K_9] > "("  c line(0)
+   + ";" > ";"  c line(0)
+  "????"  + [K_A] > "?"  c line(0)
+  "??" deadkey(1)  + [K_A] > nul  c line(0)
+  "??" deadkey(2)  + [K_A] > nul  c line(0)
+  "??" deadkey(3)  + [K_A] > nul  c line(0)
+  "??" deadkey(4)  + [K_A] > nul  c line(0)
+  "??" deadkey(5)  + [K_A] > nul  c line(0)
+  "??" deadkey(6)  + [K_A] > nul  c line(0)
+  "??" deadkey(1)  + [SHIFT K_A] > nul "?"  c line(0)
+  "??" deadkey(2)  + [SHIFT K_A] > nul "?"  c line(0)
+  "??" deadkey(3)  + [SHIFT K_A] > nul "?"  c line(0)
+  "??" deadkey(4)  + [SHIFT K_A] > nul "?"  c line(0)
+  "??" deadkey(5)  + [SHIFT K_A] > nul "?"  c line(0)
+  "??" deadkey(6)  + [SHIFT K_A] > nul "?"  c line(0)
+  "?" deadkey(1)  + [K_A] > "?"  c line(0)
+  "?" deadkey(2)  + [K_A] > "?"  c line(0)
+  "?" deadkey(3)  + [K_A] > "?"  c line(0)
+  "?" deadkey(4)  + [K_A] > "?"  c line(0)
+  "?" deadkey(5)  + [K_A] > "?"  c line(0)
+  "?" deadkey(6)  + [K_A] > "?"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_A] > "??"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_A] > "??"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_A] > "??"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_A] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_A] > "??"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_A] > "??"  c line(0)
+  any(store10)  + [K_A] > index(store11, 1)  c line(0)
+  any(store10)  + [SHIFT K_A] > index(store11, 1) "?"  c line(0)
+  any(store8)  + [K_A] > nul  c line(0)
+  any(store8)  + [SHIFT K_A] > "?"  c line(0)
+  any(store7)  + [K_A] > context "?"  c line(0)
+  "?"  + [K_A] > "?"  c line(0)
+  "?"  + [SHIFT K_A] > "??"  c line(0)
+  "?"  + [K_A] > "?"  c line(0)
+  "?"  + [K_A] > context "??"  c line(0)
+  "?"  + [K_A] > context "??"  c line(0)
+  "@"  + [K_A] > "??"  c line(0)
+  "@"  + [SHIFT K_A] > "??"  c line(0)
+   + [K_A] > "?"  c line(0)
+   + [SHIFT K_A] > "?"  c line(0)
+   + [K_B] > "??"  c line(0)
+   + [SHIFT K_B] > "????"  c line(0)
+  deadkey(7) "??"  + [K_C] > deadkey(8) "????"  c line(0)
+   + [K_C] > deadkey(7) "??"  c line(0)
+   + [SHIFT K_C] > "????"  c line(0)
+  "?" deadkey(2)  + [K_D] > nul "??"  c line(0)
+  "?" deadkey(2)  + [K_D] > "????"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_D] > nul "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_D] > "????"  c line(0)
+   + [K_D] > "??"  c line(0)
+   + [SHIFT K_D] > "??"  c line(0)
+  "??" deadkey(1)  + [SHIFT K_E] > nul "?"  c line(0)
+  "??" deadkey(1)  + [K_E] > nul "?"  c line(0)
+  "??" deadkey(2)  + [SHIFT K_E] > nul "?"  c line(0)
+  "??" deadkey(2)  + [K_E] > nul "?"  c line(0)
+  "??" deadkey(3)  + [SHIFT K_E] > nul "?"  c line(0)
+  "??" deadkey(3)  + [K_E] > nul "?"  c line(0)
+  "??" deadkey(4)  + [K_E] > nul "?"  c line(0)
+  "??" deadkey(4)  + [SHIFT K_E] > nul "?"  c line(0)
+  "??" deadkey(5)  + [K_E] > nul "?"  c line(0)
+  "??" deadkey(5)  + [SHIFT K_E] > nul "?"  c line(0)
+  "??" deadkey(6)  + [K_E] > nul "?"  c line(0)
+  "??" deadkey(6)  + [SHIFT K_E] > nul "?"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_E] > "??"  c line(0)
+  "?" deadkey(1)  + [K_E] > "??"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_E] > "??"  c line(0)
+  "?" deadkey(2)  + [K_E] > "??"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_E] > "??"  c line(0)
+  "?" deadkey(3)  + [K_E] > "??"  c line(0)
+  "?" deadkey(4)  + [K_E] > "??"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_E] > "??"  c line(0)
+  "?" deadkey(5)  + [K_E] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_E] > "??"  c line(0)
+  "?" deadkey(6)  + [K_E] > "??"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_E] > "??"  c line(0)
+  any(store10)  + [K_E] > index(store11, 1) "?"  c line(0)
+  any(store10)  + [SHIFT K_E] > index(store11, 1) "?"  c line(0)
+  any(store8)  + [K_E] > "?"  c line(0)
+  any(store8)  + [SHIFT K_E] > "?"  c line(0)
+  "?"  + [K_E] > "?"  c line(0)
+  "?"  + [K_E] > "?"  c line(0)
+  "?"  + [K_E] > "?"  c line(0)
+  "?"  + [K_E] > "??"  c line(0)
+  "?"  + [SHIFT K_E] > "??"  c line(0)
+  "@"  + [K_E] > "??"  c line(0)
+  "@"  + [SHIFT K_E] > "??"  c line(0)
+  any(store7)  + [K_E] > context "?"  c line(0)
+   + [K_E] > "?"  c line(0)
+   + [SHIFT K_E] > "?"  c line(0)
+   + [K_F] > "??"  c line(0)
+   + [SHIFT K_F] > "??"  c line(0)
+  "???" deadkey(2)  + [K_G] > "??"  c line(0)
+  "???" deadkey(1)  + [SHIFT K_G] > "????"  c line(0)
+  "????"  + [K_G] > "????"  c line(0)
+  "?" deadkey(2)  + [K_G] > "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_G] > "????"  c line(0)
+   + [K_G] > "??"  c line(0)
+   + [SHIFT K_G] > "????"  c line(0)
+  "???" deadkey(2) deadkey(7) "??"  + [K_H] > "????"  c line(0)
+  deadkey(8) "????"  + [K_H] > "????"  c line(0)
+  "?" deadkey(2) deadkey(7) "??"  + [K_H] > "????"  c line(0)
+  "????"  + [K_H] > "??"  c line(0)
+  "????"  + [K_H] > "????"  c line(0)
+  "????"  + [K_H] > "????"  c line(0)
+  "????"  + [K_H] > "????"  c line(0)
+  "???" deadkey(2)  + [K_H] > "??"  c line(0)
+  "????"  + [K_H] > "????"  c line(0)
+  deadkey(7) "??"  + [K_H] > "??"  c line(0)
+  "???"  + [K_H] > "????"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [SHIFT K_H] > "????"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [SHIFT K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "??"  + [K_H] > "??"  c line(0)
+  "?" deadkey(2)  + [K_H] > "??"  c line(0)
+   + [K_H] > "??"  c line(0)
+   + [SHIFT K_H] > context "?"  c line(0)
+  "??" deadkey(1)  + [SHIFT K_I] > nul "?"  c line(0)
+  "??" deadkey(1)  + [K_I] > nul "?"  c line(0)
+  "??" deadkey(2)  + [K_I] > nul "?"  c line(0)
+  "??" deadkey(2)  + [SHIFT K_I] > nul "?"  c line(0)
+  "??" deadkey(3)  + [SHIFT K_I] > nul "?"  c line(0)
+  "??" deadkey(3)  + [K_I] > nul "?"  c line(0)
+  "??" deadkey(4)  + [K_I] > nul "?"  c line(0)
+  "??" deadkey(4)  + [SHIFT K_I] > nul "?"  c line(0)
+  "??" deadkey(5)  + [K_I] > nul "?"  c line(0)
+  "??" deadkey(5)  + [SHIFT K_I] > nul "?"  c line(0)
+  "??" deadkey(6)  + [K_I] > nul "?"  c line(0)
+  "??" deadkey(6)  + [SHIFT K_I] > nul "?"  c line(0)
+  deadkey(7) "??"  + [K_I] > "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_I] > "??"  c line(0)
+  "?" deadkey(1)  + [K_I] > "??"  c line(0)
+  "?" deadkey(2)  + [K_I] > "??"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_I] > "??"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_I] > "??"  c line(0)
+  "?" deadkey(3)  + [K_I] > "??"  c line(0)
+  "?" deadkey(4)  + [K_I] > "??"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_I] > "??"  c line(0)
+  "?" deadkey(5)  + [K_I] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_I] > "??"  c line(0)
+  "?" deadkey(6)  + [K_I] > "??"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_I] > "??"  c line(0)
+  any(store10)  + [K_I] > index(store11, 1) "?"  c line(0)
+  any(store10)  + [SHIFT K_I] > index(store11, 1) "?"  c line(0)
+  any(store8)  + [K_I] > "?"  c line(0)
+  any(store8)  + [SHIFT K_I] > "?"  c line(0)
+  "?"  + [K_I] > "?"  c line(0)
+  any(store7)  + [K_I] > context "?"  c line(0)
+  "?"  + [K_I] > "??"  c line(0)
+  "?"  + [SHIFT K_I] > "??"  c line(0)
+  "?"  + [K_I] > "?"  c line(0)
+  "?"  + [K_I] > context "??"  c line(0)
+  "?"  + [K_I] > "?"  c line(0)
+  "@"  + [K_I] > "??"  c line(0)
+  "@"  + [SHIFT K_I] > "??"  c line(0)
+  "?"  + [K_I] > "?"  c line(0)
+   + [K_I] > "?"  c line(0)
+   + [SHIFT K_I] > "?"  c line(0)
+  "???" deadkey(2)  + [K_J] > "??"  c line(0)
+  "????"  + [K_J] > "????"  c line(0)
+  "???" deadkey(1)  + [SHIFT K_J] > "????"  c line(0)
+  "?" deadkey(2)  + [K_J] > "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_J] > "????"  c line(0)
+   + [K_J] > "??"  c line(0)
+   + [SHIFT K_J] > "????"  c line(0)
+  "???" deadkey(2)  + [K_K] > "????"  c line(0)
+  "??"  + [K_K] > "????"  c line(0)
+  "??"  + [K_K] > context "???"  c line(0)
+  "?" deadkey(2)  + [K_K] > "????"  c line(0)
+   + [K_K] > "??"  c line(0)
+   + [SHIFT K_K] > "????"  c line(0)
+  "?" deadkey(4)  + [K_L] > nul "??"  c line(0)
+  "?" deadkey(4)  + [K_L] > "????"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_L] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_L] > "????"  c line(0)
+  any(store10)  + [K_L] > "????"  c line(0)
+  any(store10)  + [SHIFT K_L] > "????"  c line(0)
+  any(store8)  + [K_L] > context "??"  c line(0)
+  any(store8)  + [SHIFT K_L] > context "??"  c line(0)
+   + [K_L] > "?" deadkey(4)  c line(0)
+   + [SHIFT K_L] > "?" deadkey(5)  c line(0)
+  "?" deadkey(2)  + [K_M] > nul "??"  c line(0)
+  "?" deadkey(2)  + [K_M] > "????"  c line(0)
+  "?" deadkey(1)  + [K_M] > nul "??"  c line(0)
+  "?" deadkey(1)  + [K_M] > "????"  c line(0)
+  any(store7)  + [K_M] > context "?"  c line(0)
+  any(store12)  + [K_M] > context "?"  c line(0)
+  any(store14)  + [K_M] > context "?"  c line(0)
+  "?"  + [K_M] > "????"  c line(0)
+   + [K_M] > "??"  c line(0)
+   + [SHIFT K_M] > "????"  c line(0)
+  "?" deadkey(2)  + [K_N] > nul "??"  c line(0)
+  "?" deadkey(2)  + [K_N] > "????"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_N] > nul "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_N] > "????"  c line(0)
+   + [K_N] > "?" deadkey(2)  c line(0)
+   + [SHIFT K_N] > "?" deadkey(1)  c line(0)
+  "??" deadkey(1)  + [K_O] > nul "?"  c line(0)
+  "??" deadkey(1)  + [SHIFT K_O] > nul "?"  c line(0)
+  "??" deadkey(2)  + [K_O] > nul "?"  c line(0)
+  "??" deadkey(2)  + [SHIFT K_O] > nul "?"  c line(0)
+  "??" deadkey(3)  + [K_O] > nul "?"  c line(0)
+  "??" deadkey(3)  + [SHIFT K_O] > nul "?"  c line(0)
+  "??" deadkey(4)  + [SHIFT K_O] > nul "?"  c line(0)
+  "??" deadkey(4)  + [K_O] > nul "?"  c line(0)
+  "??" deadkey(5)  + [SHIFT K_O] > nul "?"  c line(0)
+  "??" deadkey(5)  + [K_O] > nul "?"  c line(0)
+  "??" deadkey(6)  + [K_O] > nul "?"  c line(0)
+  "??" deadkey(6)  + [SHIFT K_O] > nul "?"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_O] > "??"  c line(0)
+  "?" deadkey(1)  + [K_O] > "??"  c line(0)
+  "?" deadkey(2)  + [K_O] > "??"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_O] > "??"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_O] > "??"  c line(0)
+  "?" deadkey(3)  + [K_O] > "??"  c line(0)
+  "?" deadkey(4)  + [K_O] > "??"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_O] > "??"  c line(0)
+  "?" deadkey(5)  + [K_O] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_O] > "??"  c line(0)
+  "?" deadkey(6)  + [K_O] > "??"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_O] > "??"  c line(0)
+  any(store10)  + [K_O] > index(store11, 1) "?"  c line(0)
+  any(store10)  + [SHIFT K_O] > index(store11, 1) "?"  c line(0)
+  any(store8)  + [K_O] > "?"  c line(0)
+  any(store8)  + [SHIFT K_O] > "?"  c line(0)
+  "?"  + [K_O] > "?"  c line(0)
+  any(store7)  + [K_O] > context "?"  c line(0)
+  "?"  + [K_O] > "??"  c line(0)
+  "?"  + [SHIFT K_O] > "??"  c line(0)
+  "?"  + [K_O] > "?"  c line(0)
+  "?"  + [K_O] > "?"  c line(0)
+  "?"  + [K_O] > context "??"  c line(0)
+  "?"  + [SHIFT K_O] > context "??"  c line(0)
+  "?"  + [SHIFT K_O] > context "??"  c line(0)
+  "@"  + [K_O] > "??"  c line(0)
+  "@"  + [SHIFT K_O] > "??"  c line(0)
+   + [K_O] > "?"  c line(0)
+   + [SHIFT K_O] > "?"  c line(0)
+  "????"  + [K_P] > "?????"  c line(0)
+  "?" deadkey(4)  + [K_P] > nul "??"  c line(0)
+  "?" deadkey(4)  + [K_P] > "????"  c line(0)
+  "??"  + [K_P] > "????"  c line(0)
+  "?"  + [K_P] > "????"  c line(0)
+   + [K_P] > "??"  c line(0)
+   + [SHIFT K_P] > "????"  c line(0)
+   + [K_Q] > "????"  c line(0)
+   + [SHIFT K_Q] > "????"  c line(0)
+  "?" deadkey(1)  + [K_R] > "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_R] > "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_R] > "????"  c line(0)
+  "?" deadkey(1)  + [K_R] > "????"  c line(0)
+  "?" deadkey(2)  + [K_R] > "??"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_R] > "??"  c line(0)
+  "?" deadkey(2)  + [K_R] > "????"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_R] > "????"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_R] > "??"  c line(0)
+  "?" deadkey(3)  + [K_R] > "??"  c line(0)
+  "?" deadkey(3)  + [K_R] > "????"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_R] > "????"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_R] > "??"  c line(0)
+  "?" deadkey(4)  + [K_R] > "??"  c line(0)
+  "?" deadkey(4)  + [K_R] > "????"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_R] > "????"  c line(0)
+  "?" deadkey(5)  + [K_R] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_R] > "??"  c line(0)
+  "?" deadkey(5)  + [K_R] > "????"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_R] > "????"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_R] > "??"  c line(0)
+  "?" deadkey(6)  + [K_R] > "??"  c line(0)
+  "?" deadkey(6)  + [K_R] > "????"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_R] > "????"  c line(0)
+  "??"  + [K_R] > context "??"  c line(0)
+  any(store10)  + [K_R] > index(store11, 1) "???"  c line(0)
+  any(store10)  + [SHIFT K_R] > index(store11, 1) "???"  c line(0)
+  any(store8)  + [K_R] > context "??"  c line(0)
+  any(store8)  + [SHIFT K_R] > context "??"  c line(0)
+  any(store12)  + [SHIFT K_R] > context "??"  c line(0)
+  any(store7)  + [SHIFT K_R] > context "??"  c line(0)
+  any(store14)  + [SHIFT K_R] > context "??"  c line(0)
+  "@"  + [K_R] > "?"  c line(0)
+   + [K_R] > "?" deadkey(3)  c line(0)
+   + [SHIFT K_R] > "??"  c line(0)
+  "???" deadkey(4)  + [K_S] > "????"  c line(0)
+  "?" deadkey(4)  + [K_S] > "????"  c line(0)
+   + [K_S] > "??"  c line(0)
+   + [SHIFT K_S] > "??"  c line(0)
+  "????"  + [K_T] > "????"  c line(0)
+  "???" deadkey(2)  + [SHIFT K_T] > "????"  c line(0)
+  "?" deadkey(2)  + [K_T] > nul "??"  c line(0)
+  "?" deadkey(2)  + [K_T] > "????"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_T] > "????"  c line(0)
+  "?" deadkey(1)  + [K_T] > nul "??"  c line(0)
+  "?" deadkey(1)  + [K_T] > "????"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_T] > nul "??"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_T] > "????"  c line(0)
+   + [K_T] > "????"  c line(0)
+   + [SHIFT K_T] > "??"  c line(0)
+  "??" deadkey(1)  + [SHIFT K_U] > nul "?"  c line(0)
+  "??" deadkey(1)  + [K_U] > nul "?"  c line(0)
+  "??" deadkey(2)  + [K_U] > nul "?"  c line(0)
+  "??" deadkey(2)  + [SHIFT K_U] > nul "?"  c line(0)
+  "??" deadkey(3)  + [SHIFT K_U] > nul "?"  c line(0)
+  "??" deadkey(3)  + [K_U] > nul "?"  c line(0)
+  "??" deadkey(4)  + [SHIFT K_U] > nul "?"  c line(0)
+  "??" deadkey(4)  + [K_U] > nul "?"  c line(0)
+  "??" deadkey(5)  + [SHIFT K_U] > nul "?"  c line(0)
+  "??" deadkey(5)  + [K_U] > nul "?"  c line(0)
+  "??" deadkey(6)  + [SHIFT K_U] > nul "?"  c line(0)
+  "??" deadkey(6)  + [K_U] > nul "?"  c line(0)
+  "?" deadkey(1)  + [SHIFT K_U] > "??"  c line(0)
+  "?" deadkey(1)  + [K_U] > "??"  c line(0)
+  "?" deadkey(2)  + [K_U] > "??"  c line(0)
+  "?" deadkey(2)  + [SHIFT K_U] > "??"  c line(0)
+  "?" deadkey(3)  + [K_U] > "??"  c line(0)
+  "?" deadkey(3)  + [SHIFT K_U] > "??"  c line(0)
+  "?" deadkey(4)  + [K_U] > "??"  c line(0)
+  "?" deadkey(4)  + [SHIFT K_U] > "??"  c line(0)
+  "?" deadkey(5)  + [SHIFT K_U] > "??"  c line(0)
+  "?" deadkey(5)  + [K_U] > "??"  c line(0)
+  "?" deadkey(6)  + [SHIFT K_U] > "??"  c line(0)
+  "?" deadkey(6)  + [K_U] > "??"  c line(0)
+  any(store10)  + [K_U] > index(store11, 1) "?"  c line(0)
+  any(store10)  + [SHIFT K_U] > index(store11, 1) "?"  c line(0)
+  any(store8)  + [K_U] > "?"  c line(0)
+  any(store8)  + [SHIFT K_U] > "?"  c line(0)
+  "?"  + [K_U] > "?"  c line(0)
+  any(store7)  + [K_U] > context "?"  c line(0)
+  "?"  + [K_U] > "??"  c line(0)
+  "?"  + [SHIFT K_U] > "??"  c line(0)
+  "?"  + [K_U] > "?"  c line(0)
+  "?"  + [K_U] > "?"  c line(0)
+  "?"  + [K_U] > context "??"  c line(0)
+  "?"  + [K_U] > context "??"  c line(0)
+  "?"  + [K_U] > context "??"  c line(0)
+  "?"  + [K_U] > "?"  c line(0)
+  "?"  + [K_U] > "?"  c line(0)
+  "@"  + [K_U] > "??"  c line(0)
+  "@"  + [SHIFT K_U] > "??"  c line(0)
+   + [K_U] > "?"  c line(0)
+   + [SHIFT K_U] > "?"  c line(0)
+  "???" deadkey(5)  + [K_V] > context "??"  c line(0)
+  "???" deadkey(3)  + [K_V] > context "??"  c line(0)
+  "?" deadkey(5)  + [K_V] > context "??"  c line(0)
+  "?" deadkey(3)  + [K_V] > context "??"  c line(0)
+  "?" deadkey(1)  + [K_V] > "??"  c line(0)
+  "?" deadkey(1)  + [K_V] > "????"  c line(0)
+  "?" deadkey(2)  + [K_V] > "??"  c line(0)
+  "?" deadkey(2)  + [K_V] > "????"  c line(0)
+  "?" deadkey(3)  + [K_V] > "??"  c line(0)
+  "?" deadkey(3)  + [K_V] > "????"  c line(0)
+  "?" deadkey(4)  + [K_V] > "??"  c line(0)
+  "?" deadkey(4)  + [K_V] > "????"  c line(0)
+  "?" deadkey(5)  + [K_V] > "??"  c line(0)
+  "?" deadkey(5)  + [K_V] > "????"  c line(0)
+  "?" deadkey(6)  + [K_V] > "??"  c line(0)
+  "?" deadkey(6)  + [K_V] > "????"  c line(0)
+  "??"  + [K_V] > "?????"  c line(0)
+  any(store8)  + [K_V] > context "??"  c line(0)
+   + [K_V] > "??"  c line(0)
+   + [SHIFT K_V] > "????"  c line(0)
+  "???" deadkey(5)  + [K_W] > context "??"  c line(0)
+  "???" deadkey(3)  + [K_W] > context "??"  c line(0)
+  "?" deadkey(5)  + [K_W] > context "??"  c line(0)
+  "?" deadkey(3)  + [K_W] > context "??"  c line(0)
+  "?" deadkey(1)  + [K_W] > "??"  c line(0)
+  "?" deadkey(1)  + [K_W] > "????"  c line(0)
+  "?" deadkey(2)  + [K_W] > "??"  c line(0)
+  "?" deadkey(2)  + [K_W] > "????"  c line(0)
+  "?" deadkey(3)  + [K_W] > "??"  c line(0)
+  "?" deadkey(3)  + [K_W] > "????"  c line(0)
+  "?" deadkey(4)  + [K_W] > "??"  c line(0)
+  "?" deadkey(4)  + [K_W] > "????"  c line(0)
+  "?" deadkey(5)  + [K_W] > "??"  c line(0)
+  "?" deadkey(5)  + [K_W] > "????"  c line(0)
+  "?" deadkey(6)  + [K_W] > "??"  c line(0)
+  "?" deadkey(6)  + [K_W] > "????"  c line(0)
+  "??"  + [K_W] > "?????"  c line(0)
+  any(store7)  + [K_W] > context "???"  c line(0)
+   + [K_W] > "??"  c line(0)
+   + [K_X] > "????"  c line(0)
+   + [SHIFT K_X] > "????"  c line(0)
+  "?" deadkey(1)  + [K_Y] > "??"  c line(0)
+  "?" deadkey(1)  + [K_Y] > "????"  c line(0)
+  "?" deadkey(2)  + [K_Y] > "??"  c line(0)
+  "?" deadkey(2)  + [K_Y] > "????"  c line(0)
+  "?" deadkey(3)  + [K_Y] > "??"  c line(0)
+  "?" deadkey(3)  + [K_Y] > "????"  c line(0)
+  "?" deadkey(4)  + [K_Y] > "??"  c line(0)
+  "?" deadkey(4)  + [K_Y] > "????"  c line(0)
+  "?" deadkey(5)  + [K_Y] > "??"  c line(0)
+  "?" deadkey(5)  + [K_Y] > "????"  c line(0)
+  "?" deadkey(6)  + [K_Y] > "??"  c line(0)
+  "?" deadkey(6)  + [K_Y] > "????"  c line(0)
+  "??"  + [K_Y] > context "??"  c line(0)
+  "??"  + [SHIFT K_Y] > context "??"  c line(0)
+  any(store10)  + [K_Y] > index(store11, 1) "???"  c line(0)
+  any(store10)  + [SHIFT K_Y] > index(store11, 1) "???"  c line(0)
+  any(store8)  + [K_Y] > context "??"  c line(0)
+   + [K_Y] > "??"  c line(0)
+   + [SHIFT K_Y] > "????"  c line(0)
+   + [K_Z] > "??"  c line(0)
+   + [SHIFT K_Z] > "????"  c line(0)
+   + "\" > "\"  c line(0)
+  "???" deadkey(4)  + "^" > "?"  c line(0)
+  "???"  + "^" > "?"  c line(0)
+  "???"  + "^" > "?"  c line(0)
+  "???"  + "^" > "?"  c line(0)
+  "?" deadkey(4)  + "^" > "?"  c line(0)
+  "??"  + "^" > "?"  c line(0)
+  "?"  + "^" > "?"  c line(0)
+  "?"  + "^" > "?"  c line(0)
+  "?"  + "^" > "??"  c line(0)
+  "??"  + "_" > "?" deadkey(6)  c line(0)
+   + "_" > "?"  c line(0)
+   + "|" > "|"  c line(0)
+  "?" deadkey(1)  + "~" > nul  c line(0)
+  "?" deadkey(1)  + "~" > "??"  c line(0)
+  "?" deadkey(2)  + "~" > nul  c line(0)
+  "?" deadkey(2)  + "~" > "??"  c line(0)
+  "?" deadkey(3)  + "~" > nul  c line(0)
+  "?" deadkey(3)  + "~" > "??"  c line(0)
+  "?" deadkey(4)  + "~" > nul  c line(0)
+  "?" deadkey(4)  + "~" > "??"  c line(0)
+  "?" deadkey(5)  + "~" > nul  c line(0)
+  "?" deadkey(5)  + "~" > "??"  c line(0)
+  "?" deadkey(6)  + "~" > nul  c line(0)
+  "?" deadkey(6)  + "~" > "??"  c line(0)
+  "?"  + "~" > context "?"  c line(0)
+  any(store10)  + "~" > index(store11, 1) "?"  c line(0)
+  "?"  + "~" > "??"  c line(0)
+  any(store7)  + "~" > context "?"  c line(0)
+  "?"  + "~" > "??"  c line(0)
+   + [K_COLON] > ":"  c line(0)
+   + [K_COMMA] > ","  c line(0)
+   + [K_PERIOD] > "."  c line(0)
+  "?"  + [SHIFT K_BKQUOTE] > "??"  c line(0)
+   + [SHIFT K_BKQUOTE] > "?"  c line(0)
+  any(store8)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  any(store10)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  any(store12)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  any(store7)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  any(store14)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  deadkey(1)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  deadkey(2)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  deadkey(3)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  deadkey(4)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  deadkey(5)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  deadkey(6)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  any(store17)  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  "�"  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  "."  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  "?"  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  "?"  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  ","  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  "!"  + [SHIFT K_QUOTE] > context "�"  c line(0)
+  any(store8)  + [K_QUOTE] > context "�"  c line(0)
+  any(store10)  + [K_QUOTE] > context "�"  c line(0)
+  any(store12)  + [K_QUOTE] > context "�"  c line(0)
+  any(store7)  + [K_QUOTE] > context "�"  c line(0)
+  any(store14)  + [K_QUOTE] > context "�"  c line(0)
+  deadkey(1)  + [K_QUOTE] > context "�"  c line(0)
+  deadkey(2)  + [K_QUOTE] > context "�"  c line(0)
+  deadkey(3)  + [K_QUOTE] > context "�"  c line(0)
+  deadkey(4)  + [K_QUOTE] > context "�"  c line(0)
+  deadkey(5)  + [K_QUOTE] > context "�"  c line(0)
+  deadkey(6)  + [K_QUOTE] > context "�"  c line(0)
+  any(store17)  + [K_QUOTE] > context "�"  c line(0)
+  "�"  + [K_QUOTE] > context "�"  c line(0)
+  "."  + [K_QUOTE] > context "�"  c line(0)
+  "?"  + [K_QUOTE] > context "�"  c line(0)
+  "?"  + [K_QUOTE] > context "�"  c line(0)
+  ","  + [K_QUOTE] > context "�"  c line(0)
+  "!"  + [K_QUOTE] > context "�"  c line(0)
+   + [SHIFT K_QUOTE] > "�"  c line(0)
+   + [K_QUOTE] > "�"  c line(0)
 
-store(consonants) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷസഹളഴറ"
-store(vowels) "അആഇഈഉഊഋൠഌൡഎഏഐഒഓഔ"
-store(vowelsigns) "ാിീുൂൃൄൢൣെേൈൊോൗ"
-
-c special for m
-any(consonants) + 'm' > index(consonants,1) 'ം'
-any(vowels) + 'm' > index(vowels,1) 'ം'
-any(consonants) any(vowels) + 'm' > index(consonants,1)  index(vowels,2) 'ം'
-
-store(chills) 'ൺൻർൽൾൿം'
-store(chillSource) 'NnrlLcm'
-store(chillBases) "ണനരലളകമ"
-
-c produce chill
-+ any(chillSource) > index(chills,1)
-any(chills) U+200C + any(chillSource) > index(chills,1) index(chills,3)
-
-c chill breakers
-any(chills) + '~' > index(chillBases,1) '്'
-any(chills) + 'a' > index(chillBases,1)
-any(chills) + 'A' > index(chillBases,1) 'ാ'
-any(chills) + 'i' > index(chillBases,1) 'ി'
-any(chills) + 'I' > index(chillBases,1) 'ീ'
-any(chills) + 'u' > index(chillBases,1) 'ു'
-any(chills) + 'U' > index(chillBases,1) 'ൂ'
-any(chills) + 'R' > index(chillBases,1) 'ൃ'
-any(chills) + 'e' > index(chillBases,1) 'െ'
-any(chills) + 'E' > index(chillBases,1) 'േ'
-any(chills) + 'E' > index(chillBases,1) 'േ'
-any(chills) + 'o' > index(chillBases,1) 'ൊ'
-any(chills) + 'O' > index(chillBases,1) 'ോ'
-any(chills) + 'y' > index(chillBases,1) '്യ്'
-any(chills) + 'R' > index(chillBases,1) 'ൃ'            
-'ർ' + 'r' > 'റ്' c Ben's addition
-'ന്ര്' + 'r' > 'ൻറ്' c Ben's addition
-any(chills) + 'r' > index(chillBases,1) '്ര്' c Ben's addition
-
-c Archaic Forms
-'അ' + '\' > 'ഽ'    
-'ഈ' + '\' > 'ൟ'
-'ക്' + '\' > 'ൿ'
-'റ്റ്' + '\' > 'ഺ്'
-'റ്റ' + '\' > 'ഺ'
-'ൻ' + '\' > 'ഩ്'
-'ന' + '\' > 'ഩ'
-c TODO: n@erra	 ൻെറ	 CHILLU-N, SIGN E, RRA	 എൻെറ	 en@erra
-c TODO: n@errarra	 ൻെററ	 CHILLU-N, SIGN E, RRA, RRA	 എൻെററ	 en@errarra
-c TODO: 'ൾ' '@' + 'ക്' > 'ൾ്ക്'
-'നു' + '\' > '൹' c Malayalam Date Mark
-' ം' + '\' > U+0D00
-U+0D00 + '\' >  U+0D01
-'ർ' + '\' > 'ൎ'
-+ '$' > '₹' 
-'₹' + '\' > '₨'
-'₨' + '\' > '$' c Ben's additions
-'പറ' + '\' > U+0D4F
-'ൾ' + '\' > 'ഌ'
-'‌ള്' + '\' > 'ൢ'
-'ള്ള്' + '\' > 'ൡ'
-'ഌ' + '\' > 'ൡ' c Ben's additions
-'ള്ള്' + '\' > 'ൣ'
-'ൢ' + '\' > 'ൣ' c Ben's additions
-'ൗ' + '\' > 'ൌ'
-'്' + '\' > U+0D3C
-U+0D3C + '\' > U+0D3B
-any(consonants) '്ല്' + '\' > index(consonants, 1) U+0D62
-c Sequence Chills
-any(chills) '\' + '\' > index(chillBases,1) '്' U+200D
-'ഩ്' + '\' > 'ന' '്' U+200D
-
-c The following rule is an experimental rule to prevent chillu r formation 
-c (instead it will form vattu ra form) if it follows a chandrakkala. By Ben
-'്' + 'r' > '്ര്'                                                                                            
-
-c produce vowels
-store(vDirectSmallValues) "അഎഇഒഉ"
-store(vDirectSmallKeys) "aeiou"
-store(vDirectCapsValues) "ആഏഐഓഋഊ"
-store(vDirectCapsKeys) "AEIORU"
-
-c always remove none joiner before vowels
-U+200C + any(vDirectSmallKeys) > index(vDirectSmallValues,2)
-U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
-
-+ any(vDirectSmallKeys) > index(vDirectSmallValues,1)
-U+200C + any(vDirectSmallKeys) > index(vDirectSmallValues,2)
-+ any(vDirectCapsKeys) > index(vDirectCapsValues,1)
-U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
-
-'അ' + 'a' > 'ആ'
-'അ' + 'i' > 'ഐ'
-'അ' + 'u' > 'ഔ'
-'ഇ' + 'i' > 'ഈ'
-'ഉ' + 'u' > 'ഊ'
-'ഊ' + 'o' > 'ഊഊ'
-'ഋ' + 'R' > 'ൠ'
-'ഋ' + 'a' > 'റ'
-'ഋ' + 'A' > 'റാ'
-'ഋ' + 'i' > 'റി'
-'ഋ' + 'I' > 'റീ'
-'ഋ' + 'u' > 'റു'
-'ഋ' + 'U' > 'റൂ'
-'ഋ' + 'e' > 'റെ'
-'ഋ' + 'E' > 'റേ'
-'ഋ' + 'o' > 'റൊ'
-'ഋ' + 'O' > 'റോ'
-'ഋ' + '~' > 'റ്'
-'ഌ' + 'l' > 'ൡ'
-'എ' + 'e' > 'ഈ'
-'ഒ' + 'o' > 'ഊ'
-'ാ' + 'a' > 'ാാ'
-'ീ' + 'i' > 'ീീ'
-'ൂ' + 'u' > 'ൂൂ'
-'ൂ' + 'o' > 'ൂൂ'
-'ൄ' + 'R' > 'ൄൄ'
-'േ' + 'E' > 'േേ'
-'ോ' + 'O' > 'ോോ'
-'ൗ' + 'u' > 'ൗൗ'
-
-c vowel signs
-'മ്' + '\' > 'ം'
-'ആ' + '\' > 'ാ'
-'ഇ' + '\' > 'ി'
-'ഈ' + '\' > 'ീ'
-'ഉ' + '\' > 'ു'
-'ഊ' + '\' > 'ൂ'
-'ഋ' + '\' > 'ൃ'
-'ൠ' + '\' > 'ൄ'
-'എ' + '\' > 'െ'
-'ഏ' + '\' > 'േ'
-'ഐ' + '\' > 'ൈ'
-'ഒ' + '\' > 'ൊ'
-'ഓ' + '\' > 'ോ'
-'ഔ' + '\' > 'ൗ'
-'ൗ' + '\' > 'ൌ'
-'ഌ' + '\' > 'ൢ'
-'ൡ' + '\' > 'ൣ'
-
-store(thinConsonants) "കഗചജടഡതദപബസശ"
-store(thickConsonants) "ഖഘഛഝഠഢഥധഫഭഷഴ"
-
-store(cDirectSmallValues)  'ബദഫഗഹജകമപസവവയശ'
-store(cDirectSmallKeys) 'bdfghjkmpsvwyz'
-store(cDirectCapsValues) 'ഡശട'
-store(cDirectCapsKeys) 'DST'
-
-any(thinConsonants) '്' + 'h' > index(thickConsonants,1) '്' 
-any(consonants) '്' + 'a' > index(consonants,1)
-any(consonants) '്' + 'A' > index(consonants,1) 'ാ'
-any(consonants) + 'a' > index(consonants,1) 'ാ'
-any(consonants) '്' + 'i' > index(consonants,1) 'ി'
-any(consonants) 'ി' + 'i' > index(consonants,1) 'ീ'
-any(consonants) '്' + 'I' > index(consonants,1) 'ീ'
-any(consonants) 'െ' + 'e' > index(consonants,1) 'ീ'
-any(consonants) '്' + 'u' > index(consonants,1) 'ു'
-any(consonants) 'ൊ' + 'o' > index(consonants,1) 'ൂ'
-any(consonants) 'ു' + 'u' > index(consonants,1) 'ൂ'
-any(consonants) '്' + 'U' > index(consonants,1) 'ൂ'
-any(consonants)  '്' + 'R' > index(consonants,1) 'ൃ'
-any(consonants)  'ൃ' + 'R' > index(consonants,1) 'ൄ'
-any(consonants)  '്' + 'e' > index(consonants,1) 'െ'
-any(consonants)  '്' + 'E' > index(consonants,1) 'േ'
-any(consonants) + 'i' > index(consonants,1) 'ൈ'
-any(consonants) '്' + 'o' > index(consonants,1) 'ൊ'
-any(consonants) '്' + 'O' > index(consonants,1) 'ോ'
-any(consonants) + 'u' > index(consonants,1) 'ൗ'
-
-+ any(cDirectSmallKeys) > index(cDirectSmallValues,1) '്'
-any(chills) U+200C + any(cDirectSmallKeys) > index(chills,1) index(cDirectSmallValues,3) '്'
-+ any(cDirectCapsKeys) > index(cDirectCapsValues,1)  '്'
-any(chills) U+200C + any(cDirectCapsKeys) > index(chills,1) index(cDirectCapsValues,3) '്' 
-
-store(nonSa) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷഹളഴറ"
-
-'ൻ' + 'g' > 'ങ്'
-'ൿ' + 'h' > 'ച്'
-
-'ം' + 'm' > 'മ്മ്'
-'ം' + 'l' > 'മ്ല്'
-any(nonSa) 'ം' + 'r' > index(nonSa,1) 'മ്ര്'
-'ം' + 'p' > 'മ്പ്'
-any(nonSa) 'ം' + 'l' > index(nonSa,1) 'മ്ല്'
-any(nonSa) 'ം' + 'L' > index(nonSa,1) 'മ്ല്' c deadkey(capl) c dk commented out by ben
-any(nonSa) 'ം' + 'n' > index(nonSa,1) 'മ്ന്'
-any(nonSa) 'ം' + 'y' > index(nonSa,1) 'മ്യ്'
-any(vowelsigns) 'ം' + 'y' > index(vowelsigns,1) 'മ്യ്'
-'സം' + 'r' > 'സംർ'
-'സം' + 'y' > 'സംയ്'
-
-c ['ൻൿh','nc','ഞ്ച്'],
-'ൻൿ' + 'h' > 'ഞ്ച്'
-c ['ൿh','c', 'ച്'],
-c ['ക്ക്h','cc', 'ച്ച്'],
-'ക്ക്' deadkey(doublec) + 'h' > 'ച്ച്'
-c ['ല്പ്p','lp','ൽപ്പ്'],
-'ല്പ്' + 'p' > 'ൽപ്പ്'
-c ['([ക-ഹ])്ല്l', 'L', '$2\u0d62'],
-c any(consonants) '്ല്' deadkey(capl) + 'l' > index(consonants,1) U+0D62
-
-store(escapable) 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\>_~'
-any(escapable) '\' + '\' > index(escapable,1)
-
-'ന്ന്' + 'j' > 'ഞ്ഞ്'
-'ന്ന്' + 'g' > 'ങ്ങ്'
-'റ്റ്' + 'h' > 'ത്'
-'റ്റ്' + 't' > 'ട്ട്'
-'ന്റ്' + 'h' > 'ന്ത്'
-any(consonants) U+0D62 + 'l' > index(consonants,1) U+0D63
-
-c ['([അ-ഊഌഎ-ഐഒ-ഹ])([ഽ-ൂെ-ൌൗ])+R', '', '$2$3റ്'],
-any(consonants) 'ൃ' + 'a' > index(consonants,1) '്ര'
-any(consonants) 'ൃ' + 'A' > index(consonants,1) '്രാ'
-any(consonants) 'ൃ' + 'i' > index(consonants,1) '്രി'
-any(consonants) 'ൃ' + 'I' > index(consonants,1) '്രീ'
-any(consonants) 'ൃ' + 'u' > index(consonants,1) '്രു'
-any(consonants) 'ൃ' + 'U' > index(consonants,1) '്രൂ'
-any(consonants) 'ൃ' + 'e' > index(consonants,1) '്രെ'
-any(consonants) 'ൃ' + 'E' > index(consonants,1) '്രേ'
-any(consonants) 'ൃ' + 'o' > index(consonants,1) '്രൊ'
-any(consonants) 'ൃ' + 'O' > index(consonants,1) '്രോ'
-any(consonants) '്' + 'l' > index(consonants,1) '്ല്' c deadkey(capl) c commented out by Ben
-any(consonants) '്' + 'L' > index(consonants,1) '്ള്'  c deadkey(capl) c commented out by Ben
-
-'ൺ' + 'N' > 'ണ്ണ്'
-'ൺ' + 'T' > 'ണ്ട്'
-'ൺ' + 'D' > 'ണ്ഡ്'
-'ൺ' + 'v' > 'ണ്വ്'
-'ൺ' + 'm' > 'ണ്മ്'
-
-'ൻ' + 'r' > 'ന്ര്'
-'ൻ' + 'k' > 'ങ്ക്'
-'ൻ' + 'j' > 'ഞ്'
-'ൻ' + 'n' > 'ന്ന്'
-'ൻ' + 'd' > 'ന്ദ്'
-'ൻ' + 't' > 'ന്റ്'
-'ൻ' + 'm' > 'ന്മ്'
-'ൻ' + 'L' > 'ന്ല്' c deadkey(capl) c commented out by Ben
-'ൻ' + 'v' > 'ന്വ്'
-
-'ർ' + 'r' > 'റ്'
-'ർ' + '#' > 'ൎ'
-
-'ൽ' + 'l' > 'ല്ല്'
-'ൽ' + 'L' > 'ല്ല്' c deadkey(capl)
-'ൽ' + 'm' > 'ല്മ്'
-'ൽ' + 'p' > 'ല്പ്'
-'ൽ' + 'v' > 'ല്വ്'
-
-'ൾ' + 'L' > 'ള്ള്' c deadkey(capl)
-'ൾ' + 'l' > 'ഌ'            
-
-c Normally it was not required in Keymagic. Following does not happen
-c automatically in Keyman
-
-'ൿ' + 'l' > 'ക്ല്'
-'ൿ' + 'L' > 'ക്ല്' c deadkey(capl)
-'ൿ' + 'v' > 'ക്വ്'
-'ൿ' + 'k' > 'ക്ക്'
-'ൿ' + 'c' > 'ക്ക്' c deadkey(doublec)
-
-c digits
-'\' + '0' > '൦'
-'\' + '1' > '൧'
-'\' + '2' > '൨'
-'\' + '3' > '൩'
-'\' + '4' > '൪'
-'\' + '5' > '൫'
-'\' + '6' > '൬'
-'\' + '7' > '൭'
-'\' + '8' > '൮'
-'\' + '9' > '൯'
-
-+ 'B' > 'ബ്ബ്'
-any(chills) U+200C + 'B' > index(chills,1) 'ബ്ബ്'
-+ 'C' > 'ച്ച്'
-any(chills) U+200C + 'C' > index(chills,1) 'ച്ച്'
-+ 'G' > 'ഗ്ഗ്'
-any(chills) U+200C + 'G' > index(chills,1) 'ഗ്ഗ്'
-+ 'H' > 'ഃ'
-any(chills) U+200C + 'H' > index(chills,1) 'ഃ'
-+ 'J' > 'ജ്ജ്'
-any(chills) U+200C + 'J' > index(chills,1) 'ജ്ജ്'
-+ 'K' > 'ക്ക്'
-any(chills) U+200C + 'K' > index(chills,1) 'ക്ക്'
-+ 'M' > 'മ്മ്'
-any(chills) U+200C + 'M' > index(chills,1) 'മ്മ്'
-+ 'P' > 'പ്പ്'
-any(chills) U+200C + 'P' > index(chills,1) 'പ്പ്'
-+ 'Q' > 'ക്യ്'
-any(chills) U+200C + 'Q' > index(chills,1) 'ക്യ്'
-+ 'V' > 'വ്വ്'
-any(chills) U+200C + 'V' > index(chills,1) 'വ്വ്'
-+ 'W' > 'വ്വ്'
-any(chills) U+200C + 'W' > index(chills,1) 'വ്വ്'
-+ 'X' > 'ക്ഷ്'
-any(chills) U+200C + 'X' > index(chills,1) 'ക്ഷ്'
-+ 'Y' > 'യ്യ്'
-any(chills) U+200C + 'Y' > index(chills,1) 'യ്യ്'
-+ 'Z' > 'ശ്ശ്'
-any(chills) U+200C + 'Z' > index(chills,1) 'ശ്ശ്'
-+ 'q' > 'ക്ക്'
-any(chills) U+200C + 'q' > index(chills,1) 'ക്ക്'
-+ 't' > 'റ്റ്'
-any(chills) U+200C + 't' > index(chills,1) 'റ്റ്'
-+ 'x' > 'ക്ഷ്'
-any(chills) U+200C + 'x' > index(chills,1) 'ക്ഷ്'
-+ '~' > '്'
-any(chills) U+200C + '~' > index(chills,1) '്' 
-
-'ട്ട്' + 'h' > 'ത്ത്'
-'ട്' + 'H' > 'ത്ത്'
-'ൺ' + 'G' > 'ങ്ങ്'
-'ൺ' + 'J' > 'ഞ്ഞ്'
-
-U+200C + '_' > U+200C
-+ '_' > U+200C
-
-'/' + '/' > 'ऽ'
-'1/4' + '\' > '൳'
-'1/2' + '\' > '൴'
-'3/4' + '\' > '൵'
-'10' + '\' > U+0D70
-'100' + '\' > U+0D71
-'1000' + '\' > U+0D72
-c em dash
-'---' + '\' > '—'
-c en dash
-'--' + '\' > '–'
-'\' + '-' > '−'
-'\' + '*' > '×'
-'\' + '/' > '÷'
+c EOF

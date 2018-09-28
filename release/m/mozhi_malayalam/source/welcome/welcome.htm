@@ -3,30 +3,81 @@
 <head>
   <meta charset="utf-8">
   <title>Mozhi Malayalam Keyboard</title>
+  <link href="main1.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
-	.lang2,.languageExample {font-family:AnjaliOldLipi;}
-	.lang2 {font-size:150%}
+		/* Chilanka */
+			@font-face {
+				font-family: 'Chilanka';
+				font-style: normal;
+				font-weight: 400;
+				src: url(https://smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.woff2?v=1.2.0) format('woff2'), url(https://smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.woff?v=1.2.0) format('woff'), url(https://smc.org.in/downloads/fonts/chilanka/Chilanka-Regular.ttf?v=1.2.0) format('truetype');
+				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+			}
+		/* Rachana */
+			@font-face {
+				font-family: 'Rachana';
+				font-style: normal;
+				font-weight: 400;
+				src: url(https://smc.org.in/downloads/fonts/rachana/Rachana-Regular.woff2?v=7.0) format('woff2'), url(https://smc.org.in/downloads/fonts/rachana/Rachana-Regular.woff?v=7.0) format('woff'), url(https://smc.org.in/downloads/fonts/rachana/Rachana-Regular.ttf?v=7.0) format('truetype');
+				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+			}
+		/* Meera */
+			@font-face {
+				font-family: 'Meera';
+				font-style: normal;
+				font-weight: 400;
+				src: url(https://smc.org.in/downloads/fonts/meera/Meera-Regular.woff2?v=7.0) format('woff2'), url(https://smc.org.in/downloads/fonts/meera/Meera-Regular.woff?v=7.0) format('woff'), url(https://smc.org.in/downloads/fonts/meera/Meera-Regular.ttf?v=7.0) format('truetype');
+				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+			}
+			/* RaghuMalayalamSans */
+			@font-face {
+				font-family: 'RaghuMalayalam';
+				font-style: normal;
+				font-weight: 400;
+				src: url(https://smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.woff2?v=2.1.1) format('woff2'), url(https://smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.woff?v=2.1.1) format('woff'), url(https://smc.org.in/downloads/fonts/raghumalayalamsans/RaghuMalayalamSans-Regular.ttf?v=2.1.1) format('truetype');
+				unicode-range: U+0000-02DC, U+0D01-0D7F, U+200C-U+200D, U+25CC;
+			}
 
-
-  table td{
-      width: 180px;
-      text-align: center;
-  }
-
-  table{
-      background: #e3e3e3;
-  }
-
-  kbd{
-      background: #c0c0c0;
-      border: solid 1px grey;
-      padding: 4px 8px;
-      margin-left:4px;
-  }
-
- .col1 {width: 100px;}
- .col2, .col3 {width: 150px;}
- .col4 {width: 350px;}
+		.lang2,.languageExample {
+			font-family:AnjaliOldLipi;
+		}
+		 .lang2 {
+			font-size:150%
+		}
+		 table td{
+			 width: 180px;
+			 text-align: center;
+		}
+		 table{
+			 background: #e3e3e3;
+		}
+		 kbd{
+			 background: #c0c0c0;
+			 border: solid 1px grey;
+			 padding: 4px 8px;
+			 margin-left:4px;
+		}
+		 .col1 {
+			width: 100px;
+		}
+		 .col2, .col3 {
+			width: 150px;
+		}
+		 .col4 {
+			width: 350px;
+		}
+		.rachana{
+			font-family:"Rachana",sans-serif
+		}
+		.meera{
+			font-family:"Meera",sans-serif
+		}
+		.chilanka{
+			font-family:"Chilanka",sans-serif
+		}
+		.raghu{
+			font-family:"RaghuMalayalam",sans-serif
+		}
 	</style>
 
 </head>
@@ -56,7 +107,7 @@ This keyboard uses the Mozhi layout to let you type in Malayalam.  It is a phone
 
 <h3>Keyboard Layout</h3>
 		<!-- On Screen Keyboard is automatically included here -->
-<p><img src="mozhi_malayalam.png" alt="Mozhi Malayalam Keyboard: default state"></p>
+<p><img src="mozhi_malayalam.jpg" width="80%" alt="Mozhi Malayalam Keyboard: default state"></p>
 
 <div id='Quickstart'>
 <h3>Quickstart</h3>
@@ -100,7 +151,7 @@ For example, typing <kbd>i</kbd> will produce the vowel <span class='highlightEx
 <h3>Keyboard Details</h3>
 		<!-- The guts of the documentation: reasoning behind the keyboard layout; detailed instructions on typing & editing; instructions on special characters or keyboard behaviour, etc.; complete character/input chart or link to chart; -->
 
-<p>The On Screen Keyboard shows the 35 normal consonants <span class='lang2' style='font-size:200%'>ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര ല വ ശ ഷ സ ഹ ള ഴ റ</span>, the vowels <span class='lang2' style='font-size:200%'>അ ആ ഇ ഈ ഉ ഊ ഋ എ ഏ ഐ ഒ ഓ ഔ</span>, and the <span class='lang2' style='font-size:200%'>്</span> mark.  There are also numbers and punctuation marks.</p>
+<p>The On Screen Keyboard shows the 35 normal consonants <span class='raghu'>ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര ല വ ശ ഷ സ ഹ ള ഴ റ</span>, the vowels <span class='raghumalayalam' style='font-size:100%'>അ ആ ഇ ഈ ഉ ഊ ഋ എ ഏ ഐ ഒ ഓ ഔ</span>, and the <span class='lang2' style='font-size:200%'>്</span> mark.  There are also numbers and punctuation marks.</p>
 
 <p>Malayalam vowels and consonants are usually combined, so when you type a consonant and a vowel part, they will be joined into one character.  If you use the arrow keys to move through the text, you only need to press an arrow key once to move past each character.  If you press Delete before (on the left of) a combined consonant and vowel, it will be erased completely, but if you press Backspace after a character, only the vowel part will be erased (even if the vowel part appears before the consonant).
 </p>

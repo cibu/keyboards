@@ -7,3 +7,4 @@ packages/*/build/
 .cache
 servervars.sh
 /.project
+release/*/*/source/tools/

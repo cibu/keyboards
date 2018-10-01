@@ -329,35 +329,31 @@ All vowel producing letters have above property.
 ## Archaic letters
 To get the archaic form of a letter, please use the symbol '\' following it. Even more archaic form is given out by repeating it - '\\'.
 
-അ\
-a\|ഽ|AVAGRAHA
-അസോഽസൗ|asOa\sau
+അ\|a\|ഽ|AVAGRAHA|അസോഽസൗ|asOa\sau
+| -- | -- | --| -- | -- | --
 ഇ\|ii\ |ൟ|ARCHAIC II |ൟറ|ii\rra
-ക്\|k\|ൿ|CHILLU K
-ആമ്പിൿ|aampik\
-റ്റ്\
-t\|ഺ്|TTTA 
-അഺ്|at\
-റ്റ\
-ta\|ഺ |TTTA|അഺ|ata\
-ൻ\|n\|ഩ്|NNNA 
+ക്\|k\|ൿ|CHILLU K|ആമ്പിൿ|aampik\
+റ്റ്\|t\|ഺ്|TTTA |
+അഺ് |at\
+റ്റ\ |ta\ |ഺ |TTTA|അഺ|ata\
+ൻ\ |n\ |ഩ്|NNNA 
 അഩ്|an\
 
 n@erra|ൻെറ|CHILLU-N, SIGN E, RRA|എൻെറ|en@erra
-
+| -- | -- | --| -- | -- | --
 n@errarra|ൻെററ|CHILLU-N, SIGN E, RRA, RRA|എൻെററ|en@errarra
 
 L@ka|ൾ്ക|CHILLU-LL, VIRAMA, KA||
-ന\|na\|ഩ|NNNA |അഩ|ana\
-നു\|nu\|൹|DATE MARK
+| -- | -- | --| -- | -- | --
+ന\ |na\ |ഩ|NNNA |അഩ|ana\
+നു\ |nu\ |൹|DATE MARK
 17-൹|17-nu\
-ം\|...m\|U+0D00|ANUSVARA ABOVE||
-ം\\|... m\\|U+0D01|CANDRABINDU||
-ർ\|r\|U+0D4E
+ം\ |...m\ |U+0D00|ANUSVARA ABOVE||
+ം\\ |... m\\ |U+0D01|CANDRABINDU||
+ർ\ |r\ |U+0D4E
 DOT REPH|ഭാൎയ്യ|bhaar\ya
-₹\
-$\|₨ |RUPEE SIGN|₨10|$\10
-പറ\|parra\|U+0D4F|PARA SIGN||
+₹\ |$\ |₨ |RUPEE SIGN|₨10|$\10
+പറ\ |parra\ |U+0D4F|PARA SIGN||
 
 ൾ\
 L\|ഌ|VOCALIC L

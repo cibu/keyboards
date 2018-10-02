@@ -86,5 +86,33 @@ sva|സ്വ|SA, VIRAMA, VA|സ്വരം|svaram
 Example in Mozhi|Example|Unicode
 pon_|പൊൻ_|PA, SIGN O, CHILLU N, _
 pon_naaNyam|പൊൻനാണ്യം |PA, SIGN O, CHILLU N, NA, SIGN AA ... 
-m~adani|മ്അദനി|MA, VIRAMA, A, DA, NA, SIGNI 
+m~_adani|മ്അദനി|MA, VIRAMA, A, DA, NA, SIGNI 
 in_ka|ഇൻക | I, CHILLU N, KA
+
+Example in Mozhi|Example|Unicode
+svam| സ്വം | SA, VIRAMA, VA, ANUSVARA 
+avan| അവൻ | A, VA, CHILLU N
+Sr| ശ്ര് | SHA, VIRAMA, RA, VIRAMA
+n|ൻ|CHILLU N
+m|ം|ANUSVARA
+
+Mozhi|Malayalam|Unicode Name|Example|Example in Mozhi
+NTa| ണ്ട |NNA, VIRAMA, TA | മണ്ട|maNTa
+NTha|ണ്ഠ |NNA, VIRAMA, THA | കുണ്ഠിതം|kuNThitham 
+NDa| ണ്ഡ |NNA, VIRAMA, DDA|പാണ്ഡു|paaNDu
+NDha|ണ്ഢ |NNA, VIRAMA, DDHA|കണ്ഢം|kaNDham
+NNa|ണ്ണ |NNA, VIRAMA, NNA | കണ്ണ്|kaNN
+Nma | ണ്മ |NNA, VIRAMA, MA |വെണ്മ|veNma
+Nya|ണ്യ |NNA, VIRAMA, YA |നാണ്യം|naaNyam
+Nva| ണ്വ |NNA, VIRAMA, VA|കണ്വൻ|kaNvan
+
+Mozhi|Malayalam|Unicode Name|Example|Example in Mozhi
+ntha| ന്ത |NA, VIRAMA, TA|തന്ത|thantha
+nthha | ന്ഥ |NA, VIRAMA, THA|പാന്ഥൻ|paanthhan
+nda|ന്ദ |NA, VIRAMA, DA|നന്ദി|nandi
+ndha|ന്ധ |NA, VIRAMA, DHA|അന്ധൻ|andhan
+nna|ന്ന |NA, VIRAMA, NA|പിന്നെ|pinne
+nma|ന്മ |NA, VIRAMA, MA|നന്മ|nanma
+nya|ന്യ |NA, VIRAMA, YA|അന്യം|anyam
+nra|ന്ര |NA, VIRAMA, RA|ന്രസ്ഥി|nrasthhi
+nva|ന്വ |NA, VIRAMA, VA|അന്വയം|anvayam

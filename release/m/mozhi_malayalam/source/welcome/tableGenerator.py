@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 def addKBD(wrd):
     '''Add <kbd> around each letter of the given word'''
     NewWrd = ""
-    if(wrd=="" or wrd.strip()==""):
+    if(wrd.strip()==""):
         return ""
     else:
         for letter in wrd:
@@ -217,7 +217,7 @@ htmlstring_intro='''<!DOCTYPE html>
         family: 'Rachana',
       }
     },
-    filename: './mozhi_malayalam.js'
+    filename: 'https://github.com/beniza/keyboards/blob/welcome/release/m/mozhi_malayalam/source/welcome/mozhi_malayalam.js'
   });
 </script>
     <script>

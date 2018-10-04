@@ -1,0 +1,118 @@
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+a|അ|A|അല|ala
+aa|ആ|AA|ആല|aala
+i|ഇ|I|ഇല|ila
+ii|ഈ|II|ഈറ|iirra
+u|ഉ|U|ഉമ|uma
+uu|ഊ|UU|ഊമ|uuma
+R|ഋ|VOCALIC R|ഋതു|Rthu
+RR|ൠ|VOCALIC RR|ൠന്ന്|RRnn
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+e|എ|E|എലി|eli
+E|ഏ|EE|ഏലം|Elam
+ai|ഐ|AI|ഐക്യം|aikyam
+o|ഒ|O|ഒരു|oru
+O|ഓ|OO|ഓരം|Oram
+au|ഔ|AU|ഔഷധം|aushadham
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+m|ം|Anusvaram|അംബുജം|ambujam
+H|ഃ|VISARGA|ദുഃഖം|duHkham
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+ka|ക|KA|കല|kala
+kha|ഖ|KHA|നഖം|nakham
+ga|ഗ|GA|ഗരം|garam
+gha|ഘ|GHA|മേഘം|mEgham
+nga|ങ|NGA|ങ്യാവൂ|ngyaavuu
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+cha|ച|CA|ചരം|charam
+chha|ഛ|CHA|ഛായ|chhaaya
+ja|ജ|JA|ജലം|jalam
+jha|ഝ|JHA|ഝാൻസി|jhaansi
+nja|ഞ|NYA|ഞാൻ|njaan
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+Ta|ട|TTA|ടിപ്പു|Tippu
+Tha|ഠ|TTHA|പാഠം|paaTham
+Da|ഡ|DDA|ഡപ്പി|Dappi
+Dha|ഢ|DDHA|ദൃഢം|dRDham
+Na|ണ|NNA|മണം|maNam
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+tha|ത|TA|തത്ത|thaththa
+thha|ഥ|THA|കഥ|kathha
+da|ദ|DA|ദയ|daya
+dha|ധ|DHA|ധനം|dhanam
+na|ന|NA|നന്ന്|nann~
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+pa|പ|PA|പല|pala
+pha|ഫ|PHA|ഫലം|phalam
+ba|ബ|BA|ബലം|balam
+bha|ഭ|BHA|ഭയം|bhayam
+ma|മ|MA|മയം|mayam
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+ya|യ|YA|യതി|yathi
+ra|ര|RA|രണ്ട്|raNT
+la|ല|LA|ലത|latha
+va|വ|VA|വരം|varam
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+Sa|ശ|SHA|ശരം|Saram
+sha|ഷ|SSA|ഷാരം|shaaram
+sa|സ|SA|സാരം|saaram
+ha|ഹ|HA|ഹാരം|haaram
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+La|ള|LLA|ഇള|iLa
+zha|ഴ|LLLA|ഇഴ|izha
+rra|റ|RRA|പറ|parra
+
+Mozhi|Malayalam|Unicode Name| Example|Example in Mozhi
+ta|റ്റ|RRA, VIRAMA, RRA|പാറ്റ |paata
+$|U+20B9|INDIAN RUPEE SIGN|₹100|$100
+
+Mozhi|Malayalam|Unicode Name|Example|Example in Mozhi
+sya|സ്യ|SA, VIRAMA, YA|സസ്യം|sasyam
+sra|സ്ര|SA, VIRAMA, RA|സ്രാവം|sraavam
+sla|സ്ല|SA, VIRAMA, LA|സ്ലാവിക്|slaavik
+sLa|സ്ള|SA, VIRAMA, LLA|ബ്ളോഗ്|bLOg
+sva|സ്വ|SA, VIRAMA, VA|സ്വരം|svaram
+
+Example in Mozhi|Example|Unicode
+pon_|പൊൻ_|PA, SIGN O, CHILLU N, _
+pon_naaNyam|പൊൻനാണ്യം |PA, SIGN O, CHILLU N, NA, SIGN AA ... 
+m~_adani|മ്അദനി|MA, VIRAMA, A, DA, NA, SIGNI 
+in_ka|ഇൻക | I, CHILLU N, KA
+
+Example in Mozhi|Example|Unicode
+svam| സ്വം | SA, VIRAMA, VA, ANUSVARA 
+avan| അവൻ | A, VA, CHILLU N
+Sr| ശ്ര് | SHA, VIRAMA, RA, VIRAMA
+n|ൻ|CHILLU N
+m|ം|ANUSVARA
+
+Mozhi|Malayalam|Unicode Name|Example|Example in Mozhi
+NTa| ണ്ട |NNA, VIRAMA, TA | മണ്ട|maNTa
+NTha|ണ്ഠ |NNA, VIRAMA, THA | കുണ്ഠിതം|kuNThitham 
+NDa| ണ്ഡ |NNA, VIRAMA, DDA|പാണ്ഡു|paaNDu
+NDha|ണ്ഢ |NNA, VIRAMA, DDHA|കണ്ഢം|kaNDham
+NNa|ണ്ണ |NNA, VIRAMA, NNA | കണ്ണ്|kaNN
+Nma | ണ്മ |NNA, VIRAMA, MA |വെണ്മ|veNma
+Nya|ണ്യ |NNA, VIRAMA, YA |നാണ്യം|naaNyam
+Nva| ണ്വ |NNA, VIRAMA, VA|കണ്വൻ|kaNvan
+
+Mozhi|Malayalam|Unicode Name|Example|Example in Mozhi
+ntha| ന്ത |NA, VIRAMA, TA|തന്ത|thantha
+nthha | ന്ഥ |NA, VIRAMA, THA|പാന്ഥൻ|paanthhan
+nda|ന്ദ |NA, VIRAMA, DA|നന്ദി|nandi
+ndha|ന്ധ |NA, VIRAMA, DHA|അന്ധൻ|andhan
+nna|ന്ന |NA, VIRAMA, NA|പിന്നെ|pinne
+nma|ന്മ |NA, VIRAMA, MA|നന്മ|nanma
+nya|ന്യ |NA, VIRAMA, YA|അന്യം|anyam
+nra|ന്ര |NA, VIRAMA, RA|ന്രസ്ഥി|nrasthhi
+nva|ന്വ |NA, VIRAMA, VA|അന്വയം|anvayam

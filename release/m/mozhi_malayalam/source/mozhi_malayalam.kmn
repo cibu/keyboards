@@ -168,6 +168,8 @@ dk(at) + 'e' > 'െ'
 '്' + '\' > U+0D3C
 U+0D3C + '\' > U+0D3B
 any(consonants) '്ല്' + '\' > index(consonants, 1) U+0D62
+'യ്' + '\' > 'ൕ'
+'ഴ്' + '\' > 'ൖ'     
 
 c always remove none joiner before vowels
 U+200C + any(vDirectSmallKeys) > index(vDirectSmallValues,2)

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>10.0.1201.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">2.0.8.3</Version>
+    <Name URL="">Malayalam Mozhi</Name>
+    <Copyright URL="">© Junaid P. V.</Copyright>
+    <Author URL="">beniza</Author>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\source\..\builds\mozhi_malayalam.kmx</Name>
+      <Description>Keyboard Malayalam Mozhi</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\source\..\builds\mozhi_malayalam.js</Name>
+      <Description>File mozhi_malayalam.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Malayalam Mozhi</Name>
+      <ID>mozhi_malayalam</ID>
+      <Version>2.0.8.3</Version>
+      <Languages>
+        <Language ID="ml">Malayalam</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

@@ -4,6 +4,8 @@
     <BuildPath>$PROJECTPATH\build</BuildPath>
     <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
     <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>False</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
   </Options>
   <Files>
     <File>
@@ -14,7 +16,7 @@
       <FileType>.kmn</FileType>
       <Details>
         <Name>Gujarati WinScript(NLCI)</Name>
-        <Copyright>© 2000-2019 NLCI, Bangalore</Copyright>
+        <Copyright>© 2002-2019 NLCI, Bangalore</Copyright>
       </Details>
     </File>
     <File>
@@ -24,8 +26,8 @@
       <FileVersion>2.0</FileVersion>
       <FileType>.kps</FileType>
       <Details>
-        <Name>Gujarati Winscript Keyboard [NLCI]</Name>
-        <Copyright>© NLCI 2000-2018</Copyright>
+        <Name>Gujarati WinScript(NLCI)</Name>
+        <Copyright>© 2002-2019 NLCI, Bangalore</Copyright>
         <Version>2.0</Version>
       </Details>
     </File>
@@ -38,43 +40,27 @@
       <ParentFileID>id_7df27b0947d4bedea66f90232bb9eea0</ParentFileID>
     </File>
     <File>
-      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
-      <Filename>readme.htm</Filename>
-      <Filepath>source\readme.htm</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.htm</FileType>
-      <ParentFileID>id_4f123f76a7c662b27cf420dca9029cef</ParentFileID>
-    </File>
-    <File>
-      <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
-      <Filename>welcome.htm</Filename>
-      <Filepath>source\welcome\welcome.htm</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.htm</FileType>
-      <ParentFileID>id_4f123f76a7c662b27cf420dca9029cef</ParentFileID>
-    </File>
-    <File>
-      <ID>id_61d1ee5d76a3d4a5b3892becebaa2669</ID>
-      <Filename>nlci_gujarati_winscript.js</Filename>
-      <Filepath>source\build\nlci_gujarati_winscript.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-      <ParentFileID>id_4f123f76a7c662b27cf420dca9029cef</ParentFileID>
-    </File>
-    <File>
-      <ID>id_3bfbc264f7c3b9e42b6206f4538a0113</ID>
+      <ID>id_0b43492fa8218fa25caba66fcabfd124</ID>
       <Filename>nlci_gujarati_winscript.kvk</Filename>
-      <Filepath>source\build\nlci_gujarati_winscript.kvk</Filepath>
+      <Filepath>source\..\..\..\m\mozhi_malayalam\build\nlci_gujarati_winscript.kvk</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kvk</FileType>
       <ParentFileID>id_4f123f76a7c662b27cf420dca9029cef</ParentFileID>
     </File>
     <File>
-      <ID>id_9d092a3f08bc8c8beb429b014cb8bd1f</ID>
+      <ID>id_6d7161e9d7d9dad472aea34cc5d6ec0e</ID>
       <Filename>nlci_gujarati_winscript.kmx</Filename>
-      <Filepath>source\build\nlci_gujarati_winscript.kmx</Filepath>
+      <Filepath>source\..\..\..\m\mozhi_malayalam\build\nlci_gujarati_winscript.kmx</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kmx</FileType>
+      <ParentFileID>id_4f123f76a7c662b27cf420dca9029cef</ParentFileID>
+    </File>
+    <File>
+      <ID>id_536fa9169cbcc617d9b4cf625c6c6d5b</ID>
+      <Filename>nlci_gujarati_winscript.js</Filename>
+      <Filepath>source\..\..\..\m\mozhi_malayalam\build\nlci_gujarati_winscript.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
       <ParentFileID>id_4f123f76a7c662b27cf420dca9029cef</ParentFileID>
     </File>
   </Files>

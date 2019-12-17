@@ -9,9 +9,9 @@ begin Unicode > use(main)
 
 group(main) using keys
 
-store(vowelKeys) 'AiIuUReYoVMH'
-store(vowels) 'આઇઈઉઊઋએઐઓઔંઃ'
-store(vowelMatras) 'ાિીુૂૃેૈોૌંઃ'
+store(vowelKeys) 'AiIuUReEYoOVMH'
+store(vowels) 'આઇઈઉઊઋએઍઐઓઑઔંઃ'
+store(vowelMatras) 'ાિીુૂૃેૅૈોૉૌંઃ'
 store(consKeys) 'kKgGW' \
     	   	   	'cCjJw' \
     	   	   	'tTdDN' \
@@ -58,11 +58,11 @@ c Adjust the behavior of s
 'સ' + 's'> 'ઁ'
 
 c Adjust the behavior of E
- + 'E' > nul  
+ c + 'E' > nul  
  '`' dk(bt) + 'E' > 'E'     
  
  c Adjust the behavior of O
- + 'O' > nul     
+ c + 'O' > nul     
  '`' dk(bt) + 'O' > 'O' 
  
  c Adjust the behavior of F

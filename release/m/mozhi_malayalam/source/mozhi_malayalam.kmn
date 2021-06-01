@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.1.8'
+store(&KEYBOARDVERSION) '2.1.9'
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
@@ -141,7 +141,7 @@ any(consonants) '്' + 'r' > index(consonants, 1) 'ൃ' dk(ru)
 'ഋ' dk(ru) + 'E' > 'രേ'
 'ഋ' dk(ru) + 'o' > 'രൊ'
 'ഋ' dk(ru) + 'O' > 'രോ'
-'ൃ' dk(ru) + 'r' > 'ൃർ'
+'ൃ' dk(ru) + 'r' > 'ൄ'
 'ൃ' dk(ru) + '~' > '്ര്'
 'ൃ' dk(ru) + 'a' > '്ര'
 'ൃ' dk(ru) + 'A' > '്രാ'
@@ -154,6 +154,10 @@ any(consonants) '്' + 'r' > index(consonants, 1) 'ൃ' dk(ru)
 'ൃ' dk(ru) + 'E' > '്രേ'
 'ൃ' dk(ru) + 'o' > '്രൊ'
 'ൃ' dk(ru) + 'O' > '്രോ'
+'ൠ' + 'r' > 'ർ'
+'ൠ' + 'a' > 'റ'
+'ൄ' + 'r' > '്ര'
+'ൄ' + 'a' > '്റ'
 
 any(consonants) + 'r' > index(consonants, 1) 'ർ'
 any(vowels) + 'r' > index(vowels, 1) 'ർ'

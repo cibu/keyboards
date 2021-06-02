@@ -2,3 +2,4 @@ source/tools
 *.xmind
 assets
 changes.txt
+test/x-*

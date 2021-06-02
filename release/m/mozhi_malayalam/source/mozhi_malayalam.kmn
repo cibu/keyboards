@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.1.11'
+store(&KEYBOARDVERSION) '2.1.12'
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2017-2021 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
@@ -98,6 +98,7 @@ any(consonants) U+0D4D dk(vir) + 'm' > index(consonants, 1) U+0D4D U+200C U+0D2E
 any(consonants) U+0D4D dk(vir) + 't' > index(consonants, 1) U+0D4D U+200C U+0D31 U+0D4D U+0D31 U+0D4D
 
 c Preventing Contextual Substitutions
+store(noconj) '0'
 c Modify the behaviour of '_' as a contextual substitutions blocker
 c 'ൻ_' dk(noconjuncts) + 'r' > 'ൻ' dk(vir) 'റ്' c dk(no_n_conjunct)
 any(nt_tt_base) '_' dk(noconjuncts) + 'r' > index(nt_tt_base, 1) dk(vir) 'റ്'
@@ -109,7 +110,7 @@ c '_' dk(noconjuncts) + 'n' > 'ൻ' dk(noconjuncts)
 '_' dk(noconjuncts) + '~' > U+0D4D
 '_' dk(noconjuncts) + any(cDirectSmallKeys) > index(cDirectSmallValues, 3) U+0D4D
 '_' dk(noconjuncts) + any(cDirectCapsKeys) > index(cDirectCapsValues, 3) U+0D4D
-'_' dk(noconjuncts) + any(chillSource) > index(chills, 3)
+'_' dk(noconjuncts) + any(chillSource) > index(chills, 3) set(noconj = '1')
 '_' dk(noconjuncts) + 'm' > U+0D2E U+0D4D
 'ൻ' dk(noconjuncts) + 'j' > 'ഞ്'
 '_' dk(noconjuncts) + 't' > U+0D31 U+0D4D U+0D31 U+0D4D
@@ -406,6 +407,7 @@ any(escapable) + any(escapable) > index(escapable, 1) index(escapable, 2)
 any(consonants) U+0D62 + 'l' > index(consonants,1) U+0D63
 
 c The sequence 'nj' produces 'ഞ്ഞ്', iff it is typed after a vowel, vowelsign or a consonant   To Fix #39
+if(noconj = '1') 'ൻ' + 'j' > 'ഞ്' set(noconj = '0')
 any(KeyContexts) 'ൻ' + 'j' > index(KeyContexts, 1) 'ഞ്ഞ്'
 'ഞ്ഞ്' + any(cDirectCapsKeys) > 'ഞ്' index(cDirectCapsValues, 5) '്'
 'ഞ്ഞ്' + any(cDirectSmallKeys) > 'ഞ്' index(cDirectSmallValues,5) '്'

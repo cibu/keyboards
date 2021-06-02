@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ 1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ 10</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ ൰ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ ൰ 1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ ൰ 10</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ ൰ 100</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ ൰ ൱ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ ൰ ൱ 1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ ൰ ൱ 10</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ ൰ ൱ 100</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ ൰ ൱ 1000</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ 1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SLASH</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ 1/</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_4</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ 1/4</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ 1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SLASH</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ 1/</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_2</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ 1/2</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ 3</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SLASH</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ 3/</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_4</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ 3/4</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵ 1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵ ൧</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_2</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵ ൧൨</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵ ൧൨൧</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>൧ ൰ ൱ ൲ ൳ ൴ ൵ ൧൨൧൦</text></postcontext>
+    </event>
+  </events></regressiontest>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പാൺ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_D</vkey></key>
+       <postcontext><text>പാണ്ഡ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
+       <postcontext><text>പാണ്ഡ്യ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാണ്ഡ്യ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_V</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാറ്റ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാത്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാത</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതൻ്റ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്തൃ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്റ്റ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്തൃ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്രെ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്രീ</text></postcontext>
+    </event>
+  </events></regressiontest>

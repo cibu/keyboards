@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>പാറ്റ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പാറ്റ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പാറ്റ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_4</vkey></key>
+       <postcontext><text>പാറ്റ ₹</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
+       <postcontext><text>പാറ്റ ₹1</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>പാറ്റ ₹10</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
+       <postcontext><text>പാറ്റ ₹100</text></postcontext>
+    </event>
+  </events></regressiontest>

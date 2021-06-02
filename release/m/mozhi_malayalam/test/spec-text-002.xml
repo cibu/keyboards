@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>എ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
+       <postcontext><text>എൽ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
+       <postcontext><text>എലി</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>എലി </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>എലി ഏ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
+       <postcontext><text>എലി ഏൽ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏല</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>എലി ഏലം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>എലി ഏലം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം അ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
+       <postcontext><text>എലി ഏലം ഐ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒർ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓർ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓര</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം അ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔസ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷദ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദു</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദുഃ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദുഃക്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദുഃഖ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദുഃഖ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>എലി ഏലം ഐക്യം ഒരു ഓരം ഔഷധം ദുഃഖം</text></postcontext>
+    </event>
+  </events></regressiontest>

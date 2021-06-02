@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൃ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൃ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>പൃ പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൃ പൃ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൃ പ്ര</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൃ പ്ര </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ ഋ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ റ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ റ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ റ അ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൃ പ്ര ഋ റ അർ</text></postcontext>
+    </event>
+  </events></regressiontest>

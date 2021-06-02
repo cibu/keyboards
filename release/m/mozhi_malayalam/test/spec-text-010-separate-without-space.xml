@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
+       <postcontext><text>പൊ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻന</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാൺ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം ം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെർ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_L</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ്ക്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ്ക</text></postcontext>
+    </event>
+  </events></regressiontest>

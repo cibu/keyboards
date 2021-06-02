@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>ൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_EQUAL</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKSLASH</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌</text><deadkey>zwnj</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌</text><deadkey>zwnj</deadkey><text>ഋ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼ർ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ ൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKSLASH</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ ൻ‌</text><deadkey>zwnj</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKSLASH</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ ൻ​</text><deadkey>zwnj</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ ൻ​</text><deadkey>zwnj</deadkey><text>്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>ന്</text><deadkey>vir</deadkey><text>‍</text><deadkey>zwj</deadkey><text> ൻ‌￼റ ൻ​￼െ</text></postcontext>
+    </event>
+  </events></regressiontest>

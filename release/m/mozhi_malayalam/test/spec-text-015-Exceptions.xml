@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE regressiontest SYSTEM "http://www.tavultesoft.com/keymandev/regtest.dtd">
+<regressiontest>
+  <info>
+    <version>6.0</version>
+    <systemkeyboard>00000409</systemkeyboard>
+    <keyboard>e:\Users\come2\Documents\dev\keyboards\release\m\mozhi_malayalam\build\mozhi_malayalam.kmx</keyboard>
+    <beginmode>Unicode</beginmode>
+  </info>
+  <events>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
+       <postcontext><text>അൽ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>അല്പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
+       <postcontext><text>അൽപ്പ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>അൽപ്പം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>അൽപ്പം സ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
+       <postcontext><text>അൽപ്പം സംയ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_G</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംർ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംര</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_B</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംബ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സ_</text><deadkey>noconjuncts</deadkey></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമൃ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്ര</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ </text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ എ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ എൻ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ എന്ര്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ എൻറ്</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ എൻറോ</text></postcontext>
+    </event>
+    <event>
+       <key><shiftstate><shift/></shiftstate><vkey>K_L</vkey></key>
+       <postcontext><text>അൽപ്പം സംയോഗം സംരംഭം സമ്യക് സമ്രാട്ട് എൻ്റെ എൻറോൾ</text></postcontext>
+    </event>
+  </events></regressiontest>

@@ -16,8 +16,8 @@
       <FileType>.kmn</FileType>
       <Details>
         <Name>Malayalam Mozhi</Name>
-        <Copyright>© 2017-2020 Junaid P. V.</Copyright>
-        <Message>A complete rebuild of Mozhi keyboard updated for Mozhi 2.0</Message>
+        <Copyright>© 2017-2021 Junaid P. V.</Copyright>
+        <Message>Keyman implementation of the Mozhi2 Keyboard Layout (updated)</Message>
       </Details>
     </File>
     <File>
@@ -31,6 +31,13 @@
         <Copyright>© 2017-2020 Junaid P. V.</Copyright>
         <Version>2.1</Version>
       </Details>
+    </File>
+    <File>
+      <ID>id_9c49d15cd426107626e236a6a4639cf9</ID>
+      <Filename>smc.ml-mlym.malayalam.model.kmp</Filename>
+      <Filepath>..\..\..\..\keyman_developer\smc.ml-mlym.malayalam\build\smc.ml-mlym.malayalam.model.kmp</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmp</FileType>
     </File>
     <File>
       <ID>id_eee76e8314acda474fca0ac1c33f85a4</ID>

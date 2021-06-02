@@ -6,13 +6,13 @@ c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/m
 store(&NAME) 'Malayalam Mozhi'
 store(&KEYBOARDVERSION) '2.1.10'
 store(&BITMAP) 'mozhi_malayalam.ico'
-store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
+store(&COPYRIGHT) '© 2017-2021 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
 c store(&ETHNOLOGUECODE) 'mal'
 c store(&WINDOWSLANGUAGES) 'x044C'
 c store(&LANGUAGE) 'x044C'
 store(&VISUALKEYBOARD) 'mozhi_malayalam.kvks'
-store(&MESSAGE) 'A complete rebuild of Mozhi keyboard updated for Mozhi 2.0'
+store(&MESSAGE) 'Keyman implementation of the Mozhi2 Keyboard Layout (updated)'
 begin Unicode > use(main)
 
 group(ru) using keys
@@ -145,11 +145,15 @@ any(consonants) '്' + 'r' > index(consonants, 1) 'ൃ' set(ru = '2') c 'r' is 
 if(ru = '2') 'ൃ' + any(vowelkeys) > '്ര' index(vowelkeysigns, 3) set(ru = '0')
 if(ru = '2') 'ൃ' + 'r' > 'ൄ'
 if(ru = '2') 'ൄ' + '#' > context c set(ru = '0')
+if(ru = '2') 'ൃ' + 'y' > '്ര്യ്'
+if(ru = '2') 'ൃ' + 'l' > '്ര്ല്'
+if(ru = '2') 'ൃ' + 'v' > '്ര്വ്'
 
 'ഋ' + '#' > 'ൎ'
 
 
 c produce chill
+'ഷ്' + 'n' > 'ഷ്ണ്'
 + any(chillSource) > index(chills,1)
 any(chills) U+200C + any(chillSource) > index(chills,1) index(chills,3)                
 
@@ -179,16 +183,17 @@ any(chills_anu) + 'R' > index(chill_anu_Bases,1) 'ൃ'
 any(chills_anu) + 'r' > index(chill_anu_bases,1) '്ര്' c Ben's addition
 
 c Archaic Forms
+store(seq) '0'
 '.' + '#' >  '।'
 '..' + '#' > '॥'
 'അ' + '#' > 'ഽ'    
 'ഈ' + '#' > 'ൟ'
 'ീ' + '#' > 'ൟ'
-'റ്റ്' + '#' > 'ററ്'
+'റ്റ്' + '#' > 'ററ്' set(seq = '1')
 'ററ്' + '#' > 'ഺ്'
 'ററ' + '#' > 'ഺ'
 'ൻ' + '#' > 'ഩ്'
-'ൻ്റ്' + '#' > 'ൻറ്'
+'ൻ്റ്' + '#' > 'ൻറ്' set(seq = '1')
 'ന' + '#' > 'ഩ'
 'നു' + '#' > '൹' c Malayalam Date Mark
 'ം' + '#' > 'ൔ'
@@ -226,23 +231,23 @@ store(vkey) 'eEoO'
 store(vlform) 'െേെേ'
 store(vrform) nul nul 'ാാ'
 
-any(nt_tt_base) 'റ്' + any(vkey) > index(nt_tt_base, 1) index(vlform, 4) 'റ' index(vrform, 4)
-any(nt_tt_base) 'റ' + 'i' > index(nt_tt_base, 1) 'ൈറ'
-any(nt_tt_base) 'റൗ' + '#' > index(nt_tt_base, 1) 'െറൗ'
+if(seq = '1') any(nt_tt_base) 'റ്' + any(vkey) > index(nt_tt_base, 2) index(vlform, 5) 'റ' index(vrform, 5) set(seq = '0')
+if(seq = '1') any(nt_tt_base) 'റ' + 'i' > index(nt_tt_base, 2) 'ൈറ' set(seq = '0') 
+if(seq = '1') any(nt_tt_base) 'റൗ' + '#' > index(nt_tt_base, 2) 'െറൗ' set(seq = '0')
 
-any(nt_tt_base) 'റ്' + any(subform_key) > index(nt_tt_base, 1) 'റ്' index(subform_base, 4) '്' dk(subform)
-any(nt_tt_base) 'റ്' any(subform_base) '്' dk(subform) + any(vkey) > index(nt_tt_base, 1) index(vlform, 7) 'റ്' index(subform_base, 4) index(vrform, 7)
-any(nt_tt_base) 'റ്' any(subform_base) dk(2)  + 'i' > index(nt_tt_base, 1) 'ൈറ്' index(subform_base, 4)
-any(nt_tt_base) 'റ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 1) 'െറ്' index(subform_base, 4) 'ൗ'
+if(seq = '1') any(nt_tt_base) 'റ്' + any(subform_key) > index(nt_tt_base, 2) 'റ്' index(subform_base, 5) '്' dk(subform) set(seq = '0')
+if(seq = '1') any(nt_tt_base) 'റ്' any(subform_base) '്' dk(subform) + any(vkey) > index(nt_tt_base, 2) index(vlform, 8) 'റ്' index(subform_base, 5) index(vrform, 8) set(seq = '0')
+if(seq = '1') any(nt_tt_base) 'റ്' any(subform_base) dk(2)  + 'i' > index(nt_tt_base, 2) 'ൈറ്' index(subform_base, 5) set(seq = '0')
+if(seq = '1') any(nt_tt_base) 'റ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 2) 'െറ്' index(subform_base, 5) 'ൗ' set(seq = '0')
 
-any(nt_tt_base) 'റ്' + 'r' > index(nt_tt_base, 1) '്രറ്' dk(subform)
-any(nt_tt_base) '്രറ്' dk(subform) + any(subform_key) > index(nt_tt_base, 1) '്രറ്' index(subform_base, 7) '്'
-any(nt_tt_base) '്രറ്' any(subform_base) '്' + any(vkey) > index(nt_tt_base, 1)  '്ര' index(vlform, 8) 'റ്' index(subform_base, 6) index(vrform, 8)
-any(nt_tt_base) '്രറ്' any(subform_base) dk(2) + 'i' > index(nt_tt_base, 1)  '്രൈറ്' index(subform_base, 6)
-any(nt_tt_base) '്രറ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 1)  '്രെറ്' index(subform_base, 6) 'ൗ'
-any(nt_tt_base) '്രറ്' dk(subform) + any(vkey) > index(nt_tt_base, 1) '്ര' index(vlform, 7) 'റ' index(vrform, 7)
-any(nt_tt_base) '്രറ' dk(2) + 'i' > index(nt_tt_base, 1) '്രൈറ'
-any(nt_tt_base) '്രറൗ' + '#' > index(nt_tt_base, 1) '്രെറൗ'
+if(seq = '1') any(nt_tt_base) 'റ്' + 'r' > index(nt_tt_base, 2) '്രറ്' dk(subform) set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' dk(subform) + any(subform_key) > index(nt_tt_base, 2) '്രറ്' index(subform_base, 8) '്' set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) '്' + any(vkey) > index(nt_tt_base, 2)  '്ര' index(vlform, 9) 'റ്' index(subform_base, 7) index(vrform, 9) set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) dk(2) + 'i' > index(nt_tt_base, 2)  '്രൈറ്' index(subform_base, 7) set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 2)  '്രെറ്' index(subform_base, 7) 'ൗ' set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' dk(subform) + any(vkey) > index(nt_tt_base, 2) '്ര' index(vlform, 8) 'റ' index(vrform, 8) set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ' dk(2) + 'i' > index(nt_tt_base, 2) '്രൈറ' set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറൗ' + '#' > index(nt_tt_base, 2) '്രെറൗ' set(seq = '0')
 
 c Handling Ru/Ra
 'ഋ' + 'R' > 'ൠ'
@@ -310,6 +315,7 @@ c Stand-alone vowel signs after chandrakkala (Solve Issue: https://github.com/be
 dk(2) + 'a' > 'ാ'
 dk(2) + 'i' > 'ൈ'
 dk(2) + 'u' > 'ൗ'
+dk(2) + 'r' > 'ർ'
 '്' + 'i' > 'ി'
 '്' + 'I' > 'ീ' 
 'ി' + 'i' > 'ീ'

@@ -138,14 +138,20 @@ any(vowels) + 'r' > index(vowels, 1) 'ർ'
 any(vowelsigns) + 'r' > index(vowelsigns, 1) 'ർ'
 
 if(ru = '1') 'ഋ' + any(vowelkeys) > 'ര' index(vowelkeysigns, 3) set(ru = '0')
-if(ru = '1') 'ഋ' + 'r' > 'ർ'
-if(ru = '1') 'ർ' + '#' > 'ൠ' set(ru='0')
-if(ru = '1') 'ർ' + 'a' > 'റ' set(ru='0')
+if(ru = '1') 'ഋ' + 'r' > 'രൃ'
+if(ru = '1') 'രൃ' + '#' > 'ൠ' set(ru='0')
+if(ru = '1') 'രൃ' + 'a' > 'റ' set(ru='0')
+
+c Alternate option
+c if(ru = '1') 'ഋ' + 'r' > 'ർ'
+c if(ru = '1') 'ർ' + '#' > 'ൠ' set(ru='0')
+c if(ru = '1') 'ർ' + 'a' > 'റ' set(ru='0')
 
 any(consonants) '്' + 'r' > index(consonants, 1) 'ൃ' set(ru = '2') c 'r' is pressed in a non word initial position and in the context of '്'
 if(ru = '2') 'ൃ' + any(vowelkeys) > '്ര' index(vowelkeysigns, 3) set(ru = '0')
 if(ru = '2') 'ൃ' + 'r' > 'ൄ'
 if(ru = '2') 'ൄ' + '#' > context c set(ru = '0')
+if(ru = '2') 'ൄ' + 'a' > '്റ'
 if(ru = '2') 'ൃ' + 'y' > '്ര്യ്'
 if(ru = '2') 'ൃ' + 'l' > '്ര്ല്'
 if(ru = '2') 'ൃ' + 'v' > '്ര്വ്'
@@ -154,7 +160,7 @@ if(ru = '2') 'ൃ' + 'v' > '്ര്വ്'
 
 
 c produce chill
-'ഷ്' + 'n' > 'ഷ്ണ്'
+'ഷ്' + 't' > 'ഷ്ട്'
 + any(chillSource) > index(chills,1)
 any(chills) U+200C + any(chillSource) > index(chills,1) index(chills,3)                
 
@@ -191,8 +197,10 @@ store(seq) '0'
 'ഈ' + '#' > 'ൟ'
 'ീ' + '#' > 'ൟ'
 'റ്റ്' + '#' > 'ററ്' set(seq = '1')
-'ററ്' + '#' > 'ഺ്'
-'ററ' + '#' > 'ഺ'
+'റ്റ' + '#' > 'ററ' set(seq = '1')
+if(seq = '1') 'ററ്' + '#' > 'ഺ്' set(seq = '0')
+if(seq = '1') 'ററ്' + 'a' > 'ററ' c leave the seq flag on, so that the next rule will fire if the user hits a #
+if(seq = '1') 'ററ' + '#' > 'ഺ' set(seq = '0')
 'ൻ' + '#' > 'ഩ്'
 'ൻ്റ്' + '#' > 'ൻറ്' set(seq = '1')
 'ന' + '#' > 'ഩ'
@@ -215,10 +223,14 @@ dk(at) + 'e' > 'െ'
 '₨' + '#' > '$' c Ben's additions
 'പറ' + '#' > U+0D4F
 'ൾ' + '#' > 'ഌ'
+'ൽ' + '#' > 'ഌ'
+'്ൽ' + '#' > 'ൢ'
 '്ള്' + '#' > 'ൢ'
+'ല്ല്' + '#' > 'ൡ'
 'ള്ള്' + '#' > 'ൡ'
 'ഌ' + '#' > 'ൡ' c Ben's additions
 '്ള്ള്' + '#' > 'ൣ'
+'്ല്ല്' + '#' > 'ൣ'
 'ൢ' + '#' > 'ൣ' c Ben's additions
 'ൗ' + '#' > 'ൌ'
 '്' + '#' > U+0D3C
@@ -241,21 +253,21 @@ if(seq = '1') any(nt_tt_base) 'റ്' any(subform_base) '്' dk(subform) + any
 if(seq = '1') any(nt_tt_base) 'റ്' any(subform_base) dk(2)  + 'i' > index(nt_tt_base, 2) 'ൈറ്' index(subform_base, 5) set(seq = '0')
 if(seq = '1') any(nt_tt_base) 'റ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 2) 'െറ്' index(subform_base, 5) 'ൗ' set(seq = '0')
 
-if(seq = '1') any(nt_tt_base) 'റ്' + 'r' > index(nt_tt_base, 2) '്രറ്' dk(subform) set(seq = '0')
-if(seq = '1') any(nt_tt_base) '്രറ്' dk(subform) + any(subform_key) > index(nt_tt_base, 2) '്രറ്' index(subform_base, 8) '്' set(seq = '0')
+if(seq = '1') any(nt_tt_base) 'റ്' + 'r' > index(nt_tt_base, 2) '്രറ്' dk(subform) c set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' dk(subform) + any(subform_key) > index(nt_tt_base, 2) '്രറ്' index(subform_base, 8) '്' c set(seq = '0')
 if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) '്' + any(vkey) > index(nt_tt_base, 2)  '്ര' index(vlform, 9) 'റ്' index(subform_base, 7) index(vrform, 9) set(seq = '0')
-if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) dk(2) + 'i' > index(nt_tt_base, 2)  '്രൈറ്' index(subform_base, 7) set(seq = '0')
-if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 2)  '്രെറ്' index(subform_base, 7) 'ൗ' set(seq = '0')
-if(seq = '1') any(nt_tt_base) '്രറ്' dk(subform) + any(vkey) > index(nt_tt_base, 2) '്ര' index(vlform, 8) 'റ' index(vrform, 8) set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) dk(2) + 'i' > index(nt_tt_base, 2)  '്രൈറ്' index(subform_base, 7) c set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' any(subform_base) 'ൗ'  + '#' > index(nt_tt_base, 2)  '്രെറ്' index(subform_base, 7) 'ൗ' c set(seq = '0')
+if(seq = '1') any(nt_tt_base) '്രറ്' dk(subform) + any(vkey) > index(nt_tt_base, 2) '്ര' index(vlform, 8) 'റ' index(vrform, 8) c set(seq = '0')
 if(seq = '1') any(nt_tt_base) '്രറ' dk(2) + 'i' > index(nt_tt_base, 2) '്രൈറ' set(seq = '0')
 if(seq = '1') any(nt_tt_base) '്രറൗ' + '#' > index(nt_tt_base, 2) '്രെറൗ' set(seq = '0')
 
 c Handling Ru/Ra
 'ഋ' + 'R' > 'ൠ'
 'ൃ' + 'R' > 'ൄ'
-any(consonants) + 'R' > index(consonants,1) 'റ്'
-any(vowels) + 'R' > index(vowels,1) 'റ്'
-any(vowelsigns) + 'R' > index(vowelsigns,1) 'റ്'  
+any(consonants) + 'R' > index(consonants,1) 'ർ'
+any(vowels) + 'R' > index(vowels,1) 'ർ'
+any(vowelsigns) + 'R' > index(vowelsigns,1) 'ർ'  
 + 'R' > use(ru)
 c any(consonants) any(vowels) + 'm' > index(consonants,1)  index(vowels,2) 'ം'
 
@@ -400,7 +412,7 @@ dk(1) + '\' > '\' c to provide a way to keyin an actual '='
 
 c Experimental: the sign chars at the end are added for enabling special strings such as web addresses or email ids. 
 c Warning: treating = as an escapable can create inadvertent consequences as there may be cases to treat is as the dk. 
-store(escapable) 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ>\~@.=' 
+store(escapable) 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ>/\~@.=' 
 dk(1) + any(escapable) > index(escapable, 2)     
 any(escapable) + any(escapable) > index(escapable, 1) index(escapable, 2)
 
@@ -538,11 +550,16 @@ c Error Correction in Conjuncts
 
 c Issue 50: Extra elongation for vowel sign
 'ആ' + 'a' > 'ആാ'
+'ആ' + 'A' > 'ആാ'
 'ഈ' + 'i' > 'ഈൗ'
 'ഈ' + 'e' > 'ഈൗ'
+'ഈ' + 'I' > 'ഈൗ'
+'ഊ' + 'U' > 'ഊൗ' 
 'ഊ' + 'o' > 'ഊൗ' 
 'ൗ' + 'i' > 'ൗൗ'
+'ഏ' + 'E' > 'ഏേ'
 'ഓ' + 'O' > 'ഓാ'
+'ാ' + 'A' > 'ാാ'
 'ാ' + 'O' > 'ാാ'
 'ൗ' + 'o' > 'ൗൗ'
 'ഊ' + 'u' > 'ഊൗ' 
@@ -552,12 +569,14 @@ c Issue 50: Extra elongation for vowel sign
 'ീ' + 'e' > 'ീീ'
 'ീ' + 'E' > 'ീീ'
 'ീ' + 'i' > 'ീീ'
+'ീ' + 'I' > 'ീീ'
 'ൂ' + 'u' > 'ൂൂ'
+'ൂ' + 'U' > 'ൂൂ'
 'ൂ' + 'o' > 'ൂൂ'
 'ൂ' + 'O' > 'ൂൂ'
 'ൄ' + 'R' > 'ൄൄ'
-'േ' + 'E' > 'ീീ'
-'ോ' + 'O' > 'ൂൂ'
+'േ' + 'E' > 'േേ'
+'ോ' + 'O' > 'ോോ'
 'ൗ' + 'u' > 'ൗൗ'
 
 c Important! The behaviour of '_' has been updated in the new mozhi spec. 
@@ -613,6 +632,8 @@ c ''  +  [K_BKSP] > ''
 'ൣ'  +  [K_BKSP] > '്' 
 'റ്റ്' + [K_BKSP] > nul
 'റ്റ' + [K_BKSP] > nul
+'ല്പ്' + [K_BKSP] > 'ൽ'
+'ല്പ' + [K_BKSP] > 'ൽ'
 
 c Convenience Mapping and Emoji
 '-' + '-' > '–'
@@ -629,8 +650,9 @@ dk(1) + '/' > '÷'
 ':' + ')' > '😊'
 ':' + '(' > '☹'
 ':' + 'D' > '😄'
+":'" + ')' > '😂' 
 ':' + 'x' > '😘'
-':' + '/' > '🤔'
+c ':' + '/' > '🤔'
 
 
 c Smart single quotes

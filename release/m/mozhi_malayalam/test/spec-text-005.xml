@@ -10,130 +10,130 @@
   <events>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ടി</text></postcontext>
+       <postcontext><text xml:space="preserve">ടി</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ടിപ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ടിപ്പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ടിപ്പു</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ടിപ്പു </text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ടിപ്പു പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ടിപ്പു പാട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം </text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി </text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഡ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഡ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം </text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം ം</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം മ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം മൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം മൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം മണ</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം മണ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ടിപ്പു പാഠം ഡപ്പി ദൃഢം മണം</text></postcontext>
+       <postcontext><text xml:space="preserve">ടിപ്പു പാഠം ഡപ്പി ദൃഢം മണം</text></postcontext>
     </event>
   </events></regressiontest>

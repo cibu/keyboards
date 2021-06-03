@@ -10,286 +10,286 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ത</text></postcontext>
+       <postcontext><text xml:space="preserve">ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>തറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>തത്റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>തത്ത റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത ത</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>തത്ത തറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>തത്ത തട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത തത്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>തത്ത തത്ത ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത ക</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത ക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>തത്ത തത്ത കറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത തത്ത കത്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ദ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ദ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധന</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധന</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം ന</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം ന</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പൽ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പൽ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫൽ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫൽ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫല</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫല</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_B</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബൽ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബൽ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബല</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബല</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_B</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ബ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ബ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം </text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം ം</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മയ്</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മയ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മയ</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മയ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മയം</text></postcontext>
+       <postcontext><text xml:space="preserve">തത്ത തത്ത കഥ ദയ ധനം നന്ന് പല ഫലം ബലം ഭയം മയം</text></postcontext>
     </event>
   </events></regressiontest>

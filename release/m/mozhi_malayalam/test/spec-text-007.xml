@@ -10,262 +10,262 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>യ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യ</text></postcontext>
+       <postcontext><text xml:space="preserve">യ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>യറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>യത്</text></postcontext>
+       <postcontext><text xml:space="preserve">യത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>യതി</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി ര</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി ര</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>യതി രൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>യതി രണ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>യതി രണ്ട് ൽ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ൽ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ല</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ല</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_V</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വർ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വര</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശർ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശര</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം സ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം സ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാർ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാര</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാർ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാര</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാർ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാര</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇൾ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇൾ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Z</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇശ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇശ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ </text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പർ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പറ്</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പറ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പറ</text></postcontext>
+       <postcontext><text xml:space="preserve">യതി രണ്ട് ലത വരം ശരം ഷാരം സാരം ഹാരം ഇള ഇഴ പറ</text></postcontext>
     </event>
   </events></regressiontest>

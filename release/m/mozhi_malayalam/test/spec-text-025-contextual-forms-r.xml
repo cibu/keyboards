@@ -10,202 +10,202 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ഋ ര ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ കൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ കൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര ക</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര ക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ </text><deadkey>2</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ </text><deadkey>2</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ രൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ രൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ന്ര്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ന്ര്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ കൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ കൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ കൄ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ കൄ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക രൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക രൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ കൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ കൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ കൄ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ കൄ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_3</vkey></key>
-       <postcontext><text>ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ കൄ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഋ ര കൃ രൃ ക്ര കർ ർ റ ൻറ ക്റ ൎക ൠ കൄ</text></postcontext>
     </event>
   </events></regressiontest>

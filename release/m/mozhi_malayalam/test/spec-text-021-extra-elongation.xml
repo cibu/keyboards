@@ -10,338 +10,338 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>അ</text></postcontext>
+       <postcontext><text xml:space="preserve">അ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ ക</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ ക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാാ ആ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഇ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഇ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കി</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കി</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ എ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ എ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കെ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഉ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഉ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കു</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കു</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഒ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഒ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൊ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൊ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ </text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ അ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ അ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ ഔ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ ഔ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ ഔൗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ആാ കാാ ആാ കാാ ഈൗ കീീ ഈൗ കീീീ ഈൗ കീീ ഏേ കേേ ഊൗ കൂൂ ഊൗ കൂൂ ഊൗ കൂൂ ഓാ കോോ ഔൗ</text></postcontext>
     </event>
   </events></regressiontest>

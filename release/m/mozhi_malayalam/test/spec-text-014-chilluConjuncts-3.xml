@@ -10,122 +10,122 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പ</text></postcontext>
+       <postcontext><text xml:space="preserve">പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പാൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>പാണ്ഡ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>പാണ്ഡ്യ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാണ്ഡ്യ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ </text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_V</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാത്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാത</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്തൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്തൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം </text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്തൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്തൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്രെ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്രെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്രീ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാണ്ഡ്യൻ സ്വാതന്ത്ര്യം സ്ത്രീ</text></postcontext>
     </event>
   </events></regressiontest>

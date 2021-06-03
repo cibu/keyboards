@@ -10,58 +10,58 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൃ </text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>പൃ പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൃ പൃ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പൃ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൃ പ്ര</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൃ പ്ര </text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ </text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ റ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ റ </text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ റ അ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ റ അ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൃ പ്ര ഋ റ അർ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൃ പ്ര ഋ റ അർ</text></postcontext>
     </event>
   </events></regressiontest>

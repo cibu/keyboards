@@ -10,42 +10,42 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പ</text></postcontext>
+       <postcontext><text xml:space="preserve">പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>പാറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പാറ്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പാറ്റ </text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_4</vkey></key>
-       <postcontext><text>പാറ്റ ₹</text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ ₹</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_1</vkey></key>
-       <postcontext><text>പാറ്റ ₹1</text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ ₹1</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
-       <postcontext><text>പാറ്റ ₹10</text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ ₹10</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_0</vkey></key>
-       <postcontext><text>പാറ്റ ₹100</text></postcontext>
+       <postcontext><text xml:space="preserve">പാറ്റ ₹100</text></postcontext>
     </event>
   </events></regressiontest>

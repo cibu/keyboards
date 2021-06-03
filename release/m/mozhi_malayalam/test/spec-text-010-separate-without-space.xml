@@ -10,178 +10,178 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>പൊ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> </text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_O</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻന</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻന</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_Y</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം </text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം ം</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_D</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി </text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക </text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻ_</text><deadkey>noconjuncts</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെർ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ </text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ ൾ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ_</text><deadkey>noconjuncts</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ ൾ_</text><deadkey>noconjuncts</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ ൾ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ്ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ ൾ്ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>പൊൻ_</text><deadkey>noconjuncts</deadkey><text> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text>അദനി ഇൻക ൻെറ ൾ്ക</text></postcontext>
+       <postcontext><text xml:space="preserve">പൊൻ_</text><deadkey>noconjuncts</deadkey><text xml:space="preserve"> പൊൻനാണ്യം മ്</text><deadkey>vir</deadkey><text xml:space="preserve">അദനി ഇൻക ൻെറ ൾ്ക</text></postcontext>
     </event>
   </events></regressiontest>

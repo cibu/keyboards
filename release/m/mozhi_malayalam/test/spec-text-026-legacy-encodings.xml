@@ -10,214 +10,214 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>ന്‍ ൽ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ൽ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ഋ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ഋ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_BKSP</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ </text><deadkey>2</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ </text><deadkey>2</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ർ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_L</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ൾ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ൾ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ൻ്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ൻ്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ൻ്റെ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ൻ്റെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ൻ്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ൻ്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ </text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ൻ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ൻ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_E</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ൻ്റെ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ൻ്റെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ന്റെ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ന്റെ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_6</vkey></key>
-       <postcontext><text>ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ന്‍റെ</text></postcontext>
+       <postcontext><text xml:space="preserve">ന്‍ ല്‍ ര്‍ ള്‍ ണ്‍ ക്‍ ന്റ ന്റ ന്റെ ന്‍റ് ന്‍റ ന്‍റെ</text></postcontext>
     </event>
   </events></regressiontest>

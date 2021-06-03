@@ -10,278 +10,278 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ഞാൻ ം</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് ം</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ്ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ്ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് ം</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_BKQUOTE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> ം</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_HYPHEN</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മ_</text><deadkey>noconjuncts</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മ_</text><deadkey>noconjuncts</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാന</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാന</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ഞ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ഞ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_J</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജന</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജന</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സി</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സി</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_G</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_G</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_G</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് </text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_G</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർങ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർങ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_G</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർങ്ഗ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർങ്ഗ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർങ്ഗ</text></postcontext>
+       <postcontext><text xml:space="preserve">ഞാൻ മഞ്ഞ് മഞ്ഞ് മഞ്ഞ്</text><deadkey>vir</deadkey><text xml:space="preserve"> മഞ് ജ്ഞാനം അഞ്ജനം സിങ് ഇങ്ങ് ശാർങ്ഗ</text></postcontext>
     </event>
   </events></regressiontest>

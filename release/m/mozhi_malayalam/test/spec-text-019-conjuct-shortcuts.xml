@@ -10,622 +10,622 @@
   <events>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ങ്ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ൻൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ൻൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ൻൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ൻൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ൻൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ൻൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ക്ക്</text><deadkey>3</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ക്ക്</text><deadkey>3</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ക്ക്</text><deadkey>3</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ക്ക്</text><deadkey>3</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട സ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട സ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട ം</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട ം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_K</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പു</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പു</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുൻൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുൻൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_V</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാൻ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാൻ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാൻൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാൻൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പക്ക്</text><deadkey>3</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പക്ക്</text><deadkey>3</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_U</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പു</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പു</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുൿ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുൿ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_C</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുക്ക്</text><deadkey>3</deadkey></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുക്ക്</text><deadkey>3</deadkey></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ച്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ച്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട റ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട റ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട ത</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_R</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ത്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ത്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പറ്റ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പറ്റ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_P</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പ</text></postcontext>
     </event>
     <event>
        <key><shiftstate><shift/></shiftstate><vkey>K_N</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പൺ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പൺ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_SPACE</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് </text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് </text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_I</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇ</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇ</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_S</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇസ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇസ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_H</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_T</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്ട്</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്ട്</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_A</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്ട</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്ട</text></postcontext>
     </event>
     <event>
        <key><shiftstate></shiftstate><vkey>K_M</vkey></key>
-       <postcontext><text>ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്ടം</text></postcontext>
+       <postcontext><text xml:space="preserve">ങ്ക ഞ്ച് ഞ്ച ഞ്ഛ ച്ച ച്ഛ ട്ട ത്ത ത്ഥ ട്ട ട്ട ണ്ട ണ്ട ഷ്ട മങ്ക പുഞ്ച വാഞ്ഛ പച്ച പുച്ഛം പട്ട തത്ത അർത്ഥം പട്ട പട്ട പണ്ട് പണ്ട് ഇഷ്ടം</text></postcontext>
     </event>
   </events></regressiontest>

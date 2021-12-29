@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.1.4'
+store(&KEYBOARDVERSION) '2.1.5'
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
@@ -142,9 +142,9 @@ any(chills_anu) + 'o' > index(chill_anu_Bases,1) 'ൊ'
 any(chills_anu) + 'O' > index(chill_anu_Bases,1) 'ോ'
 any(chills_anu) + 'y' > index(chill_anu_Bases,1) '്യ്'
 any(chills_anu) + 'R' > index(chill_anu_Bases,1) 'ൃ'            
-'ർ' + 'r' > 'റ്' c Ben's addition
+'ർ' + 'r' > 'ഋ' c Ben's addition
 'ന്ര്' + 'r' > 'ൻറ്' c Ben's addition
-any(chills_anu) + 'r' > index(chill_anu_bases,1) '്ര്' c Ben's addition
+any(chills_anu) + 'r' > index(chill_anu_bases,1) 'ൃ' c '്ര്' c Ben's addition
 
 c Archaic Forms
 '.' + '#' >  '।'
@@ -227,15 +227,17 @@ c Fix #50: Extra elongation for vowel signs
 'ഋ' + 'O' > 'റോ'
 'ഋ' + '~' > 'റ്'
 'ഌ' + 'l' > 'ൡ'
-'എ' + 'a' > 'ഈ'
+'എ' + 'a' > 'ഏ'
 'എ' + 'e' > 'ഈ'
 'എ' + 'i' > 'ഐ'
+'ഒ' + 'a' > 'ഓ'
 'ഒ' + 'o' > 'ഊ'
 'ഒ' + 'u' > 'ഔ'  
 'ി' + 'e' > 'ീ'
 'ി' + 'i' > 'ൈ'
-'െ' + 'a' > 'ീ'
+'െ' + 'a' > 'േ'
 'െ' + 'e' > 'ീ'
+'ൊ' + 'a' > 'ോ'
 'ൊ' + 'o' > 'ോ'
 'ൊ' + 'u' > 'ൗ'
 
@@ -296,11 +298,12 @@ any(consonants) + 'i' > index(consonants,1) 'ൈ'
 any(consonants) '്' + 'o' > index(consonants,1) 'ൊ'
 any(consonants) '്' + 'O' > index(consonants,1) 'ോ'
 any(consonants) + 'u' > index(consonants,1) 'ൗ'
-any(consonants)  '്' + 'r' > index(consonants,1) '്ര്'
+any(consonants)  '്' + 'r' > index(consonants,1) 'ൃ' c '്ര്'
 
 store(nonSa) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷഹളഴറ"
 
 'ൻ' + 'g' > 'ങ്'
+'ൻ' + 'h' > 'ൺ'
 'ൿ' + 'h' > 'ച്'
 
 'ം' + 'm' > 'മ്മ്'
@@ -440,13 +443,17 @@ c Error Correction in Conjuncts
 'ന്ന്' + 'j' > 'ഞ്ഞ്'
 'ന്ന്' + 'g' > 'ങ്ങ്'
 'റ്റ്' + 'h' > 'ത്'
-'റ്റ്' + 't' > 'ട്ട്' 
+'ൽ' + 'h' > 'ൾ'
+'റ്റ്' + 't' > 'ട്' 
+'ദ്' + 't' > 'ഡ്' 
 'ൻ്റ്' + 'h' > 'ന്ത്' 
+'ൻ്റ്' + 't' > 'ണ്ട്' 
 'ന്റ്' + 'h' >  'ന്ത്'
 'ന്‍റ്' + 'h' >  'ന്ത്'
 'ൻൿ' + 'h' > 'ഞ്ച്'
 'ക്ക്' deadkey(doublec) + 'h' > 'ച്ച്'
 'ല്പ്' + 'p' > 'ൽപ്പ്'
+'ഷ്' + 'n' > 'ഷ്ണ്'
 
 c Issue 50: Extra elongation for vowel sign
 'ആ' + 'a' > 'ആാ'

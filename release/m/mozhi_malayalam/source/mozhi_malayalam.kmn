@@ -13,6 +13,9 @@ c store(&WINDOWSLANGUAGES) 'x044C'
 c store(&LANGUAGE) 'x044C'
 store(&VISUALKEYBOARD) 'mozhi_malayalam.kvks'
 store(&MESSAGE) 'A complete rebuild of Mozhi keyboard updated for Mozhi 2.0'
+store(&ETHNOLOGUECODE) 'mal'
+store(&LANGUAGE) 'x044C'
+store(&WINDOWSLANGUAGES) 'x044C'
 begin Unicode > use(main)
 
 group(main) using keys
@@ -180,9 +183,9 @@ U+0D3C + '#' > U+0D3B
 any(consonants) '്ല്' + '#' > index(consonants, 1) U+0D62
 
 c Handling Ru/Ra
-any(consonants) + 'R' > index(consonants,1) 'റ'
-any(vowels) + 'R' > index(vowels,1) 'റ'
-any(vowelsigns) + 'R' > index(vowelsigns,1) 'റ'  
+any(consonants) + 'R' > index(consonants,1) 'റ്'
+any(vowels) + 'R' > index(vowels,1) 'റ്'
+any(vowelsigns) + 'R' > index(vowelsigns,1) 'റ്'  
 + 'R' > 'ഋ'
 'ഋ' + 'R' > 'ൠ'
 c any(consonants) any(vowels) + 'm' > index(consonants,1)  index(vowels,2) 'ം'

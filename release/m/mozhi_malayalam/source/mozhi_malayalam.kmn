@@ -20,8 +20,6 @@ begin Unicode > use(main)
 
 c group(nganya) using keys
 
-group(main) using keys
-
 store(consonants) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷസഹളഴറ"
 store(vowels) "അആഇഈഉഊഋൠഌൡഎഏഐഒഓഔ"
 store(vowelsigns) "ാിീുൂൃൄൢൣെേൈൊോൗ"
@@ -59,6 +57,9 @@ store(Keystrokes) outs(chillSource) outs(vDirectSmallKeys) outs(vDirectCapsKeys)
 c digits
 store(digits) '0123456789'
 store(malDigits) '൦൧൨൩൪൫൬൭൮൯'
+
+group(main) using keys
+
 any(malDigits) + any(digits) > index(malDigits,1) index(malDigits,2)
 any(digits) + '#' > index(malDigits, 1)
 '10' + '#' > U+0d70

@@ -18,6 +18,8 @@ store(&LANGUAGE) 'x044C'
 store(&WINDOWSLANGUAGES) 'x044C'
 begin Unicode > use(main)
 
+c group(nganya) using keys
+
 group(main) using keys
 
 store(consonants) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷസഹളഴറ"
@@ -198,6 +200,14 @@ U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
 + any(vDirectSmallKeys) > index(vDirectSmallValues,1)
 U+200C + any(vDirectSmallKeys) > index(vDirectSmallValues,2)
 + any(vDirectCapsKeys) > index(vDirectCapsValues,1)
+U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
+
+c geminate nya and nga when they appear between vowels
+c store(vowelcontexts) outs(vowels) outs(vowelsigns)
+c any(vowelcontexts) 'ങ്' + any(vDirectSmallKeys) > index(vowelcontexts,1) use(nganya) c 'ങ്ങ്' index(vDirectSmallValues,4)
+
+
+c always remove none joiner before vowels
 U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
 
 c always remove zwnj before a word final chars
@@ -442,6 +452,8 @@ c Error Correction in Conjuncts
 'ൺ' + 'G' > 'ങ്ങ്'
 'ൺ' + 'J' > 'ഞ്ഞ്'
 'ട്' + 't' > 'ട്ട്'
+'ർ' + 't' > 'ർട്'
+'ഷ്' + 't' > 'ഷ്ട്'
 'റ്റ്' + 'T' > 'ട്ട്'
 'ൻ' + 'T' > 'ണ്ട്'
 'ൺ' + 't' > 'ണ്ട്'

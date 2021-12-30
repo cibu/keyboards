@@ -29,9 +29,9 @@ store(KeyContexts) outs(consonants) outs(vowels) outs(vowelsigns)
 
 c Consonants
 store(cDirectSmallKeys) 'kqQgjdpfbyvwzsh'
-store(cDirectSmallValues)  'കഖഖഗജദപഫബയവവശസഹ'
+store(cDirectSmallValues)  'കഖഘഗജദപഫബയവവശസഹ'
 store(cDirectCapsKeys) 'DSTF'
-store(cDirectCapsValues) 'ഡശടഫ'
+store(cDirectCapsValues) 'ഡശടഭ'
 
 c produce vowels
 store(vDirectSmallValues) "അഎഇഒഉ"
@@ -46,7 +46,7 @@ store(chillBases) "ണനരലളക"
 
 c Treat anusvaram as chillu (Solve Issue: https://github.com/beniza/keyboards/issues/1)
 store(chills_anu) 'ൺൻർൽൾൿം'
-store(chill_anu_Bases) "ണനരലളകമ"       
+store(chill_anu_Bases) "ണനരലളചമ"       
 
 c always remove zwnj before a word final chars
 store(WordFinalChars) ' ?.!)]}"”’'
@@ -208,6 +208,7 @@ c always remove zwnj before a word final chars
 c store(WordFinalChars) ' ?.!)]}"”’'
 c Fix #50: Extra elongation for vowel signs
 'അ' + 'a' > 'ആ'
+'അ' + 'e' > 'ഏ'
 'അ' + 'i' > 'ഐ'
 'അ' + 'u' > 'ഔ'
 'ഇ' + 'e' > 'ഈ'
@@ -282,10 +283,12 @@ any(thinConsonants) '്' + 'h' > index(thickConsonants,1) '്'
 any(consonants) '്' + 'a' > index(consonants,1)
 any(consonants) '്' + 'A' > index(consonants,1) 'ാ'
 any(consonants) + 'a' > index(consonants,1) 'ാ'
+any(consonants) + 'e' > index(consonants,1) 'േ'
 any(consonants) '്' + 'i' > index(consonants,1) 'ി'
 any(consonants) 'ി' + 'i' > index(consonants,1) 'ീ'
 any(consonants) '്' + 'I' > index(consonants,1) 'ീ'
 any(consonants) 'െ' + 'e' > index(consonants,1) 'ീ'
+any(consonants) 'െ' + 'i' > index(consonants,1) 'ൈ'
 any(consonants) '്' + 'u' > index(consonants,1) 'ു'
 any(consonants) 'ൊ' + 'o' > index(consonants,1) 'ൂ'
 any(consonants) 'ു' + 'u' > index(consonants,1) 'ൂ'
@@ -337,7 +340,9 @@ any(KeyContexts) 'ൻ' + 'j' > index(KeyContexts, 1) 'ഞ്ഞ്'
 'ഞ്ഞ്' + any(cDirectCapsKeys) > 'ഞ്' index(cDirectCapsValues, 5) '്'
 'ഞ്ഞ്' + any(cDirectSmallKeys) > 'ഞ്' index(cDirectSmallValues,5) '്'
 'ഞ്ഞ്' + 'c' > 'ഞ്ച്'
+'ൻ' + 'c' > 'ഞ്ച്'
 'ഞ്ഞ്ൻ' + 'j' > 'ഞ്ഞ്'
+'ങ്ങ്' + 'g' > 'ങ്ങ്'
 'ഞ്ഞ്' + 't' > 'ഞ്റ്റ്'
 c #c1
 c ['([അ-ഊഌഎ-ഐഒ-ഹ])([ഽ-ൂെ-ൌൗ])+R', '', '$2$3റ്'],
@@ -359,6 +364,7 @@ any(consonants) '്' + 'L' > index(consonants,1) '്ള്'  c deadkey(capl) c
 
 'ൺ' + 'N' > 'ണ്ണ്'
 'ൺ' + 'T' > 'ണ്ട്'
+'ൺ' + 'd' > 'ണ്ട്'
 'ൺ' + 'D' > 'ണ്ഡ്'
 'ൺ' + 'v' > 'ണ്വ്'
 'ൺ' + 'm' > 'ണ്മ്'
@@ -394,8 +400,8 @@ c The following rules handle the chillu-ka based forms and their back-space beha
 'ൿ' + 'L' > 'ക്ല്' dk(3) 
 'ൿ' + 'v' > 'ക്വ്' dk(3)
 'ൿ' + 'k' > 'ക്ക്' dk(3)
-'ൿ' + 'c' > 'ക്ക്' dk(3) c deadkey(chillu-ka)
-'ക്ക്' dk(3) + 'h' > 'ച്ച്'
+'ൿ' + 'c' > 'ച്ച്' c dk(3) c deadkey(chillu-ka)
+'ക്ക്' dk(3) + 'h' > 'ച്ഛ്'
 'ക്ക്' dk(3) + [K_BKSP] > 'ൿ'
 'ക്ല്' dk(3) + [K_BKSP] > 'ൿ'
 'ക്വ്' dk(3) + [K_BKSP] > 'ൿ'
@@ -420,10 +426,9 @@ c digits
 + 'K' > 'ക്ക്'
 + 'M' > 'മ്മ്'
 + 'P' > 'പ്പ്'
-+ 'Q' > 'ക്യു'
 + 'V' > 'വ്വ്'
 + 'W' > 'വ്വ്'
-+ 'X' > 'ക്സ്'
++ 'X' > 'ക്ഷ്'
 + 'Y' > 'യ്യ്'
 + 'Z' > 'ഴ്'
 + 'q' > 'ക്ക്'
@@ -446,6 +451,7 @@ c Error Correction in Conjuncts
 'ൽ' + 'h' > 'ൾ'
 'റ്റ്' + 't' > 'ട്' 
 'ദ്' + 't' > 'ഡ്' 
+'ത്' + 't' > 'ത്ത്' 
 'ൻ്റ്' + 'h' > 'ന്ത്' 
 'ൻ്റ്' + 't' > 'ണ്ട്' 
 'ന്റ്' + 'h' >  'ന്ത്'
@@ -453,12 +459,18 @@ c Error Correction in Conjuncts
 'ൻൿ' + 'h' > 'ഞ്ച്'
 'ക്ക്' deadkey(doublec) + 'h' > 'ച്ച്'
 'ല്പ്' + 'p' > 'ൽപ്പ്'
+'ല്ല്' + 'h' > 'ള്ള്'
 'ഷ്' + 'n' > 'ഷ്ണ്'
+'ങ്' + 'n' > 'ങ്ങ്'
 
 c Issue 50: Extra elongation for vowel sign
 'ആ' + 'a' > 'ആാ'
+'ഇ' + 'a' > 'ഈ'
+'ി' + 'a' > 'ീ'
 'ഈ' + 'i' > 'ഈൗ'
 'ഈ' + 'e' > 'ഈൗ'
+'ഉ' + 'a' > 'ഊ'
+'ു' + 'a' > 'ൂ'
 'ഊ' + 'o' > 'ഊൗ' 
 'ൗ' + 'i' > 'ൗൗ'
 'ഓ' + 'O' > 'ഓാ'

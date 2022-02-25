@@ -18,7 +18,8 @@ store(&LANGUAGE) 'x044C'
 store(&WINDOWSLANGUAGES) 'x044C'
 begin Unicode > use(main)
 
-c group(nganya) using keys
+c Flags
+store(rt) '0' c set this flag if a ട് comes as the output of the ട് after ർ rule
 
 group(main) using keys
 
@@ -290,6 +291,7 @@ c Aspiration and certain fluids are obtained by typing an 'h' after the unaspira
 store(thinConsonants) "കഗചജടഡതദപബസശ"
 store(thickConsonants) "ഖഘഛഝഠഢഥധഫഭഷഴ"
 any(thinConsonants) '്' + 'h' > index(thickConsonants,1) '്' 
+if(rt='1') 'ട്' + 'h' > 'ത്' set(rt='0')
 
 any(consonants) '്' + 'a' > index(consonants,1)
 any(consonants) '്' + 'A' > index(consonants,1) 'ാ'
@@ -454,7 +456,7 @@ c Error Correction in Conjuncts
 'ൺ' + 'G' > 'ങ്ങ്'
 'ൺ' + 'J' > 'ഞ്ഞ്'
 'ട്' + 't' > 'ട്ട്'
-'ർ' + 't' > 'ർട്'
+'ർ' + 't' > 'ർട്' set(rt='1') c ട after ർ
 'ഷ്' + 't' > 'ഷ്ട്'
 'റ്റ്' + 'T' > 'ട്ട്'
 'ൻ' + 'T' > 'ണ്ട്'

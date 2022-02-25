@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.1.5'
+store(&KEYBOARDVERSION) '2.1.51'
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
@@ -85,6 +85,7 @@ c Virama added explicitely (using ~) should be preserved
 U+0D4D + '`' > U+0D4D dk(vir)
 c U+0D4D dk(vir) + any(consonants) > U+0D4D U+200D index(consonants, 3)
 any(chills_anu) + '`' > index(chill_anu_bases, 1) '്' dk(vir)
+any(chills_anu) + '~' > index(chill_anu_bases, 1) '്' dk(vir)
 dk(vir) + '_' > Nul c cancels the explicit virama property  
 any(consonants) U+0D4D dk(vir) + any(cDirectSmallKeys) > index(consonants, 1) U+0D4D U+200C index(cDirectSmallValues, 4) U+0D4D
 any(consonants) U+0D4D dk(vir) + any(cDirectCapsKeys) > index(consonants, 1) U+0D4D U+200C index(cDirectCapsValues, 4) U+0D4D

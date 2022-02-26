@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.1.51'
+store(&KEYBOARDVERSION) '2.1.6'
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
@@ -473,6 +473,7 @@ c Error Correction in Conjuncts
 'ന്റ്' + 'h' >  'ന്ത്'
 'ന്‍റ്' + 'h' >  'ന്ത്'
 'ൻൿ' + 'h' > 'ഞ്ച്'
+'ഞ്ച്' + 'h' > 'ഞ്ച്'
 'ക്ക്' deadkey(doublec) + 'h' > 'ച്ച്'
 'ല്പ്' + 'p' > 'ൽപ്പ്'
 'ല്ല്' + 'h' > 'ള്ള്'

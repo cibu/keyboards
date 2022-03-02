@@ -214,6 +214,7 @@ c ---------------------------
 'ഋ' + 'e' > 'റെ'
 'എ' + 'e' > 'ഈ'
 'ഒ' + 'e' > 'ഓ'
+'ം' + 'e' > 'മെ'
 '്' + 'e' > 'െ'
 'ി' + 'e' > 'ീ'
 'ൃ' + 'e' > '്രെ'
@@ -353,7 +354,8 @@ c ---------------------------
 '്' + 'i' > 'ി'
 
 any(chillu) + 'i' > index(chillu_bases,1) 'ി'
-any(ka2ta) + 'i' > index(ka2ta, 1) 'ി'
+any(ka2ta) '്' + 'i' > index(ka2ta, 1) 'ി'
+any(ka2ta) + 'i' > index(ka2ta, 1) 'ൈ'
 
 any(la_conjuncts) '്ൽ' dk(non_joiner) + 'i' > index(la_conjuncts, 1) '്' U+200C 'ലി'
 any(nna_conjuncts) '്ൺ' dk(non_joiner) + 'i' > index(nna_conjuncts, 1) '്' U+200C 'ണി'
@@ -518,15 +520,42 @@ c ---------------------------
 'ൊ' + 'o' > 'ൂ'
 '്' + 'o' > 'ൊ'
 
-any(ka2ta) + 'o' > context 'ോ'
+any(ka2ta) '്' + 'o' > index(ka2ta, 1) 'ൊ'
 any(chillu) + 'o' > index(chillu_bases, 1) 'ൊ' 
-any(la_conjuncts) 'ൽ' + 'o' >  U+200C 'ലൊ'
-any(la_conjuncts) 'ൺ' + 'o' >  U+200C 'ണൊ'
-any(la_conjuncts) 'ൻ' + 'o' >  U+200C 'നൊ'
-any(la_conjuncts) 'ം' + 'o' >  U+200C 'മൊ'
+any(la_conjuncts) 'ൽ' + 'o' > index(la_conjuncts,1) U+200C 'ലൊ'
+any(nna_conjuncts) 'ൺ' + 'o' >  index(la_conjuncts,1) U+200C 'ണൊ'
+any(na_conjuncts) 'ൻ' + 'o' >  index(la_conjuncts,1) U+200C 'നൊ'
+any(ma_conjuncts) 'ം' + 'o' >  index(la_conjuncts,1) U+200C 'മൊ'
 
 
 group(upper_o) using keys
 c ===========================
 c handles the keypress 'O'
 c --------------------------- 
+
++ 'O' > 'ഓ'
+
+'ഓ' + 'O' > context 'ാ'
+'ള്ൾ' + 'O' > 'ള്' U+200C 'ളോ'
+'ോ' + 'O' > context 'ോ'
+
+'്ർ' + 'O' > '്' U+200C 'രൊ'
+
+'ം' + 'O' > 'മൊ'
+'അ' + 'O' > 'ഓ'
+'ഋ' + 'O' > 'റൊ'
+'ഒ' + 'O' > 'ഊ'
+'ൻറ്റ്' + 'O' > 'ൻെററാ'
+'ൻ്രറ്യ്' + 'O' > 'ൻ്രെറ്യാ'
+'റ്രറ്യ്' + 'O' > 'റ്രെറ്യാ'
+'ൃ' + 'O' > '്രൊ'
+'ൊ' + 'O' > context 'ോ'
+'്' + 'O' > 'ൊ'
+
+
+any(ka2ta) '്' + 'O' > index(ka2ta, 1) 'ോ'
+any(chillu) + 'O' > index(chillu_bases, 1) 'ോ' 
+any(la_conjuncts) '്' 'ൽ' + 'O' > index(la_conjuncts, 1) '്' U+200C 'ലോ'
+any(nna_conjuncts) '്' 'ൺ' + 'O' > index(nna_conjuncts, 1) '്' U+200C 'ണോ'
+any(na_conjuncts) '്' 'ൻ' + 'O' > index(na_conjuncts, 1) '്' U+200C 'നോ'
+any(ma_conjuncts) '്' 'ം' + 'O' > index(ma_conjuncts, 1) '്' U+200C 'മോ'

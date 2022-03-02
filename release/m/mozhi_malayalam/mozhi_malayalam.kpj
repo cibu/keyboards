@@ -12,12 +12,12 @@
       <ID>id_b25177cdb885e4b67943afe1d3e6bc0a</ID>
       <Filename>mozhi_malayalam.kmn</Filename>
       <Filepath>source\mozhi_malayalam.kmn</Filepath>
-      <FileVersion>2.1.6.1</FileVersion>
+      <FileVersion>3</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Malayalam Mozhi</Name>
         <Copyright>© 2017-2020 Junaid P. V.</Copyright>
-        <Message>A complete rebuild of Mozhi keyboard updated for Mozhi 2.0</Message>
+        <Message>Malayalam Keyboard for Mozhi 2.1</Message>
       </Details>
     </File>
     <File>

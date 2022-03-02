@@ -110,6 +110,8 @@ group(main) using keys
 + 'M' > use(upper_m)
 + 'n' > use(lower_n)
 + 'N' > use(upper_n)
++ 'o' > use(lower_o)
++ 'O' > use(upper_o)
 
 group(lower_a) using keys
 c ===========================
@@ -492,3 +494,39 @@ store(kasha) 'കഷ'
 
 any(kasha) '്' + 'N' > context 'ണ്'
 any(mala) 'ർ' + 'N' > context 'ൺ'
+
+group(lower_o) using keys
+c ===========================
+c handles the keypress 'o'
+c --------------------------- 
++ 'o' > 'ഒ'
+
+'ഊ' + 'o' > context 'ൗ'
+'ള്ൾ' + 'o' > 'ള്' U+200C 'ളൊ'
+'ൂ' + 'o' > 'ൂൂ'
+'ൗ' + 'o' > 'ൗൗ'
+'്ർ' + 'o' > '്' U+200C 'രൊ'
+
+'ം' + 'o' > 'മൊ'
+'അ' + 'o' > 'ഓ'
+'ഋ' + 'o' > 'റൊ'
+'ഒ' + 'o' > 'ഊ'
+'ൻറ്റ്' + 'o' > 'ൻെററാ'
+'ൻ്രറ്യ്' + 'o' > 'ൻ്രെറ്യാ'
+'റ്രറ്യ്' + 'o' > 'റ്രെറ്യാ'
+'ൃ' + 'o' > '്രൊ'
+'ൊ' + 'o' > 'ൂ'
+'്' + 'o' > 'ൊ'
+
+any(ka2ta) + 'o' > context 'ോ'
+any(chillu) + 'o' > index(chillu_bases, 1) 'ൊ' 
+any(la_conjuncts) 'ൽ' + 'o' >  U+200C 'ലൊ'
+any(la_conjuncts) 'ൺ' + 'o' >  U+200C 'ണൊ'
+any(la_conjuncts) 'ൻ' + 'o' >  U+200C 'നൊ'
+any(la_conjuncts) 'ം' + 'o' >  U+200C 'മൊ'
+
+
+group(upper_o) using keys
+c ===========================
+c handles the keypress 'O'
+c --------------------------- 

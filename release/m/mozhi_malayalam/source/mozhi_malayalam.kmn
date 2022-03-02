@@ -4,591 +4,478 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '2.1.6.1' 
+store(&KEYBOARDVERSION) '3' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
 store(&TARGETS) 'windows macosx linux web'
-c store(&ETHNOLOGUECODE) 'mal'
-c store(&WINDOWSLANGUAGES) 'x044C'
-c store(&LANGUAGE) 'x044C'
 store(&VISUALKEYBOARD) 'mozhi_malayalam.kvks'
-store(&MESSAGE) 'A complete rebuild of Mozhi keyboard updated for Mozhi 2.0'
+store(&MESSAGE) 'Malayalam Keyboard for Mozhi 2.1'
 store(&ETHNOLOGUECODE) 'mal'
 store(&LANGUAGE) 'x044C'
 store(&WINDOWSLANGUAGES) 'x044C'
 begin Unicode > use(main)
 
-c Flags
-store(rt) '0' c set this flag if a ട് comes as the output of the ട് after ർ rule
+
+store(chillu) 'ൺൻർൽൾൿ'
+store(chillu_bases) 'ണനരലളക'
+
+store(unaspirated) 'കഗജടഡതദപബ'
+store(aspirated)   'ഖഘഝഠഢഥധഫഭ'
+
+store(mala)  'ഀഁംഃഄ'\
+             'അആഇഈഉഊഋഌ഍എഏഐ഑ഒഓഔ'\
+             'കഖഗഘങ'\
+             'ചഛജഝഞ'\
+             'ടഠഡഢണ'\
+             'തഥദധനഩ'\
+             'പഫബഭമ'\
+             'യരറലളഴവ'\
+             'ശഷസഹഺ'\
+             '഻഼ഽ'\
+             'ാിീുൂൃൄ൅െേൈ൉ൊോൌ്ൎ'\
+             '൏'\
+             '൐൑൒൓'\
+             'ൔൕൖ'\
+             'ൗ'\
+             '൘൙൚൛൜൝൞ൟൠൡൢൣ'\
+             '൤൥'\
+             '൦൧൨൩൪൫൬൭൮൯൰൱൲൳൴൵൶൷൸'\
+             '൹'\
+             'ൺൻർൽൾൿ'
+
+store(mala_sans_virama)  'ഀഁംഃഄ'\
+             'അആഇഈഉഊഋഌ഍എഏഐ഑ഒഓഔ'\
+             'കഖഗഘങ'\
+             'ചഛജഝഞ'\
+             'ടഠഡഢണ'\
+             'തഥദധനഩ'\
+             'പഫബഭമ'\
+             'യരറലളഴവ'\
+             'ശഷസഹഺ'\
+             '഻഼ഽ'\
+             'ാിീുൂൃൄ൅െേൈ൉ൊോൌൎ'\
+             '൏'\
+             '൐൑൒൓'\
+             'ൔൕൖ'\
+             'ൗ'\
+             '൘൙൚൛൜൝൞ൟൠൡൢൣ'\
+             '൤൥'\
+             '൦൧൨൩൪൫൬൭൮൯൰൱൲൳൴൵൶൷൸'\
+             '൹'\
+             'ൺൻർൽൾൿ'
+
+store(mala_digits) '൦൧൨൩൪൫൬൭൮൯൰൱൲൳൴൵൶൷൸'
+
+store(ka2ta) 'കഖഗഘങ'\
+             'ചഛജഝഞ'\
+             'ടഠഡഢണ'\
+             'തഥദധനഩ'\
+             'പഫബഭമ'\
+             'യരറലളഴവ'\
+             'ശഷസഹഺ'\
+
+
+store(la_conjuncts)  'കഗതപഫബമലവശസഹ' c Consonants with la forms a conjunct form
+store(nna_conjuncts) 'ണഷണ'
+store(na_conjuncts)  'ഗഘതസധനപമശസഹഴ'
+store(ma_conjuncts)  'ഗണതസനമശസഹ'
 
 group(main) using keys
 
-store(consonants) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷസഹളഴറ"
-store(vowels) "അആഇഈഉഊഋൠഌൡഎഏഐഒഓഔ"
-store(vowelsigns) "ാിീുൂൃൄൢൣെേൈൊോൗ"
++ 'a' > use(lower_a)
++ 'A' > use(upper_a)
++ 'b' > use(lower_b)
++ 'B' > use(upper_b)
++ 'c' > use(lower_c)
++ 'C' > use(upper_c)
++ 'd' > use(lower_d)
++ 'D' > use(upper_d)
++ 'e' > use(lower_e)
++ 'E' > use(upper_e)
++ 'f' > use(lower_f)
++ 'F' > use(upper_f)
++ 'g' > use(lower_g)
++ 'G' > use(upper_g)
++ 'h' > use(lower_h)
++ 'H' > use(upper_H)
++ 'i' > use(lower_i)
++ 'I' > use(upper_i)
++ 'j' > use(lower_j)
++ 'J' > use(upper_j)
++ 'k' > use(lower_k)
++ 'K' > use(upper_k)
++ 'l' > use(lower_l)
++ 'L' > use(upper_l)
++ 'm' > use(lower_m)
++ 'M' > use(upper_m)
++ 'n' > use(lower_n)
++ 'N' > use(upper_n)
 
-c Store non word initial contexts
-store(KeyContexts) outs(consonants) outs(vowels) outs(vowelsigns)
-
-c Consonants
-store(cDirectSmallKeys) 'kqQgjdpfbyvwzsh'
-store(cDirectSmallValues)  'കഖഘഗജദപഫബയവവശസഹ'
-store(cDirectCapsKeys) 'DSTF'
-store(cDirectCapsValues) 'ഡശടഭ'
-
-c produce vowels
-store(vDirectSmallValues) "അഎഇഒഉ"
-store(vDirectSmallKeys) "aeiou"
-store(vDirectCapsValues) "ആഏഈഓഊ"
-store(vDirectCapsKeys) "AEIOU"
-
-c Chills
-store(chills) 'ൺൻർൽൾൿ'
-store(chillSource) 'NnrlLc'
-store(chillBases) "ണനരലളക"
-
-c Treat anusvaram as chillu (Solve Issue: https://github.com/beniza/keyboards/issues/1)
-store(chills_anu) 'ൺൻർൽൾൿം'
-store(chill_anu_Bases) "ണനരലളചമ"       
-
-c always remove zwnj before a word final chars
-store(WordFinalChars) ' ?.!)]}"”’'
-
-c Store Universal KeyStroke stores
-store(Keystrokes) outs(chillSource) outs(vDirectSmallKeys) outs(vDirectCapsKeys) outs(WordFinalChars) outs(cDirectSmallKeys) outs(cDirectCapsKeys)
-
-c digits
-store(digits) '0123456789'
-store(malDigits) '൦൧൨൩൪൫൬൭൮൯'
-any(malDigits) + any(digits) > index(malDigits,1) index(malDigits,2)
-any(digits) + '#' > index(malDigits, 1)
-'10' + '#' > U+0d70
-'100' + '#' > U+0d71
-'1000' + '#' > U+0d72
-'1/4' + '#' > U+0d73
-'1/2' + '#' > U+0d74
-'3/4' + '#' > U+0d75
-'1/16' + '#' > U+0d76
-'1/8' + '#' > U+0d77
-'3/16' + '#' > U+0d78
-
-c Joiners (This is a new addition to the spec)
-+ '+' > U+200D dk(zwj)  c Explicit zero-width-joiner
-U+200D dk(zwj) + '+' > '+' c To enable the keyboarding of '+' sign  
-'+' + '+' > '++' c Repeated plus signs
-+ '|' > U+200C dk(zwnj) c Exlplicit zero-width-non-joiner
-U+200C dk(zwnj) + '|' > U+200B dk(zwsp) c Explicit zero-width-space
-U+200B dk(zwsp) + '|' > '|' c To enable the keyboarding of '|' sign
-'|' + '|' > '||' c Repeated pipes      
-
-c Explicit Virma
-c Virama added explicitely (using ~) should be preserved 
-U+0D4D + '`' > U+0D4D dk(vir)
-c U+0D4D dk(vir) + any(consonants) > U+0D4D U+200D index(consonants, 3)
-any(chills_anu) + '`' > index(chill_anu_bases, 1) '്' dk(vir)
-any(chills_anu) + '~' > index(chill_anu_bases, 1) '്' dk(vir)
-dk(vir) + '_' > Nul c cancels the explicit virama property  
-any(consonants) U+0D4D dk(vir) + any(cDirectSmallKeys) > index(consonants, 1) U+0D4D U+200C index(cDirectSmallValues, 4) U+0D4D
-any(consonants) U+0D4D dk(vir) + any(cDirectCapsKeys) > index(consonants, 1) U+0D4D U+200C index(cDirectCapsValues, 4) U+0D4D
-any(consonants) U+0D4D dk(vir) + any(chillSource) > index(consonants, 1) U+0D4D U+200C index(chills, 4)
-any(consonants) U+0D4D dk(vir) + 'm' > index(consonants, 1) U+0D4D U+200C U+0D2E U+0D4D
-any(consonants) U+0D4D dk(vir) + 't' > index(consonants, 1) U+0D4D U+200C U+0D31 U+0D4D U+0D31 U+0D4D
-
-c Preventing Contextual Substitutions
-c Modify the behaviour of '_' as a contextual substitutions blocker
-'_' dk(noconjuncts) + 'n' > 'ൻ' dk(noconjuncts)
-+ '_' > '_' dk(noconjuncts)
-'_' dk(noconjuncts) + '_' > '__'
-'_' + '_' > '__'
-'_' dk(noconjuncts) + '`' > U+0D4D
-'_' dk(noconjuncts) + any(cDirectSmallKeys) > index(cDirectSmallValues, 3) U+0D4D
-'_' dk(noconjuncts) + any(cDirectCapsKeys) > index(cDirectCapsValues, 3) U+0D4D
-'_' dk(noconjuncts) + any(chillSource) > index(chills, 3)
-'_' dk(noconjuncts) + 'm' > U+0D2E U+0D4D
-'ൻ' dk(noconjuncts) + 'j' > 'ഞ്'
-'_' dk(noconjuncts) + 't' > U+0D31 U+0D4D U+0D31 U+0D4D
-
-
-c To solve issue 22: m റ്റൈപ്പ് ചെയ്യുമ്പോൾ അനുസ്വാരത്തിനു പകരം മ് ആണ് വരുന്നത്
-+ 'm' > 'ം'
-c 'ം' + '`' > 'മ്'  c <= this is now handled directly by Explicit Virama rule above
-
-c To solve issue 13: നുക്ത
-'്' + 'F' > '़്'
-c other special cases for m
-any(consonants) + 'm' > index(consonants,1) 'ം'
-any(vowels) + 'm' > index(vowels,1) 'ം'
-any(vowelsigns) + 'm' > index(vowelsigns,1) 'ം'  
-any(consonants) any(vowels) + 'm' > index(consonants,1)  index(vowels,2) 'ം'
-
-c produce chill
-+ any(chillSource) > index(chills,1)
-any(chills) U+200C + any(chillSource) > index(chills,1) index(chills,3)                
-
-c legacy chillu support (Solve Issue: https://github.com/beniza/keyboards/issues/5)
-any(chills) + '^' > index(chillBases, 1) '്' U+200D
-any(chillBases) '്' U+200D + '^' > index(chills, 1) c Not part of the spec, but I'm adding this to cycle between atomic and sequence chillu
-
-c chill breakers
-any(chills_anu) + '_' > index(chills_anu, 1) '_' dk(noconjuncts)
-any(chills_anu) + '`' > index(chill_anu_Bases,1) '്'
-any(chills_anu) + 'a' > index(chill_anu_Bases,1)
-any(chills_anu) + 'A' > index(chill_anu_Bases,1) 'ാ'
-any(chills_anu) + 'i' > index(chill_anu_Bases,1) 'ി'
-any(chills_anu) + 'I' > index(chill_anu_Bases,1) 'ീ'
-any(chills_anu) + 'u' > index(chill_anu_Bases,1) 'ു'
-any(chills_anu) + 'U' > index(chill_anu_Bases,1) 'ൂ'
-any(chills_anu) + 'R' > index(chill_anu_Bases,1) 'ൃ'
-any(chills_anu) + 'e' > index(chill_anu_Bases,1) 'െ'
-any(chills_anu) + 'E' > index(chill_anu_Bases,1) 'േ'
-any(chills_anu) + 'E' > index(chill_anu_Bases,1) 'േ'
-any(chills_anu) + 'o' > index(chill_anu_Bases,1) 'ൊ'
-any(chills_anu) + 'O' > index(chill_anu_Bases,1) 'ോ'
-any(chills_anu) + 'y' > index(chill_anu_Bases,1) '്യ്'
-any(chills_anu) + 'R' > index(chill_anu_Bases,1) 'ൃ'            
-'ർ' + 'r' > 'ഋ' c Ben's addition
-'ന്ര്' + 'r' > 'ൻറ്' c Ben's addition
-any(chills_anu) + 'r' > index(chill_anu_bases,1) 'ൃ' c '്ര്' c Ben's addition
-
-c Archaic Forms
-'.' + '#' >  '।'
-'..' + '#' > '॥'
-'അ' + '#' > 'ഽ'    
-'ഈ' + '#' > 'ൟ'
-'ീ' + '#' > 'ൟ'
-'ക്' + '#' > 'ൿ'
-'റ്റ്' + '#' > 'ററ്'
-'ററ്' + '#' > 'ഺ്'
-'ററ' + '#' > 'ഺ'
-'ൻ' + '#' > 'ഩ്'
-'ൻ്റ്' + '#' > 'ൻറ്'
-'ന' + '#' > 'ഩ'
-'നു' + '#' > '൹' c Malayalam Date Mark
-'ം' + '#' > 'ൔ'
-'ൔ' + '#' > 'ഀ'
-'ഀ' + '#' > 'ഁ'
-'ൻ' + '@' > context dk(at)
-dk(at) + 'e' > 'െ'
-'ൾ' + '@' > context '്' c dk(at)
-'ർ' + '#' > 'ൎ'
-+ '$' > '₹' 
-'₹' + '#' > '₨'
-'₨' + '#' > '$' c Ben's additions
-'പറ' + '#' > U+0D4F
-'ൾ' + '#' > 'ഌ'
-'്ള്' + '#' > 'ൢ'
-'ള്ള്' + '#' > 'ൡ'
-'ഌ' + '#' > 'ൡ' c Ben's additions
-'്ള്ള്' + '#' > 'ൣ'
-'ൢ' + '#' > 'ൣ' c Ben's additions
-'ൗ' + '#' > 'ൌ'
-'്' + '#' > U+0D3C
-U+0D3C + '#' > U+0D3B
-any(consonants) '്ല്' + '#' > index(consonants, 1) U+0D62
-
-c Handling Ru/Ra
-any(consonants) + 'R' > index(consonants,1) 'റ്'
-any(vowels) + 'R' > index(vowels,1) 'റ്'
-any(vowelsigns) + 'R' > index(vowelsigns,1) 'റ്'  
-+ 'R' > 'ഋ'
-'ഋ' + 'R' > 'ൠ'
-c any(consonants) any(vowels) + 'm' > index(consonants,1)  index(vowels,2) 'ം'
-
-
-c always remove none joiner before vowels
-U+200C + any(vDirectSmallKeys) > index(vDirectSmallValues,2)
-U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
-
-+ any(vDirectSmallKeys) > index(vDirectSmallValues,1)
-U+200C + any(vDirectSmallKeys) > index(vDirectSmallValues,2)
-+ any(vDirectCapsKeys) > index(vDirectCapsValues,1)
-U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
-
-c geminate nya and nga when they appear between vowels
-c store(vowelcontexts) outs(vowels) outs(vowelsigns)
-c any(vowelcontexts) 'ങ്' + any(vDirectSmallKeys) > index(vowelcontexts,1) use(nganya) c 'ങ്ങ്' index(vDirectSmallValues,4)
-
-
-c always remove none joiner before vowels
-U+200C + any(vDirectCapsKeys) > index(vDirectCapsValues,2)
-
-c always remove zwnj before a word final chars
-c U+200C + any(WordFinalChars) > index(WordFinalChars, 2)
-U+200C + "'" > beep "'"    
-U+200C + " " > beep " "
-c always remove zwnj before a word final chars
-c store(WordFinalChars) ' ?.!)]}"”’'
-c Fix #50: Extra elongation for vowel signs
+group(lower_a) using keys
+c ===========================
+c handles the keypress 'a'
+c --------------------------- 
++ 'a' > 'അ' 
+'ാ' + 'a' > context 'ാ'
+'്' + 'a' > nul 
+'ം' + 'a' > 'മ'
 'അ' + 'a' > 'ആ'
-'അ' + 'e' > 'ഏ'
-'അ' + 'i' > 'ഐ'
-'അ' + 'u' > 'ഔ'
-'ഇ' + 'e' > 'ഈ'
-'ഇ' + 'i' > 'ഈ'
-'ഉ' + 'u' > 'ഊ'
-'ഊ' + 'o' > 'ഊൗ'
-'ഋ' + 'R' > 'ൠ'
-'ഋ' + 'a' > 'റ'
-'ഋ' + 'A' > 'റാ'
-'ഋ' + 'i' > 'റി'
-'ഋ' + 'I' > 'റീ'
-'ഋ' + 'u' > 'റു'
-'ഋ' + 'U' > 'റൂ'
-'ഋ' + 'e' > 'റെ'
-'ഋ' + 'E' > 'റേ'
-'ഋ' + 'o' > 'റൊ'
-'ഋ' + 'O' > 'റോ'
-'ഋ' + '`' > 'റ്'
-'ഌ' + 'l' > 'ൡ'
-'എ' + 'a' > 'ഏ'
-'എ' + 'e' > 'ഈ'
-'എ' + 'i' > 'ഐ'
-'ഒ' + 'a' > 'ഓ'
-'ഒ' + 'o' > 'ഊ'
-'ഒ' + 'u' > 'ഔ'  
-'ി' + 'e' > 'ീ'
-'ി' + 'i' > 'ൈ'
-'െ' + 'a' > 'േ'
-'െ' + 'e' > 'ീ'
-'ൊ' + 'a' > 'ോ'
-'ൊ' + 'o' > 'ോ'
-'ൊ' + 'u' > 'ൗ'
-
-
-c Stand-alone vowel signs after chandrakkala (Solve Issue: https://github.com/beniza/keyboards/issues/8)
-'്' + 'A' > 'ാ'
-'്' + 'a' > dk(2)
-dk(2) + 'a' > 'ാ'
-dk(2) + 'i' > 'ൈ'
-dk(2) + 'u' > 'ൗ'
-'്' + 'i' > 'ി'
-'്' + 'I' > 'ീ' 
-'ി' + 'i' > 'ീ'
-'്' + 'u' > 'ു'
-'്' + 'U' > 'ൂ'
-'ു' + 'u' > 'ൂ'   
-'്' + 'R' > 'ൃ'
-'ൃ' + 'R' > 'ൄ'   
-'്' + 'e' > 'െ'
-'്' + 'E' > 'േ'
-'െ' + 'e' > 'ീ'
-'്' + 'o' > 'ൊ'   
-'്' + 'O' > 'ോ'   
-'്' + 'o' > 'ൂ'   
-
-c To solve issue-20 ചന്ദ്രക്കലയ്ക്ക് ശേഷം ~ റ്റൈപ്പ് ചെയ്താൽ രണ്ടാമത്തെ ചന്ദ്രക്കല വരുന്നു
-'്' + '`' > '്'   
-
-c Consonants
-+ any(cDirectSmallKeys) > index(cDirectSmallValues,1) '്'
-+ any(cDirectCapsKeys) > index(cDirectCapsValues,1)  '്'
-
-c To cleanup any unwanted zwnj between Chillu and a consonant
-c any(chills) U+200C + any(cDirectSmallKeys) > index(chills,1) index(cDirectSmallValues,3) '്'
-c any(chills) U+200C + any(cDirectCapsKeys) > index(chills,1) index(cDirectCapsValues,3) '്' 
-
-c Aspiration and certain fluids are obtained by typing an 'h' after the unaspirated counterparts and സ, ശ
-store(thinConsonants) "കഗചജടഡതദപബസശ"
-store(thickConsonants) "ഖഘഛഝഠഢഥധഫഭഷഴ"
-any(thinConsonants) '്' + 'h' > index(thickConsonants,1) '്' 
-if(rt='1') 'ട്' + 'h' > 'ത്' set(rt='0')
-
-any(consonants) '്' + 'a' > index(consonants,1)
-any(consonants) '്' + 'A' > index(consonants,1) 'ാ'
-any(consonants) + 'a' > index(consonants,1) 'ാ'
-any(consonants) + 'e' > index(consonants,1) 'േ'
-any(consonants) '്' + 'i' > index(consonants,1) 'ി'
-any(consonants) 'ി' + 'i' > index(consonants,1) 'ീ'
-any(consonants) '്' + 'I' > index(consonants,1) 'ീ'
-any(consonants) 'െ' + 'e' > index(consonants,1) 'ീ'
-any(consonants) 'െ' + 'i' > index(consonants,1) 'ൈ'
-any(consonants) '്' + 'u' > index(consonants,1) 'ു'
-any(consonants) 'ൊ' + 'o' > index(consonants,1) 'ൂ'
-any(consonants) 'ു' + 'u' > index(consonants,1) 'ൂ'
-any(consonants) '്' + 'U' > index(consonants,1) 'ൂ'
-any(consonants)  '്' + 'R' > index(consonants,1) 'ൃ'
-any(consonants)  'ൃ' + 'R' > index(consonants,1) 'ൄ'
-any(consonants)  '്' + 'e' > index(consonants,1) 'െ'
-any(consonants)  '്' + 'E' > index(consonants,1) 'േ'
-any(consonants) + 'i' > index(consonants,1) 'ൈ'
-any(consonants) '്' + 'o' > index(consonants,1) 'ൊ'
-any(consonants) '്' + 'O' > index(consonants,1) 'ോ'
-any(consonants) + 'u' > index(consonants,1) 'ൗ'
-any(consonants)  '്' + 'r' > index(consonants,1) 'ൃ' c '്ര്'
-
-store(nonSa) "കഖഗഘങചഛജഝഞടഠഡഢണതഥദധനപഫബഭമയരലവശഷഹളഴറ"
-
-'ൻ' + 'g' > 'ങ്'
-'ൻ' + 'h' > 'ൺ'
-'ൿ' + 'h' > 'ച്'
-
-'ം' + 'm' > 'മ്മ്'
-'ം' + 'l' > 'മ്ല്'
-c any(nonSa) 'ം' + 'r' > index(nonSa,1) 'മ്ര്'
-'ം' + 'p' > 'മ്പ്'
-any(nonSa) 'ം' + 'l' > index(nonSa,1) 'മ്ല്'
-any(nonSa) 'ം' + 'L' > index(nonSa,1) 'മ്ല്' c deadkey(capl) c dk commented out by ben
-any(nonSa) 'ം' + 'n' > index(nonSa,1) 'മ്ന്'
-any(nonSa) 'ം' + 'y' > index(nonSa,1) 'മ്യ്'
-any(vowelsigns) 'ം' + 'y' > index(vowelsigns,1) 'മ്യ്'
-any(vowelsigns) 'ം' + 'r' > index(vowelsigns,1) 'മ്ര്'
-'സം' + 'r' > 'സംർ'
-'സം' + 'y' > 'സംയ്'
-
-c Bypassing transliteration (Solve Issue: https://github.com/beniza/keyboards/issues/2)
-+ '\' > dk(1)
-dk(1) + '\' > '\' c to provide a way to keyin an actual '='   
-'\' + '\' > '\\'                                                     
-
-c Experimental: the sign chars at the end are added for enabling special strings such as web addresses or email ids. 
-c Warning: treating = as an escapable can create inadvertent consequences as there may be cases to treat is as the dk. 
-store(escapable) 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ>\~@.=' 
-dk(1) + any(escapable) > index(escapable, 2)     
-any(escapable) + any(escapable) > index(escapable, 1) index(escapable, 2)
-
-any(consonants) U+0D62 + 'l' > index(consonants,1) U+0D63
-
-c The sequence 'nj' produces 'ഞ്ഞ്', iff it is typed after a vowel, vowelsign or a consonant   To Fix #39
-any(KeyContexts) 'ൻ' + 'j' > index(KeyContexts, 1) 'ഞ്ഞ്'
-'ഞ്ഞ്' + any(cDirectCapsKeys) > 'ഞ്' index(cDirectCapsValues, 5) '്'
-'ഞ്ഞ്' + any(cDirectSmallKeys) > 'ഞ്' index(cDirectSmallValues,5) '്'
-'ഞ്ഞ്' + 'c' > 'ഞ്ച്'
-'ൻ' + 'c' > 'ഞ്ച്'
-'ഞ്ഞ്ൻ' + 'j' > 'ഞ്ഞ്'
-'ങ്ങ്' + 'g' > 'ങ്ങ്'
-'ഞ്ഞ്' + 't' > 'ഞ്റ്റ്'
-c #c1
-c ['([അ-ഊഌഎ-ഐഒ-ഹ])([ഽ-ൂെ-ൌൗ])+R', '', '$2$3റ്'],
-any(vowels) + 'R' > context 'ർ'
-any(vowelSigns) + 'R' > context 'ർ'
-
-any(consonants) 'ൃ' + 'a' > index(consonants,1) '്ര'
-any(consonants) 'ൃ' + 'A' > index(consonants,1) '്രാ'
-any(consonants) 'ൃ' + 'i' > index(consonants,1) '്രി'
-any(consonants) 'ൃ' + 'I' > index(consonants,1) '്രീ'
-any(consonants) 'ൃ' + 'u' > index(consonants,1) '്രു'
-any(consonants) 'ൃ' + 'U' > index(consonants,1) '്രൂ'
-any(consonants) 'ൃ' + 'e' > index(consonants,1) '്രെ'
-any(consonants) 'ൃ' + 'E' > index(consonants,1) '്രേ'
-any(consonants) 'ൃ' + 'o' > index(consonants,1) '്രൊ'
-any(consonants) 'ൃ' + 'O' > index(consonants,1) '്രോ'
-any(consonants) '്' + 'l' > index(consonants,1) '്ല്' c deadkey(capl) c commented out by Ben
-any(consonants) '്' + 'L' > index(consonants,1) '്ള്'  c deadkey(capl) c commented out by Ben
-
-'ൺ' + 'N' > 'ണ്ണ്'
-'ൺ' + 'T' > 'ണ്ട്'
-'ൺ' + 'd' > 'ണ്ട്'
-'ൺ' + 'D' > 'ണ്ഡ്'
-'ൺ' + 'v' > 'ണ്വ്'
-'ൺ' + 'm' > 'ണ്മ്'
-
-'ൻ' + 'r' > 'ന്ര്'
-'ന്ര്' + 'r' > 'ന്റ്'
-'ൻ' + 'k' > 'ങ്ക്'
-'ൻ' + 'j' > 'ഞ്'
-'ൻ' + 'n' > 'ന്ന്'
-'ൻ' + 'd' > 'ന്ദ്'
-'ൻ' + 't' >  'ൻ്റ്' c To solve issue 35: the encoding of ൻ്റ
-'ൻ' + 'm' > 'ന്മ്'
-'ൻ' + 'L' > 'ന്ല്' c deadkey(capl) c commented out by Ben
-'ൻ' + 'v' > 'ന്വ്'
-
-'ർ' + 'r' > 'റ്'
-'ർ' + '#' > 'ൎ'
-
-'ൽ' + 'l' > 'ല്ല്'
-'ൽ' + 'L' > 'ല്ല്' c deadkey(capl)
-'ൽ' + 'm' > 'ല്മ്'
-'ൽ' + 'p' > 'ല്പ്'
-'ൽ' + 'v' > 'ല്വ്'
-
-'ൾ' + 'L' > 'ള്ള്' c deadkey(capl)
-'ൾ' + 'l' > 'ഌ'            
-
-c Normally it was not required in Keymagic. Following does not happen
-c automatically in Keyman --Junaid
-c The following rules handle the chillu-ka based forms and their back-space behavior
-
-'ൿ' + 'l' > 'ക്ല്' dk(3)
-'ൿ' + 'L' > 'ക്ല്' dk(3) 
-'ൿ' + 'v' > 'ക്വ്' dk(3)
-'ൿ' + 'k' > 'ക്ക്' dk(3)
-'ൿ' + 'c' > 'ച്ച്' c dk(3) c deadkey(chillu-ka)
-'ക്ക്' dk(3) + 'h' > 'ച്ഛ്'
-'ക്ക്' dk(3) + [K_BKSP] > 'ൿ'
-'ക്ല്' dk(3) + [K_BKSP] > 'ൿ'
-'ക്വ്' dk(3) + [K_BKSP] > 'ൿ'
-
-c digits
-'\' + '0' > '൦'
-'\' + '1' > '൧'
-'\' + '2' > '൨'
-'\' + '3' > '൩'
-'\' + '4' > '൪'
-'\' + '5' > '൫'
-'\' + '6' > '൬'
-'\' + '7' > '൭'
-'\' + '8' > '൮'
-'\' + '9' > '൯'
-
-+ 'B' > 'ബ്ബ്'
-+ 'C' > 'ച്ച്'
-+ 'G' > 'ഗ്ഗ്'
-+ 'H' > 'ഃ'
-+ 'J' > 'ജ്ജ്'
-+ 'K' > 'ക്ക്'
-+ 'M' > 'മ്മ്'
-+ 'P' > 'പ്പ്'
-+ 'V' > 'വ്വ്'
-+ 'W' > 'വ്വ്'
-+ 'X' > 'ക്ഷ്'
-+ 'Y' > 'യ്യ്'
-+ 'Z' > 'ഴ്'
-+ 'q' > 'ക്ക്'
-+ 't' > 'റ്റ്'
-+ 'x' > 'ക്സ്'
-+ '`' > '്'
-+ '~' > '്'
-                  
-c Error Correction in Conjuncts
-'ട്ട്' + 'h' > 'ത്ത്'
-'ട്' + 'H' > 'ത്ത്'
-'ൺ' + 'G' > 'ങ്ങ്'
-'ൺ' + 'J' > 'ഞ്ഞ്'
-'ട്' + 't' > 'ട്ട്'
-'ർ' + 't' > 'ർട്' set(rt='1') c ട after ർ
-'ഷ്' + 't' > 'ഷ്ട്'
-'റ്റ്' + 'T' > 'ട്ട്'
-'ൻ' + 'T' > 'ണ്ട്'
-'ൺ' + 't' > 'ണ്ട്'
-'ന്ന്' + 'j' > 'ഞ്ഞ്'
-'ന്ന്' + 'g' > 'ങ്ങ്'
-'റ്റ്' + 'h' > 'ത്'
-'ൽ' + 'h' > 'ൾ'
-'റ്റ്' + 't' > 'ട്' 
-'ദ്' + 't' > 'ഡ്' 
-'ത്' + 't' > 'ത്ത്' 
-'ൻ്റ്' + 'h' > 'ന്ത്' 
-'ൻ്റ്' + 't' > 'ണ്ട്' 
-'ന്റ്' + 'h' >  'ന്ത്'
-'ന്‍റ്' + 'h' >  'ന്ത്'
-'ൻൿ' + 'h' > 'ഞ്ച്'
-'ഞ്ച്' + 'h' > 'ഞ്ച്'
-'ക്ക്' deadkey(doublec) + 'h' > 'ച്ച്'
-'ല്പ്' + 'p' > 'ൽപ്പ്'
-'ല്ല്' + 'h' > 'ള്ള്'
-'ഷ്' + 'n' > 'ഷ്ണ്'
-'ങ്' + 'n' > 'ങ്ങ്'
-
-c Issue 50: Extra elongation for vowel sign
-'ആ' + 'a' > 'ആാ'
 'ഇ' + 'a' > 'ഈ'
-'ി' + 'a' > 'ീ'
-'ഈ' + 'i' > 'ഈൗ'
-'ഈ' + 'e' > 'ഈൗ'
 'ഉ' + 'a' > 'ഊ'
+'ഋ' + 'a' > 'റ'
+'എ' + 'a' > 'ഏ'
+'ഒ' + 'a' > 'ഓ'
+'ി' + 'a' > 'ീ'
 'ു' + 'a' > 'ൂ'
-'ഊ' + 'o' > 'ഊൗ' 
-'ൗ' + 'i' > 'ൗൗ'
-'ഓ' + 'O' > 'ഓാ'
-'ാ' + 'O' > 'ാാ'
-'ൗ' + 'o' > 'ൗൗ'
-'ഊ' + 'u' > 'ഊൗ' 
-'ൗ' + 'u' > 'ൗൗ' 
-'ഔ' + 'u' > 'ഔൗ' 
-'ാ' + 'a' > 'ാാ'
-'ീ' + 'e' > 'ീീ'
-'ീ' + 'E' > 'ീീ'
+'ൃ' + 'a' > '്ര'
+'െ' + 'a' > 'േ'
+'ൊ' + 'a' > 'ോ'
+any(chillu) + 'a' > index(chillu_bases,1)
+
+any(ka2ta) + 'a' > index(ka2ta,1) U+0D3E
+
+'ള്‌ൾ' + 'a' > 'ള്' U+200C 'ള'
+'്ർ' + 'a' > '്' U+200C 'ര'
+any(la_conjuncts) '്ൽ' + 'a' > index(la_conjuncts, 1) '്' U+200C 'ല'
+any(nna_conjuncts) '്ൺ' + 'a' > index(nna_conjuncts, 1) '്' U+200C 'ണ'
+any(na_conjuncts) '്ൻ' + 'a' > index(na_conjuncts, 1) '്' U+200C 'ന'
+any(ma_conjuncts) '്ം' + 'a' > index(ma_conjuncts, 1) '്' U+200C 'മ'
+
+group(upper_a) using keys
+c ===========================
+c handles the keypress 'A'
+c --------------------------- 
++ 'A' > 'ആ'
+'ആ' + 'A' > 'ആാ'
+'ാ' + 'A' > 'ാാ'
+'ഋ' + 'A' > 'റാ'
+'ൃ' + 'A' > '്രാ'
+'്' + 'A' > 'ാ'
+any(chillu) + 'A' > index(chillu_bases,1) 'ാ'
+
+group(lower_b) using keys
+c ===========================
+c handles the keypress 'b'
+c --------------------------- 
++ 'b' > 'ബ്'
+
+group(upper_b) using keys
+c ===========================
+c handles the keypress 'B'
+c --------------------------- 
++ 'B' > 'ബ്ബ്'
+
+group(lower_c) using keys
+c ===========================
+c handles the keypress 'c'
+c --------------------------- 
+'ൻ' + 'c' > 'ഞ്ച്'
+
+group(upper_c) using keys
+c ===========================
+c handles the keypress 'C'
+c --------------------------- 
++ 'C' > 'ഛ്'
+
+group(lower_d) using keys
+c ===========================
+c handles the keypress 'd'
+c --------------------------- 
++ 'd' > 'ദ്'
+'ഡ്' + 'd' > 'ഡ്ഡ്'
+'ൺ' + 'd' > 'ണ്ട്'
+'ണ്‌ദ്' + 'd' > 'ൺദ്ദ്'
+'ദ്' + 'd' > 'ദ്ദ്'
+'ദ്ദ്' + 'd' > 'ഡ്'
+'ൻ' + 'd' > 'ന്ദ്'
+'ന്ദ്' + 'd' > 'ൻദ്ദ്'
+
+group(upper_d) using keys
+c ===========================
+c handles the keypress 'D'
+c --------------------------- 
++ 'D' > 'ഡ്'
+'ക്ഷ്' + 'D' > '😆'
+'ൺ' + 'D' > 'ണ്ഡ്'
+'ണ്ഡ്' + 'D' > 'ൺഡ്ഡ്'
+
+group(lower_e) using keys
+c ===========================
+c handles the keypress 'e'
+c --------------------------- 
++ 'e' > 'എ'
+'ഈ' + 'e' > context 'ൗ'
+'ീ' + 'e' > context 'ീ'
+'ൗ' + 'e' > context 'ൗ'
+'അ' + 'e' > 'ഏ'
+'ഇ' + 'e' > 'ഈ'
+'ഋ' + 'e' > 'റെ'
+'എ' + 'e' > 'ഈ'
+'ഒ' + 'e' > 'ഓ'
+'്' + 'e' > 'െ'
+'ി' + 'e' > 'ീ'
+'ൃ' + 'e' > '്രെ'
+'െ' + 'e' > 'ീ'
+'ൊ' + 'e' > 'ോ'
+'ൻററ്' + 'e' > 'ൻെററ'
+'ൻ്രറ്യ്' + 'e' > 'ൻ്രെറ്യ'
+'റ്രറ്യ്' + 'e' > 'റ്രെറ്യ'
+any(ka2ta) + 'e' > context 'േ'
+
+'ള്‌ൾ' + 'e' > 'ള്' U+200C 'ളെ'
+'്ർ' + 'e' > '്' U+200C 'രെ'
+any(la_conjuncts) '്ൽ' + 'e' > index(la_conjuncts, 1) '്' U+200C 'ലെ'
+any(nna_conjuncts) '്ൺ' + 'e' > index(nna_conjuncts, 1) '്' U+200C 'ണെ'
+any(na_conjuncts) '്ൻ' + 'e' > index(na_conjuncts, 1) '്' U+200C 'നെ'
+any(ma_conjuncts) '്ം' + 'e' > index(ma_conjuncts, 1) '്' U+200C 'മെ'
+
+any(chillu) + 'e' > index(chillu_bases, 1) 'െ'
+
+group(upper_e) using keys
+c ===========================
+c handles the keypress 'E'
+c --------------------------- 
++ 'E' > 'ഏ'
+
+'്' + 'E' > 'േ'
+'േ' + 'E' > 'േ'
+'ഋ' + 'E' > 'റേ'
+'ൃ' + 'E' > '്രേ'
+
+'ൻറ്' + 'E' > 'ൻേറ'
+
+'ൻററ്' + 'E' > 'ൻേററ'
+'ൻ്രററ്യ്' + 'E' > 'ൻ്രേററ്യ'
+'ൻ്രറ്യ്' + 'E' > 'ൻ്രേറ്യ'
+'റ്രറ്യ്' + 'E' > 'റ്രേറ്യ'
+
+'ള്‌ൾ' + 'E' > 'ള്' U+200C 'ളേ'
+'്ർ' + 'E' > '്' U+200C 'രേ'
+any(la_conjuncts) '്ൽ' + 'E' > index(la_conjuncts, 1) '്' U+200C 'ലേ'
+any(nna_conjuncts) '്ൺ' + 'E' > index(nna_conjuncts, 1) '്' U+200C 'ണേ'
+any(na_conjuncts) '്ൻ' + 'E' > index(na_conjuncts, 1) '്' U+200C 'നേ'
+any(ma_conjuncts) '്ം' + 'E' > index(ma_conjuncts, 1) '്' U+200C 'മേ'
+
+any(chillu) + 'E' > index(chillu_bases, 1) 'േ'
+
+group(lower_f) using keys
+c ===========================
+c handles the keypress 'f'
+c --------------------------- 
++ 'f' > 'ഫ്'
+
+group(upper_f) using keys
+c ===========================
+c handles the keypress 'F'
+c --------------------------- 
++ 'F' > 'ഭ്'
+
+group(lower_g) using keys
+c ===========================
+c handles the keypress 'g'
+c --------------------------- 
++ 'g' > 'ഗ്'
+
+'ങ്ങ്' + 'g' > 'ങ്ഗ്'
+'ന്' + 'g' > 'ങ്'
+'ൻ' + 'g' > 'ങ്'
+'ർ' + 'g' > 'ഋഗ്'
+'റ്' + 'g' > 'ഋഗ്'
+
+any(mala) 'ൻ' + 'g' > index(mala, 1) 'ങ്ങ്'
+any(mala) 'ർ' + 'g' > context 'ഗ്'
+
+group(upper_g) using keys
+c ===========================
+c handles the keypress 'G'
+c --------------------------- 
++ 'G' > 'ഗ്ഗ്'
+'ൺ' + 'g' > 'ങ്ങ്'
+
+group(lower_h) using keys
+c ===========================
+c handles the keypress 'h'
+c --------------------------- 
++ 'h' > 'ഹ്'
+'ഞ്ച്' + 'h' > 'ഞ്ച്'
+'ന്ച്' + 'h' > 'ഞ്ച്'
+'ഞ്ഞ്ച്' + 'h' > 'ഞ്ച്'
+'ച്' + 'h' > 'ച്'
+
+any(mala) 'ട്' + 'h'  > index(mala, 1) 'ഠ്'
+any(mala) 'റ്റ്' + 'h'  > index(mala, 1) 'ത്'
+any(mala) 'ർട്' + 'h' > index(mala, 1) 'ത്'
+'ഋ' 'റ്റ്' + 'h' > 'ഋത്'
+any(unaspirated) '്' + 'h' > index(aspirated, 1) '്'
+'ൺൻ' + 'h' > 'ണ്ണ്'
+'ൻ' + 'h' > 'ൺ'
+'ന്' + 'h' > 'ൺ'
+'ന്ന്' + 'h' > 'ണ്ണ്'
+'ന്‌റ്' + 'h' > 'ന്ത്'
+'ല്' + 'h' > 'ള്'
+'ൽ' + 'h' > 'ൾ'
+'ല്ല്' + 'h' > 'ള്ള്'
+'ശ്' + 'h' > 'ഴ്'
+'സ്' + 'h' > 'ഷ്'
+'ഹ്' + 'h' > 'ഃ'
+'ത്ത്' + 'h' > 'ത്ഥ്'
+
+group(upper_h) using keys
+c ===========================
+c handles the keypress 'H'
+c --------------------------- 
++ 'H' > 'ഃ'
+'ച്ച്' + 'H' > context
+'ട്' + 'H' > 'ത്ത്'
+
+group(lower_i) using keys
+c ===========================
+c handles the keypress 'i'
+c --------------------------- 
++ 'i' > 'ഇ'
+
+'ഈ' + 'i' > 'ഈൗ'
+'ള്‌ൾ' + 'i' > 'ള്' U+200C 'ളി'
 'ീ' + 'i' > 'ീീ'
-'ൂ' + 'u' > 'ൂൂ'
-'ൂ' + 'o' > 'ൂൂ'
-'ൂ' + 'O' > 'ൂൂ'
-'ൄ' + 'R' > 'ൄൄ'
-'േ' + 'E' > 'ീീ'
-'ോ' + 'O' > 'ൂൂ'
-'ൗ' + 'u' > 'ൗൗ'
+'ൗ' + 'i' > 'ൗൗ'
+'്ർ' + 'i' > '്' U+200C 'രി'
+'അ' + 'i' > 'ഐ'
+'ഇ' + 'i' > 'ഈ'
+'ഋ' + 'i' > 'റി'
+'എ' + 'i' > 'ഐ'
+'ി' + 'i' > 'ീ'
+'ൃ' + 'i' > '്രി'
+'ം' + 'i' > 'മി'
+'െ' + 'i' > 'ൈ'
+'്' + 'i' > 'ി'
 
-c Important! The behaviour of '_' has been updated in the new mozhi spec. 
-c According to the new spec, '_' will just block the execution contextual substitution
-c of characters. for eg. nn => ന്ന് wherein n_n => ൻൻ.  So the following rules are 
-c now depricated and hence I'm commenting them out. In a future release we can delete them from the source 
-c '_' will output zwnj only after a chandrakkala
-c '്' + '_' > '്' U+200C    
-c prevent the typing of repeated zw(n)j
-c U+200C + '_' > context                   
-c U+200D + '_' > context
-c '_' + 'm' > 'മ്' c fix issue 43
+any(chillu) + 'i' > index(chillu_bases,1) 'ി'
+any(ka2ta) + 'i' > index(ka2ta, 1) 'ി'
 
-c Fix issue 54, Legacy encoding of ൻ്റ 
-'ൻ്റ്' + '^' > 'ന്റ്'
-'ന്റ്' + '^' > 'ന്' U+200D 'റ്'
-'ൻ്റ' + '^' > 'ന്റ'
-'ന്റ' + '^' > 'ന്' U+200D 'റ'  
-'ൻ്റ' any(vowelSigns) + '^' > 'ന്റ' index(vowelSigns, 4)
-'ന്റ' any(vowelSigns) + '^' > 'ന്' U+200D 'റ' index(vowelSigns, 4)
+any(la_conjuncts) '്ൽ' dk(non_joiner) + 'i' > index(la_conjuncts, 1) '്' U+200C 'ലി'
+any(nna_conjuncts) '്ൺ' dk(non_joiner) + 'i' > index(nna_conjuncts, 1) '്' U+200C 'ണി'
+any(na_conjuncts) '്ൻ' dk(non_joiner) + 'i' > index(na_conjuncts, 1) '്' U+200C 'നി'
+any(ma_conjuncts) '്ം' dk(non_joiner) + 'i' > index(ma_conjuncts, 1) '്' U+200C 'മി'
 
-c Fix issue 56, Backspace  (the list below may not be comprehensive)
-"ന്ന്" + [K_BKSP] > 'ൻ'  
-"ന്ന" + [K_BKSP] > 'ൻ'  
-'ൻ്റ്' + [K_BKSP] > 'ൻ'
-'ൻ്റ' + [K_BKSP] > 'ൻ'
-'ന്റ്' + [K_BKSP] > 'ൻ'
-'ന്റ' + [K_BKSP] > 'ൻ'
-'ന്‍റ്' + [K_BKSP] > 'ൻ'
-'ന്‍റ' + [K_BKSP] > 'ൻ'
-'ഞ്ച്' + [K_BKSP] > 'ൻ'
-'ഞ്ച' + [K_BKSP] > 'ൻ'
-'ന്മ്' + [K_BKSP] > 'ൻ'
-'ന്മ' + [K_BKSP] > 'ൻ'
-'ങ്ക്' + [K_BKSP] > 'ൻ'
-'ങ്ക' + [K_BKSP] > 'ൻ'
-'ണ്ട്' + [K_BKSP] > 'ൺ'
-'ണ്ട' + [K_BKSP] > 'ൺ'
-'ണ്ഡ്' + [K_BKSP] > 'ൺ'
-'ണ്ഡ' + [K_BKSP] > 'ൺ'
-'ണ്ഠ്' + [K_BKSP] > 'ൺ'
-'ണ്ഠ' + [K_BKSP] > 'ൺ'
-'മ്പ്'  + [K_BKSP] > 'ം'
-'മ്പ'  + [K_BKSP] > 'ം'
-'മ്മ്' + [K_BKSP] > 'ം'
-'മ്മ' + [K_BKSP] > 'ം'
-'ഞ്ഞ്' + [K_BKSP] > 'ൻ'
-'ഞ്ഞ' + [K_BKSP] > 'ൻ' 
-'ത്ത്' +  'h' > 'ത്ത്' 
-'ത്ത്' +  [K_BKSP] > 'ത്' 
-'ത്ത' +  [K_BKSP] > 'ത്' 
-c ''  +  [K_BKSP] > ''  
-'ൢ'  +  [K_BKSP] > '്' 
-'ൣ'  +  [K_BKSP] > '്' 
-'റ്റ്' + [K_BKSP] > nul
-'റ്റ' + [K_BKSP] > nul
+group(upper_i) using keys
+c ===========================
+c handles the keypress 'I'
+c --------------------------- 
++ 'I' > 'ഈ'
 
-c Convenience Mapping and Emoji
-'-' + '-' > '–'
-'–' + '-' > '—'
-'-' + '>' > '→'
-'→' + '#' > '↓'
-'↓' + '#' > '←'
-'<' + '-' > '←'
-'←' + '#' > '↑'
-'↑' + '#' > '→'
-'\' + '-' > '−'
-'\' + '*' > '×'
-'\' + '/' > '÷'
-':' + ')' > '😊'
-':' + '(' > '☹'
-':' + 'D' > '😄'
-':' + 'x' > '😘'
-':' + '/' > '🤔'
+'ീ' + 'I' > 'ീീ'
+'ം' + 'I' > 'മീ'
+'ഋ' + 'I' > 'റീ'
+'ൃ' + 'I' > '്രീ'
+'്' + 'I' > 'ീ'
+
+any(chillu) + 'I' > index(chillu_bases,1) 'ീ'
+
+group(lower_j) using keys
+c ===========================
+c handles the keypress 'j'
+c --------------------------- 
++ 'j' > 'ജ്'
+
+'ന്' + 'j' > 'ഞ്'
+'ൻ' + 'j' > 'ഞ്'
+'ർ' + 'j' > 'ഋജ്'
+'റ്' + 'j' > 'ഋജ്'
+'റ്റ്' + 'j' > 'റ്റ്ജ്'
+any(mala_sans_virama) 'ൻ' + 'j' > 'ഞ്ഞ്'
+any(mala) 'ർ' + 'j'  > 'ജ്'
+
+group(upper_j) using keys
+c ===========================
+c handles the keypress 'J'
+c --------------------------- 
++ 'J' > 'ജ്ജ്'
+
+'ൺ' + 'J' > 'ഞ്ഞ്'
 
 
-c Smart single quotes
-+"'" > U+2018
-U+2018 + "'" > U+2019
-U+2019 + "'" > "'"
+group(lower_k) using keys
+c ===========================
+c handles the keypress 'k'
+c --------------------------- 
++ 'k' > 'ക്'
+'ൻ' + 'k' > 'ങ്ക്'
+'ർ' + 'k' > 'ഋക്'
+'റ്റ്' + 'k' > 'റ്റ്ക്'
+
+any(mala) 'ർ'	+ 'k' > context 'ക്'
+
+group(upper_k) using keys
+c ===========================
+c handles the keypress 'K'
+c --------------------------- 
++ 'K' > 'ക്ക്'
+
+group(lower_l) using keys
+c ===========================
+c handles the keypress 'l'
+c --------------------------- 
++ 'l' > 'ൽ'
+
+'ം' + 'l' > 'മ്ല്'
+'ഌ' + 'l' > 'ൡ'
+'മ്ല്' + 'l' > 'ംല്ല്'
+'ൽ' + 'l' > 'ല്ല്'
+'ല്ല്' + 'l' > 'ൽല്ല്'
+'ൾ' + 'l' > 'ള്ള്'
+'ൢ' + 'l' > 'ൣ'
+
+any(la_conjuncts) '്' + 'l' > context 'ല്'
+
+group(upper_l) using keys
+c ===========================
+c handles the keypress 'L'
+c --------------------------- 
++ 'L' > 'ൾ'
+'ം' + 'L' > 'മ്ള്'
+'ൾ' + 'L' > 'ള്ള്'
+
+group(lower_m) using keys
+c ===========================
+c handles the keypress 'm'
+c --------------------------- 
++ 'm' > 'ം'
+
+'ംം' + 'm' > context 'ം'
+'ങ്ങ്' + 'm' > 'ങ്മ്'
+'ം' + 'm' > 'മ്മ്'
+'ൺ' + 'm' > 'ണ്മ്'
+'ണ്മ്' + 'm' > 'ൺമ്മ്'
+'ൻ' + 'm' > 'ന്മ്'
+'ന്മ്' + 'm' > 'ൻമ്മ്'
+'മ്മ്' + 'm' > 'ംംം'
+
+group(upper_m) using keys
+c ===========================
+c handles the keypress 'M'
+c --------------------------- 
++ 'M' > 'മ്മ്'
+
+group(lower_n) using keys
+c ===========================
+c handles the keypress 'm'
+c --------------------------- 
++ 'n' > 'ൻ'
+
+'ങ്' + 'n' > context 'ങ്'
+'ഞ്' + 'n' > context 'ഞ്'
+'ഞ്ഞ്' + 'n' > context ''
+'ഷ്' + 'n' > context 'ണ്'
+'ം' + 'n' > 'മ്ന്'
+'ൻ' + 'n' > 'ന്ന്'
+'ന്ന്' + 'n' > 'ൻന്ന്'
+'മ്ന്' + 'n' > 'ംന്ന്'
+'റ്' + 'n' > 'ഋൻ'
+'റ്റ്' + 'n' > 'റ്റ്ൻ'
 
 
-c Smart double quotes
-+ '"' > U+201C
-U+201C + '"' > U+201D
-U+201D + '"' > '"'
+group(upper_n) using keys
+c ===========================
+c handles the keypress 'M'
+c --------------------------- 
++ 'N' > 'ൺ'

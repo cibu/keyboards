@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.1' 
+store(&KEYBOARDVERSION) '3.0.1.2' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -880,6 +880,7 @@ store(nN) 'ൻൺ'
 'ർ' + 't' > 'ഋറ്റ്'
 'റ്' + 't' > 'ഋറ്റ്'
 'റ്റ്' + 't' > 'ട്'
+'ട്ട്' + 't' > context
 
 any(mala) 'ർ' + 't' > index(mala, 1) 'ർട്'
 any(nN) '്' + 't' > index(nN, 1) '്ട്'

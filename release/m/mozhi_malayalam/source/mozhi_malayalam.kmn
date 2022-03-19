@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.3' 
+store(&KEYBOARDVERSION) '3.0.1.4' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -896,6 +896,7 @@ c ---------------------------
 'ൺ' + 'T' > 'ണ്ട്'
 'ണ്ട്' + 'T' > 'ൺട്ട്'
 'റ്റ്' + 'T' > 'ട്ട്'
+any(mozhi_breakers) dk(mozhi_breakers) + 'T' > 'ട്'
 
 group(lower_u) using keys
 c ===========================

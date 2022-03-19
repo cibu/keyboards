@@ -6,7 +6,7 @@ c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/m
 store(&NAME) 'Malayalam Mozhi'
 store(&KEYBOARDVERSION) '3' 
 store(&BITMAP) 'mozhi_malayalam.ico'
-store(&COPYRIGHT) '© 2017-2020 Junaid P. V.'
+store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
 store(&VISUALKEYBOARD) 'mozhi_malayalam.kvks'
 store(&MESSAGE) 'Malayalam Keyboard for Mozhi 2.1'
@@ -21,6 +21,8 @@ store(chillu_bases) 'ണനരലളക'
 
 store(unaspirated) 'കഗജടഡതദപബ'
 store(aspirated)   'ഖഘഝഠഢഥധഫഭ'
+
+store(eng) 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 store(mala)  'ഀഁംഃഄ'\
              'അആഇഈഉഊഋഌ഍എഏഐ഑ഒഓഔ'\
@@ -77,7 +79,7 @@ store(mala_sans_virama)  'ഀഁംഃഄ'\
              '൹'\
              'ൺൻർൽൾൿ'
 
-store(mala_digits) '൦൧൨൩൪൫൬൭൮൯൰൱൲൳൴൵൶൷൸'
+store(mala_ext_digits) '൦൧൨൩൪൫൬൭൮൯൰൱൲൳൴൵൶൷൸'
 
 store(ka2ta) 'കഖഗഘങ'\
              'ചഛജഝഞ'\
@@ -92,7 +94,14 @@ store(la_conjuncts)  'കഗതപഫബമലവശസഹ' c Consonants with la
 store(nna_conjuncts) 'ണഷണ'
 store(na_conjuncts)  'ഗഘതസധനപമശസഹഴ'
 store(ma_conjuncts)  'ഗണതസനമശസഹ'
+store(ha_bases)      'കഗചജടഡതദപബസശ'
 store(virama_keys) '`~'
+store(mozhi_breakers) '_-'
+store(digits) '0123456789'
+store(mala_digits) '൦൧൨൩൪൫൬൭൮൯'
+
+store(breakers) '0'
+store(isEng) '0'
 
 group(main) using keys
 
@@ -148,14 +157,25 @@ group(main) using keys
 + 'Y' > use(upper_y)
 + 'z' > use(lower_z)
 + 'Z' > use(upper_z)
++ '^' > use(caret)
++ '#' > use(hash)
++ '\' > use(back_slash)
++ '$' > U+20B9 c Indian Rupee Sign
++ any(virama_keys) > use(virama)
 
-+ any(virama_keys) > '്'
++ any(mozhi_breakers) > index(mozhi_breakers, 1) dk(mozhi_breakers)
+any(mozhi_breakers) dk(mozhi_breakers) + '$' > '$'
+any(mala_ext_digits) + any(digits) > context index(mala_digits, 2)
+
+if(isEng='1') + any(eng) > index(eng, 2) set(isEng='0')
+any(eng) + any(eng) > context index(eng, 2)
 
 group(lower_a) using keys
 c ===========================
 c handles the keypress 'a'
 c --------------------------- 
 + 'a' > 'അ' 
+
 'ാ' + 'a' > context 'ാ'
 '്' + 'a' > nul 
 'ം' + 'a' > 'മ'
@@ -179,7 +199,7 @@ c ---------------------------
 'റ്രറ്' + 'a' > 'റ്രറ'
 
 any(chillu) + 'a' > index(chillu_bases,1)
-
+any(mozhi_breakers) dk(mozhi_breakers) + 'a' > 'അ'
 any(ka2ta) + 'a' > index(ka2ta,1) U+0D3E
 
 'ള്‌ൾ' + 'a' > 'ള്' U+200C 'ള'
@@ -188,6 +208,8 @@ any(la_conjuncts) '്ൽ' + 'a' > index(la_conjuncts, 1) '്' U+200C 'ല'
 any(nna_conjuncts) '്ൺ' + 'a' > index(nna_conjuncts, 1) '്' U+200C 'ണ'
 any(na_conjuncts) '്ൻ' + 'a' > index(na_conjuncts, 1) '്' U+200C 'ന'
 any(ma_conjuncts) '്ം' + 'a' > index(ma_conjuncts, 1) '്' U+200C 'മ'
+
+any(ma_bases) '്ം' any(mozhi_breakers) dk(mozhi_breakers) + 'a' > index(ma_bases, 1) '്' U+200C 'മ' 
 
 group(upper_a) using keys
 c ===========================
@@ -210,6 +232,7 @@ c ---------------------------
 'ൃ' + 'A' > 'റാ'
 
 any(chillu) + 'A' > index(chillu_bases,1) 'ാ'
+'ം' + 'A' > 'മാ'
 
 group(lower_b) using keys
 c ===========================
@@ -228,12 +251,13 @@ c ===========================
 c handles the keypress 'c'
 c --------------------------- 
 'ൻ' + 'c' > 'ഞ്ച്'
++ 'c' > 'ച്'
 
 group(upper_c) using keys
 c ===========================
 c handles the keypress 'C'
 c --------------------------- 
-+ 'C' > 'ഛ്'
++ 'C' > 'ച്ച്'
 
 group(lower_d) using keys
 c ===========================
@@ -248,6 +272,8 @@ c ---------------------------
 'ൻ' + 'd' > 'ന്ദ്'
 'ന്ദ്' + 'd' > 'ൻദ്ദ്'
 
+any(mozhi_breakers) dk(mozhi_breakers) + 'd' > 'ദ്'
+
 group(upper_d) using keys
 c ===========================
 c handles the keypress 'D'
@@ -256,6 +282,8 @@ c ---------------------------
 'ക്ഷ്' + 'D' > '😆'
 'ൺ' + 'D' > 'ണ്ഡ്'
 'ണ്ഡ്' + 'D' > 'ൺഡ്ഡ്'
+
+'ൺ' any(mozhi_breakers) dk(mozhi_breakers) + 'D' > 'ൺഡ്'
 
 group(lower_e) using keys
 c ===========================
@@ -280,13 +308,15 @@ c ---------------------------
 'ൻററ്' + 'e' > 'ൻെററ'
 'ൻ്രറ്യ്' + 'e' > 'ൻ്രെറ്യ'
 'റ്രറ്യ്' + 'e' > 'റ്രെറ്യ'
+'ൻറ്' + 'e' > 'ൻെറ'
+'ററ്' + 'e' > 'റെറ'
 any(ka2ta) + 'e' > context 'േ'
 
 'ൻ്രറ്' + 'e' > 'ൻ്രെറ'
 'ൻട്ര്' + 'e' > 'ൻട്രെ'
 'ഋ' + 'e' > 'റെ'
 'റ്രറ്' + 'e' > 'റ്രെറ'
-'ൃർ' dk(r) + 'e' > '്റെ'
+if(r='1') 'ൃർ' + 'e' > '്റെ' set(r='0')
 'ൃ' + 'e' > '്രെ'
 
 
@@ -297,6 +327,8 @@ any(nna_conjuncts) '്ൺ' + 'e' > index(nna_conjuncts, 1) '്' U+200C 'ണെ
 any(na_conjuncts) '്ൻ' + 'e' > index(na_conjuncts, 1) '്' U+200C 'നെ'
 any(ma_conjuncts) '്ം' + 'e' > index(ma_conjuncts, 1) '്' U+200C 'മെ'
 
+any(mala) any(mozhi_breakers) dk(mozhi_breakers) + 'e' > index(mala, 1) 'എ'
+
 any(chillu) + 'e' > index(chillu_bases, 1) 'െ'
 
 group(upper_e) using keys
@@ -306,7 +338,8 @@ c ---------------------------
 + 'E' > 'ഏ'
 
 '്' + 'E' > 'േ'
-'േ' + 'E' > 'േ'
+'ഏ' + 'E' > 'ഏേ'
+'േ' + 'E' > 'േേ'
 'ഋ' + 'E' > 'റേ'
 'ൃ' + 'E' > '്രേ'
 
@@ -318,6 +351,9 @@ c ---------------------------
 'ൻ്രറ്യ്' + 'E' > 'ൻ്രേറ്യ'
 'റ്രറ്യ്' + 'E' > 'റ്രേറ്യ'
 
+'ൻറ്' + 'E' > 'ൻേറ'
+'ററ്' + 'E' > 'റേറ'
+
 'ള്‌ൾ' + 'E' > 'ള്' U+200C 'ളേ'
 '്ർ' + 'E' > '്' U+200C 'രേ'
 'യൃ' + 'E' > 'യ്' U+200C 'രേ'
@@ -328,6 +364,7 @@ any(na_conjuncts) '്ൻ' + 'E' > index(na_conjuncts, 1) '്' U+200C 'നേ'
 any(ma_conjuncts) '്ം' + 'E' > index(ma_conjuncts, 1) '്' U+200C 'മേ'
 
 any(chillu) + 'E' > index(chillu_bases, 1) 'േ'
+'ം' + 'E' > 'മേ'
 
 group(lower_f) using keys
 c ===========================
@@ -357,6 +394,9 @@ dk(n) + 'g' > nul
 any(mala) 'ൻ' + 'g' > index(mala, 1) 'ങ്ങ്'
 any(mala) 'ർ' + 'g' > context 'ഗ്'
 
+'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'g' > 'ൻഗ്'
+any(mala) any(mozhi_breakers) dk(mozhi_breakers) 'ൻ' + 'g' > index(mala, 1) 'ങ്' 
+
 group(upper_g) using keys
 c ===========================
 c handles the keypress 'G'
@@ -368,6 +408,7 @@ group(lower_h) using keys
 c ===========================
 c handles the keypress 'h'
 c --------------------------- 
+
 + 'h' > 'ഹ്'
 'ഞ്ച്' + 'h' > 'ഞ്ച്'
 'ന്ച്' + 'h' > 'ഞ്ച്'
@@ -416,6 +457,9 @@ any(unaspirated) '്' + 'h' > index(aspirated, 1) '്'
 'റ്റ്' + 'h' > 'റ്റ്ഷ്'
 
 any(mala) 'ർറ്റ്' + 'h' > index(mala, 1) 'ർത്'
+any(ha_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'h' > index(ha_bases, 1) '്ഹ്'
+'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'h' > 'ൻഹ്'
+'ൽ' any(mozhi_breakers) dk(mozhi_breakers) + 'h' > 'ൽഹ്'
 
 group(upper_h) using keys
 c ===========================
@@ -455,6 +499,8 @@ any(nna_conjuncts) '്ൺ' dk(non_joiner) + 'i' > index(nna_conjuncts, 1) '്'
 any(na_conjuncts) '്ൻ' dk(non_joiner) + 'i' > index(na_conjuncts, 1) '്' U+200C 'നി'
 any(ma_conjuncts) '്ം' dk(non_joiner) + 'i' > index(ma_conjuncts, 1) '്' U+200C 'മി'
 
+any(mala) any(mozhi_breakers) dk(mozhi_breakers) + 'i' > index(mala, 1) 'ഇ'
+
 group(upper_i) using keys
 c ===========================
 c handles the keypress 'I'
@@ -466,6 +512,8 @@ c ---------------------------
 'ഋ' + 'I' > 'റീ'
 'ൃ' + 'I' > '്രീ'
 '്' + 'I' > 'ീ'
+'ഈ' + 'I' > 'ഈൗ'
+'ൗ' + 'I' > 'ൗൗ'
 
 any(chillu) + 'I' > index(chillu_bases,1) 'ീ'
 
@@ -483,6 +531,9 @@ c ---------------------------
 'ഞ്ഞ്' + 'j' > context
 any(mala_sans_virama) 'ൻ' + 'j' > index(mala_sans_virama, 1) 'ഞ്ഞ്'
 any(mala) 'ർ' + 'j'  > 'ജ്'
+
+'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'j' > 'ൻജ്'
+any(mala) any(mozhi_breakers) dk(mozhi_breakers) 'ൻ' + 'j' > index(mala, 1) 'ഞ്' 
 
 group(upper_j) using keys
 c ===========================
@@ -503,6 +554,7 @@ c ---------------------------
 'റ്റ്' + 'k' > 'റ്റ്ക്'
 
 any(mala) 'ർ'	+ 'k' > context 'ക്'
+'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'k' > 'ൻക്'
 
 group(upper_k) using keys
 c ===========================
@@ -514,6 +566,8 @@ group(lower_l) using keys
 c ===========================
 c handles the keypress 'l'
 c --------------------------- 
+store(la_bases) 'കഗതപഫബമലവശസഹ'
+
 + 'l' > 'ൽ'
 
 'ം' + 'l' > 'മ്ല്'
@@ -525,19 +579,27 @@ c ---------------------------
 'ൢ' + 'l' > 'ൣ'
 
 any(la_conjuncts) '്' + 'l' > context 'ല്'
+any(la_bases)  '്' any(mozhi_breakers) dk(mozhi_breakers) + 'l' > index(la_bases, 1) '്ൽ'
 
 group(upper_l) using keys
 c ===========================
 c handles the keypress 'L'
 c --------------------------- 
+store(lLm) 'ൽൾം'
+
 + 'L' > 'ൾ'
 'ം' + 'L' > 'മ്ള്'
 'ൾ' + 'L' > 'ള്ള്'
+any(lLm) any(mozhi_breakers) dk(mozhi_breakers) + 'L' > index(lLm, 1) 'ൾ' 
+'ള്' any(mozhi_breakers) dk(mozhi_breakers) + 'L' > 'ള്ൾ' 
 
 group(lower_m) using keys
 c ===========================
 c handles the keypress 'm'
 c --------------------------- 
+store(ma_bases)   'ഗണതസനമശസഹ'
+store(ma_chillus) 'ൻൺൽം'
+
 + 'm' > 'ം'
 
 'ംം' + 'm' > context 'ം'
@@ -549,6 +611,9 @@ c ---------------------------
 'ന്മ്' + 'm' > 'ൻമ്മ്'
 'മ്മ്' + 'm' > 'ംംം'
 
+any(ma_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'm' > index(ma_bases, 1) '്ം' 
+any(ma_chillus) any(mozhi_breakers) dk(mozhi_breakers) + 'm' > index(ma_chillus, 1) 'ം' 
+
 group(upper_m) using keys
 c ===========================
 c handles the keypress 'M'
@@ -559,6 +624,8 @@ group(lower_n) using keys
 c ===========================
 c handles the keypress 'm'
 c --------------------------- 
+store(na_bases) 'കഗഘതസഥധനപഫമശസഹഴ'
+
 + 'n' > 'ൻ'
 
 'ങ്' + 'n' > context 'ന്'
@@ -572,6 +639,9 @@ c ---------------------------
 'റ്' + 'n' > 'ഋൻ'
 'റ്റ്' + 'n' > 'റ്റ്ൻ'
 'ങ്ങ്' + 'n' > context dk(n)
+
+any(na_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'n' > index(na_bases,1) '്ൻ'
+'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'n' > 'ൻൻ'
 
 group(upper_n) using keys
 c ===========================
@@ -594,6 +664,27 @@ group(lower_o) using keys
 c ===========================
 c handles the keypress 'o'
 c --------------------------- 
+store(mala_sans_o)  'ഀഁംഃഄ'\
+             'അആഇഈഉഊഋഌ഍എഏഐ഑ഒഔ'\
+             'കഖഗഘങ'\
+             'ചഛജഝഞ'\
+             'ടഠഡഢണ'\
+             'തഥദധനഩ'\
+             'പഫബഭമ'\
+             'യരറലളഴവ'\
+             'ശഷസഹഺ'\
+             '഻഼ഽ'\
+             'ാിീുൂൃൄ൅െേൈ൉ൊോൌ്ൎ'\
+             '൏'\
+             '൐൑൒൓'\
+             'ൔൕൖ'\
+             'ൗ'\
+             '൘൙൚൛൜൝൞ൟൠൡൢൣ'\
+             '൤൥'\
+             '൦൧൨൩൪൫൬൭൮൯൰൱൲൳൴൵൶൷൸'\
+             '൹'\
+             'ൺൻർൽൾൿ'
+
 + 'o' > 'ഒ'
 
 'ഊ' + 'o' > context 'ൗ'
@@ -613,6 +704,10 @@ c ---------------------------
 'ൊ' + 'o' > 'ൂ'
 '്' + 'o' > 'ൊ'
 
+'ൻറ്' + 'o' > 'ൻെറാ'
+'ററ്' + 'o' > 'റെറാ'
+
+
 any(ka2ta) '്' + 'o' > index(ka2ta, 1) 'ൊ'
 any(chillu) + 'o' > index(chillu_bases, 1) 'ൊ' 
 any(la_conjuncts) 'ൽ' + 'o' > index(la_conjuncts,1) U+200C 'ലൊ'
@@ -620,7 +715,7 @@ any(nna_conjuncts) 'ൺ' + 'o' >  index(la_conjuncts,1) U+200C 'ണൊ'
 any(na_conjuncts) 'ൻ' + 'o' >  index(la_conjuncts,1) U+200C 'നൊ'
 any(ma_conjuncts) 'ം' + 'o' >  index(la_conjuncts,1) U+200C 'മൊ'
 
-
+any(mala_sans_o) any(mozhi_breakers) dk(mozhi_breakers) + 'o' > index(mala_sans_o, 1) 'ഒ'
 group(upper_o) using keys
 c ===========================
 c handles the keypress 'O'
@@ -632,19 +727,27 @@ c ---------------------------
 'ള്ൾ' + 'O' > 'ള്' U+200C 'ളോ'
 'ോ' + 'O' > context 'ോ'
 
-'്ർ' + 'O' > '്' U+200C 'രൊ'
+'്ർ' + 'O' > '്' U+200C 'രോ'
 
-'ം' + 'O' > 'മൊ'
+'ം' + 'O' > 'മോ'
 'അ' + 'O' > 'ഓ'
-'ഋ' + 'O' > 'റൊ'
+'ഋ' + 'O' > 'റോ'
 'ഒ' + 'O' > 'ഊ'
-'ൻറ്റ്' + 'O' > 'ൻെററാ'
-'ൻ്രറ്യ്' + 'O' > 'ൻ്രെറ്യാ'
-'റ്രറ്യ്' + 'O' > 'റ്രെറ്യാ'
-'ൃ' + 'O' > '്രൊ'
+'ൻറ്റ്' + 'O' > 'ൻേററാ'
+'ൻ്രറ്യ്' + 'O' > 'ൻ്രേറ്യാ'
+'റ്രറ്യ്' + 'O' > 'റ്രേറ്യാ'
+'ൻ്രററ്യ്' + 'O' > 'ൻ്രേററ്യാ'
+'ൻററ്' + 'O' > 'ൻേററാ'
+'ൻ്രറ്' + 'O' > 'ൻ്രേറാ'
+'ൻ്രററ്' + 'O' > 'ൻ്രേററാ'
+'ൻ്രറ്യ്' + 'O' > 'ൻ്രേറ്യാ'
+'റ്രറ്യ്' + 'O' > 'റ്രേറ്യാ'
+'ൃ' + 'O' > '്രോ'
 'ൊ' + 'O' > context 'ോ'
-'്' + 'O' > 'ൊ'
+'്' + 'O' > 'ോ'
 
+'ൻറ്' + 'O' > 'ൻേറാ'
+'ററ്' + 'O' > 'റേറാ'
 
 any(ka2ta) '്' + 'O' > index(ka2ta, 1) 'ോ'
 any(chillu) + 'O' > index(chillu_bases, 1) 'ോ' 
@@ -657,6 +760,7 @@ group(lower_p) using keys
 c ===========================
 c handles the keypress 'p'
 c --------------------------- 
+store(lm) 'ൽം'
 
 + 'p' > 'പ്'
 
@@ -666,7 +770,7 @@ c ---------------------------
 'മ്പ്' + 'p' > 'ംപ്പ്'
 'ൽ' + 'p' > 'ല്പ്'
 'ല്പ്' + 'p' > 'ൽപ്പ്'
-
+any(lm) any(mozhi_breakers) dk(mozhi_breakers) + 'p' > index(lm, 1) 'പ്'
 group(upper_p) using keys
 c ===========================
 c handles the keypress 'P'
@@ -690,6 +794,7 @@ group(lower_r) using keys
 c ===========================
 c handles the keypress 'r'
 c --------------------------- 
+store(r) '0'
  + 'r' > 'ർ'
 
 'സം' + 'r' > context 'ർ'
@@ -702,16 +807,21 @@ c ---------------------------
 'ൻറ്' + 'r' > 'ൻ്രറ്'
 'ൻ്റ്' + 'r' > 'ൻട്ര്'
 'ർ' + 'r' > 'റ്'
+if(breakers="1") 'ർ' + 'r' > U+200C 'റ്' set(breakers = "0")
 'നൃ' + 'r' > 'ൻറ്'
 'റ്റ്' + 'r' > 'റ്റ്ര്'
 'ററ്' + 'r' > 'റ്രറ്'
 '്' + 'r' > 'ൃ'
 
-'ൃ' + 'r' > 'ൃർ' dk(r)
+'ൃ' + 'r' > '്റ്' c set(r='1')
 'യ്' + 'r' > 'യൃ' dk(r)
 
 any(anu2au) 'ർ' + 'r' > index(anu2au,1) 'റ്'
 
+'സ' any(mozhi_breakers) dk(mozhi_breakers) 'ം' + 'r' > 'സമൃ'
+'്' any(mozhi_breakers) dk(mozhi_breakers) + 'r' > '്ർ'  
+'റ്' any(mozhi_breakers) dk(mozhi_breakers) + 'r' > 'റ്ർ' set(breakers = "1")  
+'ർ' any(mozhi_breakers) dk(mozhi_breakers) + 'r' > 'ർർ' c set(breakers = "1")
 group(upper_r) using keys
 c ===========================
 c handles the keypress 'R'
@@ -727,8 +837,8 @@ c ---------------------------
 'ൾ' + 'R' > 'ളൃ'
 '്' + 'R' > 'ൃ'
 
-
 any(ka2ta) '്' + 'R' > index(ka2ta, 1) 'ൃ'
+any(mala) + 'R' > context 'റ്'
 group(lower_s) using keys
 c ===========================
 c handles the keypress 's'
@@ -740,6 +850,7 @@ any(mala) 'ർ' + 's' > index(mala, 1) 'ർസ്'
 'റ്' + 's' > 'ഋസ്'
 'റ്റ്' + 's' > 'റ്റ്സ്'
 
+'ക്' any(mozhi_breakers) dk(mozhi_breakers) + 's' > 'ക്' U+200C 'സ്'
 
 group(upper_s) using keys
 c ===========================
@@ -751,6 +862,8 @@ group(lower_t) using keys
 c ===========================
 c handles the keypress 't'
 c --------------------------- 
+store(nN) 'ൻൺ'
+
 + 't' > 'റ്റ്'
 'ണ്' + 't' > 'ണ്ട്'
 'ഷ്' + 't' > 'ഷ്ട്'
@@ -769,6 +882,9 @@ c ---------------------------
 
 any(mala) 'ർ' + 't' > index(mala, 1) 'ർട്'
 any(mala) 'ട്' + 't' > index(mala, 1) 'ർട്ട്'
+
+any(nN) any(mozhi_breakers) dk(mozhi_breakers) + 't' > index(nN, 1) 'റ്റ്'
+'്'  any(mozhi_breakers) dk(mozhi_breakers) + 't' > '്' U+200C 'റ്റ്'
 
 group(upper_t) using keys
 c ===========================
@@ -832,7 +948,7 @@ c ---------------------------
 'ൾ' + 'U' > 'ളൂ'
 'ൃ' + 'U' > '്രൂ'
 '്' + 'U' > 'ൂ'
-
+if(r='1') 'ർ' + 'U' > '്റൂ' set(r='0')
 group(lower_v) using keys
 c ===========================
 c handles the keypress 'v'
@@ -893,7 +1009,7 @@ c ---------------------------
 
 any(chillu) + 'y' > index(chillu_bases, 1) '്യ്'
 any(chillu_bases) '്യ്' + 'y' > index(chillu, 1) 'യ്യ്'
-
+'സ' any(mozhi_breakers) dk(mozhi_breakers) 'ം' + 'y' > 'സമ്യ്'
 group(upper_y) using keys
 c ===========================
 c handles the keypress 'Y'
@@ -912,3 +1028,107 @@ c handles the keypress 'Z'
 c --------------------------- 
 + 'Z' > 'ഴ്'
 
+group(caret) using keys
+c ===========================
+c handles the keypress '^'
+c --------------------------- 
+
+'ന്റ' + '^' > 'ന്' U+200D 'റ'
+'ന്റ്' + '^' > 'ന്' U+200D 'റ'
+'ൻ്റ' + '^' > 'ന്‌റ'
+'ൻ്റ്' + '^' > 'ന്‌റ്'
+any(chillu) + '^' > index(chillu_bases, 1) '്' U+200D
+
+group(hash) using keys
+c ===========================
+c handles the keypress '#'
+c --------------------------- 
+store(two2nine) '൨൩൪൫൬൭൮൯'
+
+'ം' + '#' > 'ൔ'
+'ൔ' + '#' > 'ഀ'
+'ഀ' + '#' > 'ഁ'
+'ഁ' + '#' > 'ഄ' c ‎0D04 MALAYALAM LETTER VEDIC ANUSVARA
+'ഄ' + '#' > 'ം'
+
+'₹' + '#' > '₨'
+
+'൧൦' + '#' > '൰'
+'൧൦൦' + '#' > '൱'
+'൧൦൦൦' + '#' > '൲'
+'അ' + '#' > 'ഽ'
+'ഈ' + '#' > 'ൟ'
+'ഋ' + '#' > 'ൠ'
+'ക്' + '#' > 'ൿ'
+'ന' + '#' > 'ഩ'
+'നു' + '#' > '൹'
+'ന്' + '#' > 'ഩ്'
+'ൻ' + '#' > 'ഩ്'
+
+'ൻറ' + '#' > 'ൻററ'
+'ൻറ്' + '#' > 'ൻററ്'
+'ൻററൗ' + '#' > 'ൻെററൗ'
+'ൻറൗ' + '#' > 'ൻെറൗ'
+'ൻറ്' + '#' > 'ൻററ്'
+'ൻ്രററൗ' + '#' > 'ൻ്രെററൗ'
+'ൻ്രററ്യൗ' + '#' > 'ൻ്രെററ്യൗ'
+'ൻ്രറൗ' + '#' > 'ൻ്രെറൗ'
+'ൻ്രറ്യൗ' + '#' > 'ൻ്രെറ്യൗ'
+'ൻ്റ' + '#' > 'ൻറ'
+'ൻ്റ്' + '#' > 'ൻറ്'
+'പറ' + '#' > '൏'
+'യ്' + '#' > 'ൕ'
+'യ്യ' + '#' > 'യ‍്യ'
+'യ്യ്' + '#' > 'യ‍്യ്'
+'ർ' + '#' > 'ൎ'
+'ൽ' + '#' > 'ഌ'
+'ഴ്' + '#' > 'ൖ'
+'ററ' + '#' > 'ഺ'
+'ററൗ' + '#' > 'റെറൗ'
+'ററ്' + '#' > 'ഺ്'
+'റ്' + '#' > 'ൠ'
+'റ്രറൗ' + '#' > 'റ്രെറൗ'
+'റ്രറ്യൗ' + '#' > 'റ്രെറ്യൗ'
+'റ്റ' + '#' > 'ററ'
+'റ്റ്' + '#' > 'ററ്'
+'ൃ' + '#' > 'ൄ'
+'ൗ' + '#' > 'ൌ'
+'്' + '#' > '഼'
+'഼' + '#' > '഻'
+'്ല്' + '#' > 'ൢ'
+
+'1/10' + '#' > '൜'
+'1/16' + '#' > '൶'
+'1/160' + '#' > '൘'
+'1/2' + '#' > '൴'
+'1/20' + '#' > '൛'
+'1/320' + '#' > 'പ്ത'
+'1/4' + '#' > '൳'
+'1/40' + '#' > '൙'
+'1/5' + '#' > '൞'
+'1/8' + '#' > '൷'
+'1/80' + '#' > 'മ'
+'10' + '#' > '൰'
+'100' + '#' > '൱'
+'1000' + '#' > '൲'
+'3/16' + '#' > '൸'
+'3/20' + '#' > '൝'
+'3/4' + '#' > '൵'
+'3/80' + '#' > '൚'
+
+any(digits) + '#' > index(mala_digits, 1)
+any(two2nine) '൦' + '#' > index(two2nine, 1) '൰'
+any(two2nine) '൦൦' + '#' > index(two2nine, 1)  '൱'
+any(two2nine) '൦൦൦' + '#' > index(two2nine, 1)  '൲'
+
+
+any(mozhi_breakers) dk(mozhi_breakers) + '#' > '#'
+
+group(virama) using keys
++ any(virama_keys) > '്'
+any(chillu) any(mozhi_breakers) dk(mozhi_breakers) + any(virama_keys) > index(chillu, 1) '്'
+any(chillu) + any(virama_keys) > index(chillu_bases, 1) '്'
+
+group(back_slash) using keys
++ '\' > set(isEng = '1')
+if(isEng='1') + '\' > set(isEng = '0') '\'

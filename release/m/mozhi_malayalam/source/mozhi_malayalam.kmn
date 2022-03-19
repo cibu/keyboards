@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.2' 
+store(&KEYBOARDVERSION) '3.0.1.3' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -829,7 +829,7 @@ c handles the keypress 'R'
 c --------------------------- 
 + 'R' > 'ഋ'
 
-'ൃ' + 'R' > 'ൃറ്'
+'ൃ' + 'R' > 'ൃർ'
 'ം' + 'R' > 'മൃ'
 'ൺ' + 'R' > 'ണൃ'
 'ൻ' + 'R' > 'നൃ'
@@ -1130,6 +1130,7 @@ group(virama) using keys
 + any(virama_keys) > '്'
 any(chillu) any(mozhi_breakers) dk(mozhi_breakers) + any(virama_keys) > index(chillu, 1) '്'
 any(chillu) + any(virama_keys) > index(chillu_bases, 1) '്'
+'ം' + any(virama_keys) > 'മ്'
 
 group(back_slash) using keys
 + '\' > set(isEng = '1')

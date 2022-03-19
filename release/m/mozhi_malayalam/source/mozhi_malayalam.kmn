@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3' 
+store(&KEYBOARDVERSION) '3.0.1.1' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -812,6 +812,7 @@ if(breakers="1") 'ർ' + 'r' > U+200C 'റ്' set(breakers = "0")
 'റ്റ്' + 'r' > 'റ്റ്ര്'
 'ററ്' + 'r' > 'റ്രറ്'
 '്' + 'r' > 'ൃ'
+'്ര്' + 'r' > '്റ്'
 
 'ൃ' + 'r' > '്റ്' c set(r='1')
 'യ്' + 'r' > 'യൃ' dk(r)
@@ -881,7 +882,7 @@ store(nN) 'ൻൺ'
 'റ്റ്' + 't' > 'ട്'
 
 any(mala) 'ർ' + 't' > index(mala, 1) 'ർട്'
-any(mala) 'ട്' + 't' > index(mala, 1) 'ർട്ട്'
+any(nN) '്' + 't' > index(nN, 1) '്ട്'
 
 any(nN) any(mozhi_breakers) dk(mozhi_breakers) + 't' > index(nN, 1) 'റ്റ്'
 '്'  any(mozhi_breakers) dk(mozhi_breakers) + 't' > '്' U+200C 'റ്റ്'

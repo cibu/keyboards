@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.5' 
+store(&KEYBOARDVERSION) '3.0.1.6' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -170,6 +170,11 @@ any(mala_ext_digits) + any(digits) > context index(mala_digits, 2)
 if(isEng='1') + any(eng) > index(eng, 2) set(isEng='0')
 any(eng) + any(eng) > context index(eng, 2)
 
+c Emoticons
+':' + 'O' > '😳'
+'|' + 'O' > '🤦'
+
+
 group(lower_a) using keys
 c ===========================
 c handles the keypress 'a'
@@ -178,9 +183,11 @@ c ---------------------------
 
 'ാ' + 'a' > context 'ാ'
 '്' + 'a' > nul 
+if(vir='1') '്' + 'a' > '്അ' set(vir='0')
 'ം' + 'a' > 'മ'
-'മ്' + 'a' > 'മ്അ'
+if(vir='1') 'മ്' + 'a' > 'മ്അ' set(vir='0')
 'അ' + 'a' > 'ആ'
+'്അ' + 'a' > 'ാ'
 'ഇ' + 'a' > 'ഈ'
 'ഉ' + 'a' > 'ഊ'
 'ഋ' + 'a' > 'റ'
@@ -420,7 +427,8 @@ store(h) '0'
 if(h='1') 'ച്' + 'h' > 'ഛ്' set(h='0')
 
 c 'ഋറ്റ്' + 'h' > 'ത്' c TODO
-'ത്ത്' + 'h' > 'ത്ത്'
+'ത്ത്' + 'h' > 'ത്ത്' set(h='1')
+if(h='1') 'ത്ത്' + 'h' > 'ത്ഥ്' set(h='0')
 'റ്റ്' + 'h' > 'ത്'
 'ഡ്' + 'h' > 'ഢ്'
 'ൻ്റ്' + 'h' > 'ന്ത്'
@@ -456,6 +464,7 @@ any(unaspirated) '്' + 'h' > index(aspirated, 1) '്'
 'ഋറ്റ്' + 'h' > 'ഋത്'
 'ട്ട്' + 'h' > 'ഠ്'
 
+any(mala) 'ർസ്' + 'h' > index(mala, 1) 'ർഷ്'
 'ർസ്' + 'h' > 'ഋഷ്'
 'റ്സ്' + 'h' > 'ഋഷ്'
 'റ്റ്' + 'h' > 'റ്റ്ഷ്'
@@ -657,9 +666,8 @@ store(kasha) 'കഷ'
 + 'N' > 'ൺ'
 
 'ൺ' + 'N' > 'ണ്ണ്'
-'ർ' + 'N' > 'ഋൺ'
-'ർ' + 'N' > 'ഋൺ'
-'റ്' + 'N' > 'റ്റ്ൺ'
+'ർ' + 'N' > 'ഋൺ' c 422
+'റ്' + 'N' > 'ഋൺ' c 423
 'റ്റ്' + 'N' > 'ൺ'
 
 any(kasha) '്' + 'N' > context 'ണ്'
@@ -761,6 +769,7 @@ any(la_conjuncts) '്' 'ൽ' + 'O' > index(la_conjuncts, 1) '്' U+200C 'ല�
 any(nna_conjuncts) '്' 'ൺ' + 'O' > index(nna_conjuncts, 1) '്' U+200C 'ണോ'
 any(na_conjuncts) '്' 'ൻ' + 'O' > index(na_conjuncts, 1) '്' U+200C 'നോ'
 any(ma_conjuncts) '്' 'ം' + 'O' > index(ma_conjuncts, 1) '്' U+200C 'മോ'
+
 
 group(lower_p) using keys
 c ===========================
@@ -1136,10 +1145,12 @@ any(two2nine) '൦൦൦' + '#' > index(two2nine, 1)  '൲'
 any(mozhi_breakers) dk(mozhi_breakers) + '#' > '#'
 
 group(virama) using keys
-+ any(virama_keys) > '്'
+store(vir) '0'
++ any(virama_keys) > '്' set(vir='1')
 any(chillu) any(mozhi_breakers) dk(mozhi_breakers) + any(virama_keys) > index(chillu, 1) '്'
 any(chillu) + any(virama_keys) > index(chillu_bases, 1) '്'
-'ം' + any(virama_keys) > 'മ്'
+'ം' + any(virama_keys) > 'മ്' set(vir='1')
+'്' + any(virama_keys) > '്' set(vir='1')
 
 group(back_slash) using keys
 + '\' > set(isEng = '1')

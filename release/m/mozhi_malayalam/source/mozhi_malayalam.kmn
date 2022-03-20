@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.6' 
+store(&KEYBOARDVERSION) '3.0.1.7' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -544,7 +544,7 @@ c ---------------------------
 'റ്റ്' + 'j' > 'റ്റ്ജ്'
 'ഞ്ഞ്' + 'j' > context
 any(mala_sans_virama) 'ൻ' + 'j' > index(mala_sans_virama, 1) 'ഞ്ഞ്'
-any(mala) 'ർ' + 'j'  > 'ജ്'
+any(mala) 'ർ' + 'j'  > index(mala, 1) 'ർജ്'
 
 'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'j' > 'ൻജ്'
 any(mala) any(mozhi_breakers) dk(mozhi_breakers) 'ൻ' + 'j' > index(mala, 1) 'ഞ്' 

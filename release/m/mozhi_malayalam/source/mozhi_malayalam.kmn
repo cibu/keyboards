@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.7' 
+store(&KEYBOARDVERSION) '3.0.1.8' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -213,10 +213,10 @@ any(ka2ta) + 'a' > index(ka2ta,1) U+0D3E
 
 'ള്‌ൾ' + 'a' > 'ള്' U+200C 'ള'
 '്ർ' + 'a' > '്' U+200C 'ര'
-any(la_conjuncts) '്ൽ' + 'a' > index(la_conjuncts, 1) '്' U+200C 'ല'
-any(nna_conjuncts) '്ൺ' + 'a' > index(nna_conjuncts, 1) '്' U+200C 'ണ'
-any(na_conjuncts) '്ൻ' + 'a' > index(na_conjuncts, 1) '്' U+200C 'ന'
-any(ma_conjuncts) '്ം' + 'a' > index(ma_conjuncts, 1) '്' U+200C 'മ'
+if(vir='1') any(la_conjuncts) '്ൽ' + 'a' > index(la_conjuncts, 2) '്' U+200C 'ല' set(vir='0')
+if(vir='1') any(nna_conjuncts) '്ൺ' + 'a' > index(nna_conjuncts, 2) '്' U+200C 'ണ' set(vir='0')
+if(vir='1') any(na_conjuncts) '്ൻ' + 'a' > index(na_conjuncts, 2) '്' U+200C 'ന' set(vir='0')
+if(vir='1') any(ma_conjuncts) '്ം' + 'a' > index(ma_conjuncts, 2) '്' U+200C 'മ' set(vir='0')
 
 any(ma_bases) '്ം' any(mozhi_breakers) dk(mozhi_breakers) + 'a' > index(ma_bases, 1) '്' U+200C 'മ' 
 

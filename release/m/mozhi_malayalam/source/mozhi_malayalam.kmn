@@ -170,6 +170,12 @@ any(mala_ext_digits) + any(digits) > context index(mala_digits, 2)
 if(isEng='1') + any(eng) > index(eng, 2) set(isEng='0')
 any(eng) + any(eng) > context index(eng, 2)
 
+c ZWNJ
+'+' + '+' > U+200C
+
+c ZWJ
+'|' + '|' > U+200D
+
 c Emoticons
 ':' + 'O' > '😳'
 '|' + 'O' > '🤦'
@@ -1089,6 +1095,7 @@ c ---------------------------
 'ൻ്റ' + '^' > 'ന്‌റ'
 'ൻ്റ്' + '^' > 'ന്‌റ്'
 any(chillu) + '^' > index(chillu_bases, 1) '്' U+200D
+any(chillu_bases) '്' U+200D + '^' > index(chillu, 1) 
 
 group(hash) using keys
 c ===========================
@@ -1099,7 +1106,7 @@ store(two2nine) '൨൩൪൫൬൭൮൯'
 'ം' + '#' > 'ൔ'
 'ൔ' + '#' > 'ഀ'
 'ഀ' + '#' > 'ഁ'
-'ഁ' + '#' > 'ഄ' c ‎0D04 MALAYALAM LETTER VEDIC ANUSVARA
+'ഁ' + '#' > 'ഄ' c 0D04 MALAYALAM LETTER VEDIC ANUSVARA
 'ഄ' + '#' > 'ം'
 
 '₹' + '#' > '₨'
@@ -1186,3 +1193,4 @@ any(chillu) + any(virama_keys) > index(chillu_bases, 1) '്'
 group(back_slash) using keys
 + '\' > set(isEng = '1')
 if(isEng='1') + '\' > set(isEng = '0') '\'
+

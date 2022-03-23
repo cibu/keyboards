@@ -4,7 +4,7 @@ c Original work done by Raj Nair, but the source is not available
 c This keyboard was created by Junaid P. V.
 c This keyboard closely follows Mozhi Spec (https://sites.google.com/site/cibu/mozhi/mozhi2)
 store(&NAME) 'Malayalam Mozhi'
-store(&KEYBOARDVERSION) '3.0.1.9' 
+store(&KEYBOARDVERSION) '3.0.1.10' 
 store(&BITMAP) 'mozhi_malayalam.ico'
 store(&COPYRIGHT) '© 2021-2022 Cibu C. J.; Benjamin C. Varghese'
 store(&TARGETS) 'windows macosx linux web'
@@ -643,7 +643,7 @@ store(ma_chillus) 'ൻൺൽം'
 'മ്മ്' + 'm' > 'ംംം'
 dk(h) + 'm' > 'ം'
 
-any(ma_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'm' > index(ma_bases, 1) '്ം' 
+any(ma_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'm' > index(ma_bases, 1) '്' U+200C 'ം' 
 any(ma_chillus) any(mozhi_breakers) dk(mozhi_breakers) + 'm' > index(ma_chillus, 1) 'ം' 
 
 group(upper_m) using keys
@@ -672,7 +672,7 @@ store(na_bases) 'കഗഘതസഥധനപഫമശസഹഴ'
 'റ്റ്' + 'n' > 'റ്റ്ൻ'
 'ങ്ങ്' + 'n' > context dk(n)
 
-any(na_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'n' > index(na_bases,1) '്ൻ'
+any(na_bases) '്' any(mozhi_breakers) dk(mozhi_breakers) + 'n' > index(na_bases,1) '്' U+200C 'ൻ'
 'ൻ' any(mozhi_breakers) dk(mozhi_breakers) + 'n' > 'ൻൻ'
 
 group(upper_n) using keys
@@ -971,7 +971,7 @@ any(la_conjuncts) '്ൽ' + 'u' > index(la_conjuncts, 1) '്' U+200C 'ലു'
 any(nna_conjuncts) '്ൺ' + 'u' > index(la_conjuncts, 1) '്' U+200C 'ണു'
 any(na_conjuncts) '്ൻ' + 'u' > index(la_conjuncts, 1) '്' U+200C 'നു'
 any(ma_conjuncts) '്ം' + 'u' > index(la_conjuncts, 1) '്' U+200C 'മു'
-
+any(mala) any(mozhi_breakers) dk(mozhi_breakers) + 'u' > index(mala, 1) 'ഉ'
 
 
 group(upper_u) using keys
@@ -1014,6 +1014,7 @@ store(va_bases) 'ൺൻൽ'
 
 any(chillu) + 'v' > index(chillu_bases, 1) '്വ്'
 any(va_bases) any(mozhi_breakers) dk(mozhi_breakers) + 'v' > index(va_bases, 1) 'വ്'
+'്' any(mozhi_breakers) dk(mozhi_breakers) + 'v' > '്' U+200C 'വ്'
 
 group(upper_v) using keys
 c ===========================
@@ -1057,6 +1058,7 @@ c ---------------------------
 'മ്യ്' + 'y' > 'ംയ്യ്'
 
 any(chillu) + 'y' > index(chillu_bases, 1) '്യ്'
+any(chillu) any(mozhi_breakers) dk(mozhi_breakers) + 'y' > index(chillu, 1) 'യ്'
 any(chillu_bases) '്യ്' + 'y' > index(chillu, 1) 'യ്യ്'
 'സ' any(mozhi_breakers) dk(mozhi_breakers) 'ം' + 'y' > 'സമ്യ്'
 group(upper_y) using keys

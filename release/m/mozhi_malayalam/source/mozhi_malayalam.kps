@@ -14,7 +14,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">3.0.1.9</Version>
+    <Version URL="">3.0.1.10</Version>
     <Name URL="">Malayalam Mozhi</Name>
     <Copyright URL="">© 2021-2022 Cibu C. J.; Benjamin C. Varghese</Copyright>
   </Info>
@@ -42,7 +42,7 @@
     <Keyboard>
       <Name>Malayalam Mozhi</Name>
       <ID>mozhi_malayalam</ID>
-      <Version>3.0.1.9</Version>
+      <Version>3.0.1.10</Version>
       <Languages>
         <Language ID="ml">Malayalam</Language>
       </Languages>

@@ -9,10 +9,10 @@
   </Options>
   <Files>
     <File>
-      <ID>id_b6b8799caee44176a7f468bff36f88d8</ID>
+      <ID>id_b25177cdb885e4b67943afe1d3e6bc0a</ID>
       <Filename>mozhi_malayalam.kmn</Filename>
       <Filepath>source\mozhi_malayalam.kmn</Filepath>
-      <FileVersion>3.0.1.8</FileVersion>
+      <FileVersion>3.0.1.9</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Malayalam Mozhi</Name>
@@ -38,7 +38,7 @@
       <Filepath>source\mozhi_malayalam.ico</Filepath>
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
-      <ParentFileID>id_b6b8799caee44176a7f468bff36f88d8</ParentFileID>
+      <ParentFileID>id_b25177cdb885e4b67943afe1d3e6bc0a</ParentFileID>
     </File>
     <File>
       <ID>id_cdea380ced86505a2e71355febd2502e</ID>

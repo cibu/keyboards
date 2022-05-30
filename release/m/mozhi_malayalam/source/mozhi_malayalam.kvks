@@ -8,6 +8,7 @@
     <layer shift="">
       <key vkey="K_SLASH">/</key>
       <key vkey="K_COLON">;</key>
+      <key vkey="K_A">a</key>
       <key vkey="K_B">b</key>
       <key vkey="K_C">c</key>
       <key vkey="K_D">d</key>
